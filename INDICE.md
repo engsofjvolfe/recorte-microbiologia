@@ -7,10 +7,13 @@ contexto geral e o aviso sobre a origem/limitações do material, ou o
 
 ## Navegação rápida
 
-- [CSV — fonte da verdade das 170 perguntas](docs/material-gerado/perguntas-nucleo-dicionarios.csv)
+- [CSV — fonte da verdade das 170 perguntas por agente](docs/material-gerado/perguntas-nucleo-dicionarios.csv)
+- [CSV — 95 perguntas de biologia fundamental de vírus](docs/material-gerado/perguntas-fundamentos-virus.csv)
+- [CSV — 56 perguntas de biologia fundamental de fungos](docs/material-gerado/perguntas-fundamentos-fungos.csv)
 - [JSON — índice mestre dos 34 agentes + termos de busca de imagem](fila-busca-imagens-agentes.json)
-- [Deck pronto para o Anki (.apkg)](anki-decks/Nucleo-Microbiologia.apkg)
-- [Script que monta o deck (`scripts/montar_deck.py`)](scripts/montar_deck.py)
+- [Deck pronto para o Anki, por agente (.apkg)](anki-decks/Nucleo-Microbiologia.apkg)
+- [Deck pronto para o Anki, biologia fundamental (.apkg)](anki-decks/Fundamentos-Microbiologia.apkg)
+- [Script que monta os dois decks (`scripts/montar_deck.py`)](scripts/montar_deck.py)
 - [Mecanismo de busca de imagens (experimental, explicação completa)](docs/material-gerado/README.md)
 - [Critérios de busca e verificação de imagens](docs/material-gerado/CRITERIOS-BUSCA-IMAGENS.md)
 - [Pasta com as imagens confirmadas por agente](imagens_agentes/)

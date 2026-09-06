@@ -53,6 +53,13 @@ resto (dicionários de gatilhos, fichas determinísticas, CSV, JSON, scripts e d
 escrito/reorganizado a partir desses PDFs, mas é conteúdo derivado próprio deste
 repositório, não uma cópia do material original.
 
+Para os dois documentos de biologia fundamental (vírus e fungos), a curadoria também
+comparou o resumo publicado contra uma **transcrição OCR integral e literal** dos slides
+originais (`docs/material-base/gerados-ocr/`), usada só como conferência para achar
+lacunas — ela não é conteúdo derivado nosso (é cópia literal do material de terceiros),
+por isso fica no mesmo regime dos PDFs: **não versionada** (`.gitignore`) e não
+redistribuída.
+
 ## Licença
 
 Este projeto usa duas licenças, para duas partes diferentes, mais uma exceção — texto
@@ -68,7 +75,9 @@ completo e detalhado em [`NOTICE.md`](NOTICE.md):
 
 | Arquivo | O que é |
 |---|---|
-| [`docs/material-gerado/perguntas-nucleo-dicionarios.csv`](docs/material-gerado/perguntas-nucleo-dicionarios.csv) | Fonte da verdade: as 170 perguntas/respostas (34 agentes × 5 tipos) |
+| [`docs/material-gerado/perguntas-nucleo-dicionarios.csv`](docs/material-gerado/perguntas-nucleo-dicionarios.csv) | Fonte da verdade: as 170 perguntas/respostas por agente (34 agentes × 5 tipos) |
+| [`docs/material-gerado/perguntas-fundamentos-virus.csv`](docs/material-gerado/perguntas-fundamentos-virus.csv) | Fonte da verdade: 95 perguntas/respostas de biologia fundamental de vírus (8 tópicos) |
+| [`docs/material-gerado/perguntas-fundamentos-fungos.csv`](docs/material-gerado/perguntas-fundamentos-fungos.csv) | Fonte da verdade: 56 perguntas/respostas de biologia fundamental de fungos (5 tópicos) |
 | [`fila-busca-imagens-agentes.json`](fila-busca-imagens-agentes.json) | Índice mestre dos 34 agentes + termos de busca de imagem por necessidade |
 | [`docs/material-gerado/dicionario-gatilhos-virologia.md`](docs/material-gerado/dicionario-gatilhos-virologia.md) | Cadeia causal didática (5 elos) dos 17 vírus |
 | [`docs/material-gerado/dicionario-gatilhos-micologia.md`](docs/material-gerado/dicionario-gatilhos-micologia.md) | Cadeia causal didática (5 elos) dos 17 fungos |
@@ -81,8 +90,9 @@ completo e detalhado em [`NOTICE.md`](NOTICE.md):
 | [`imagens_agentes/`](imagens_agentes/) | Pastas por agente com imagens confirmadas + `manifest.json` |
 | [`docs/material-gerado/buscar_imagens.py`](docs/material-gerado/buscar_imagens.py) | Busca/baixa candidatos de imagem (Wikimedia Commons) — experimental |
 | [`docs/material-gerado/curar_imagens.py`](docs/material-gerado/curar_imagens.py) | Aplica a conferência visual manual sobre os candidatos baixados |
-| [`anki-decks/Nucleo-Microbiologia.apkg`](anki-decks/Nucleo-Microbiologia.apkg) | Deck pronto para importar no Anki (170 cards, 108 imagens) |
-| [`scripts/montar_deck.py`](scripts/montar_deck.py) | Script que gera o `.apkg` a partir do CSV + imagens confirmadas |
+| [`anki-decks/Nucleo-Microbiologia.apkg`](anki-decks/Nucleo-Microbiologia.apkg) | Deck pronto para importar no Anki, por agente (170 cards, 108 imagens) |
+| [`anki-decks/Fundamentos-Microbiologia.apkg`](anki-decks/Fundamentos-Microbiologia.apkg) | Deck pronto para importar no Anki, biologia fundamental (151 cards, sem imagem por enquanto) |
+| [`scripts/montar_deck.py`](scripts/montar_deck.py) | Gera os dois `.apkg` (nucleo por agente + fundamentos), reaproveitando o mesmo modelo de nota |
 | [`INDICE.md`](INDICE.md) | **Índice com link direto para qualquer agente/seção de qualquer documento** |
 | [`MANUAL.md`](MANUAL.md) | Guia rápido e não técnico de como usar o material e como colaborar |
 | [`LICENSE`](LICENSE) | Texto completo da GPL-3.0 (código) |
@@ -92,12 +102,16 @@ completo e detalhado em [`NOTICE.md`](NOTICE.md):
 
 ## Como usar
 
-1. Para estudar: importe `anki-decks/Nucleo-Microbiologia.apkg` no Anki.
+1. Para estudar: importe `anki-decks/Nucleo-Microbiologia.apkg` (por agente) e
+   `anki-decks/Fundamentos-Microbiologia.apkg` (biologia geral) no Anki — são dois
+   pacotes independentes, pode importar só um dos dois se preferir.
 2. Para consultar rapidamente um agente específico: abra o [`INDICE.md`](INDICE.md) e
    clique no agente — ele leva direto para a ficha certa no documento certo.
-3. Para editar conteúdo: mude o `docs/material-gerado/perguntas-nucleo-dicionarios.csv`
-   (ele é a fonte da verdade) e rode `python scripts/montar_deck.py` para regenerar o
-   deck — o script acha o CSV sozinho mesmo se ele mudar de pasta de novo.
+3. Para editar conteúdo: mude o CSV correspondente em `docs/material-gerado/` (cada um é
+   a fonte da verdade do seu deck) e rode `python scripts/montar_deck.py` para
+   regenerar os dois pacotes — ou `python scripts/montar_deck.py nucleo` /
+   `fundamentos` para regenerar só um deles. O script acha os CSVs sozinho mesmo se
+   mudarem de pasta de novo.
 
 ## Ver também
 

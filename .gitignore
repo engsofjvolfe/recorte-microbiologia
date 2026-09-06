@@ -2,6 +2,7 @@
 # PDFs de aula de uma universidade de Minas Gerais, obtidos via aluno da disciplina.
 # Nao sao nossos para redistribuir; ficam so localmente.
 docs/material-base/*.pdf
+docs/material-base/gerados-ocr
 
 # === Python ===
 __pycache__/

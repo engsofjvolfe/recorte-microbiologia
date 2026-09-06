@@ -32,12 +32,17 @@ mais ou ajudar a corrigir alguma coisa.
 ## Nível 1 — Só quero estudar agora
 
 1. Abra o Anki no computador ou celular.
-2. Importe o arquivo `anki-decks/Nucleo-Microbiologia.apkg` (arraste pro Anki, ou use
-   Arquivo > Importar).
-3. Pronto. Você vai ver dois grupos de cartões — **Virologia** e **Micologia** — com 17
-   agentes (vírus ou fungos) cada um.
+2. Importe os dois arquivos de `anki-decks/` (arraste pro Anki, ou use Arquivo >
+   Importar, um de cada vez):
+   - `Nucleo-Microbiologia.apkg` — os 34 agentes (vírus e fungos específicos).
+   - `Fundamentos-Microbiologia.apkg` — a base teórica geral (estrutura, classificação,
+     ciclo de multiplicação, antivirais etc.), separada do primeiro.
+3. Pronto. No `Nucleo-Microbiologia.apkg` você vai ver dois grupos de cartões —
+   **Virologia** e **Micologia** — com 17 agentes cada um. No
+   `Fundamentos-Microbiologia.apkg` você vai ver os mesmos dois grupos, mas organizados
+   por tópico de biologia geral em vez de por agente.
 
-Cada agente tem 5 cartões, sempre no mesmo formato:
+Cada agente do núcleo tem 5 cartões, sempre no mesmo formato:
 
 | Tipo de cartão | O que ele pergunta |
 |---|---|
@@ -47,9 +52,12 @@ Cada agente tem 5 cartões, sempre no mesmo formato:
 | **Vinheta** | Um caso clínico resumido, pra você adivinhar o agente antes de virar o cartão |
 | **Aplicado** | Qual o tratamento |
 
-Isso já é suficiente para estudar os 34 agentes. Mas **o deck não cobre os conceitos
-gerais de virologia/micologia** (estrutura, classificação, como os bichos se multiplicam
-etc.) — isso só existe em texto, explicado no Nível 2 abaixo. Vale a pena ler.
+Já os cartões de fundamentos não seguem esse molde por agente — a maioria é tipo
+**Conceito** (uma pergunta direta sobre um conceito de biologia geral), com algumas
+**Vinheta** também, mas descrevendo um achado ou cenário genérico (não um caso clínico de
+doença específica) para você identificar a estrutura ou o fenômeno biológico por trás.
+Nenhum cartão de fundamentos tem imagem por enquanto — o campo existe no modelo, pronto
+para quando isso for adicionado, mas hoje fica em branco.
 
 ---
 
@@ -73,21 +81,17 @@ de arquivo dentro dessa pasta:
   direta, sempre nas mesmas 6 categorias. Bom para **revisão de véspera de prova**.
 - **Biologia fundamental** (um para vírus, um para fungos) — os conceitos gerais que vêm
   antes de entrar em agente específico (estrutura, classificação, como se multiplicam,
-  etc.), cobrindo o conteúdo das aulas introdutórias dos PDFs originais.
-
-> **Atenção: não existe cartão de Anki para a parte de biologia fundamental.** O deck só
-> cobre os 34 agentes específicos (vírus e fungos individuais). Conceitos gerais —
-> classes de vírus, estrutura da parede fúngica, ciclo lítico x lisogênico, dimorfismo
-> térmico, etc. — **só existem em texto**, nos arquivos de biologia fundamental. Se você
-> só estudar pelo deck, vai pular essa parte inteira sem perceber. Para revisar isso,
-> você precisa ler o `.md` diretamente.
+  etc.), cobrindo o conteúdo das aulas introdutórias dos PDFs originais. Também tem
+  cartão de Anki próprio (`Fundamentos-Microbiologia.apkg`), separado do deck por agente.
 
 Resumindo:
 
 ```
-PDF da faculdade   →   .md reescrito e organizado   →   (só a parte por agente) cartão do Anki
-(material-base)        (material-gerado — já é         (anki-decks)
-                         material de estudo completo)
+PDF da faculdade   →   .md reescrito e organizado   →   cartão do Anki
+(material-base)        (material-gerado — já e         (anki-decks/Nucleo-...apkg,
+                         material de estudo completo)    por agente, e
+                                                          anki-decks/Fundamentos-...apkg,
+                                                          por conceito geral)
 ```
 
 ---
