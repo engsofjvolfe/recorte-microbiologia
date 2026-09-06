@@ -5,15 +5,10 @@
 
 ## O que é isto
 
-Um material de estudo de microbiologia médica sobre **34 agentes** — **17 vírus** e **17
-fungos** — construído a partir dos PDFs originais da disciplina: dicionários de gatilhos,
-fichas determinísticas, base teórica de biologia fundamental, um banco de 170 perguntas e
-respostas e o deck pronto para o Anki. Veja o **[INDICE.md](INDICE.md)** para navegar por
-tudo isso, agente por agente.
-
-**Só quer estudar?** Veja o **[MANUAL.md](MANUAL.md)** — um guia rápido e não técnico de
-como usar o deck, entender o material e (se quiser) colaborar. Este README aqui é a
-documentação técnica do projeto.
+Um material de estudo de microbiologia médica (virologia e micologia). Veja o
+**[INDICE.md](INDICE.md)** para navegar por todos os documentos, agente por agente, ou o
+**[MANUAL.md](MANUAL.md)** para um guia rápido e não técnico de como usar o material. Este
+README é a documentação técnica do projeto.
 
 ## Aviso importante — leia antes de usar
 
@@ -45,15 +40,11 @@ automatizar mais essa busca falharam, estão no
 
 ## Origem do conteúdo
 
-O material de microbiologia original que serviu de base para este núcleo está em
-[`docs/material-base/`](docs/material-base/):
-
-- `INTRODUCAO_A_MICROBIOLOGIA.pdf`
-- `INTRODUCAO_A_MICOLOGIA.pdf`
-- `MICOLOGIA_ESPECIAL.pdf`
-- `VIROLOGIA_GERAL.pdf`
-- `VIROLOGIA_ESPECIAL_I.pdf`
-- `VIROLOGIA_ESPECIAL_II_III.pdf`
+O material de microbiologia original que serviu de base para este núcleo (INTRODUÇÃO À
+MICROBIOLOGIA, s.d.; INTRODUÇÃO À MICOLOGIA, s.d.; MICOLOGIA ESPECIAL, s.d.; VIROLOGIA
+GERAL, s.d.; VIROLOGIA ESPECIAL I, s.d.; VIROLOGIA ESPECIAL II E III, s.d.) está em
+[`docs/material-base/`](docs/material-base/) — referências completas na seção
+[Referências](#referências), ao final deste documento.
 
 Esses PDFs são material de aula de uma universidade de Minas Gerais, obtidos por meio de
 um aluno da disciplina — **não foram produzidos por quem mantém este repositório e não
@@ -111,3 +102,33 @@ completo e detalhado em [`NOTICE.md`](NOTICE.md):
 ## Ver também
 
 **[INDICE.md](INDICE.md)** — navegação completa, agente por agente, para todos os documentos.
+
+## Referências
+
+Material de aula que serviu de fonte primária para o conteúdo deste projeto (ver
+[Origem do conteúdo](#origem-do-conteúdo)). Sem autoria individual identificada; local,
+editora e data desconhecidos:
+
+INTRODUÇÃO À MICOLOGIA. [S.l.: s.n., s.d.]. Material de aula (slides), não publicado.
+Localização: `docs/material-base/INTRODUCAO_A_MICOLOGIA.pdf` (arquivo de terceiros, não
+versionado neste repositório).
+
+INTRODUÇÃO À MICROBIOLOGIA. [S.l.: s.n., s.d.]. Material de aula (slides), não publicado.
+Localização: `docs/material-base/INTRODUCAO_A_MICROBIOLOGIA.pdf` (arquivo de terceiros,
+não versionado neste repositório).
+
+MICOLOGIA ESPECIAL. [S.l.: s.n., s.d.]. Material de aula (slides), não publicado.
+Localização: `docs/material-base/MICOLOGIA_ESPECIAL.pdf` (arquivo de terceiros, não
+versionado neste repositório).
+
+VIROLOGIA ESPECIAL I. [S.l.: s.n., s.d.]. Material de aula (slides), não publicado.
+Localização: `docs/material-base/VIROLOGIA_ESPECIAL_I.pdf` (arquivo de terceiros, não
+versionado neste repositório).
+
+VIROLOGIA ESPECIAL II E III. [S.l.: s.n., s.d.]. Material de aula (slides), não publicado.
+Localização: `docs/material-base/VIROLOGIA_ESPECIAL_II_III.pdf` (arquivo de terceiros, não
+versionado neste repositório).
+
+VIROLOGIA GERAL. [S.l.: s.n., s.d.]. Material de aula (slides), não publicado.
+Localização: `docs/material-base/VIROLOGIA_GERAL.pdf` (arquivo de terceiros, não
+versionado neste repositório).
