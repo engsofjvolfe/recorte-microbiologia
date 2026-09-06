@@ -1,0 +1,82 @@
+{
+  "ordem": 14,
+  "disciplina": "virologia",
+  "agente": "Hantavirus",
+  "observacao": "",
+  "conteudo_sensivel_pulado": false,
+  "tratamento_ref": "suporte_uti_ventilacao",
+  "imagens": {
+    "categoria": [
+      {
+        "arquivo_local": "14_hantavirus\\categoria\\hantavirus_categoria.png",
+        "fonte": "categoria_commons:Hantaviridae",
+        "correspondencia_generica": false,
+        "correspondencia_exata": null,
+        "termo_buscado": "[categoria:Hantaviridae] pontos=1",
+        "titulo_wikimedia": "File:Andes virus virion structure (ViralZone).svg",
+        "pagina_descricao": "https://commons.wikimedia.org/wiki/File:Andes_virus_virion_structure_(ViralZone).svg",
+        "url_original": "https://upload.wikimedia.org/wikipedia/commons/d/df/Andes_virus_virion_structure_%28ViralZone%29.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "licenca": "CC BY 4.0",
+        "licenca_url": "https://creativecommons.org/licenses/by/4.0",
+        "autor": "ViralZone, SIB Swiss Institute of Bioinformatics",
+        "credito": "ViralZone database, SIB Swiss Institute of Bioinformatics. Orthohantavirus andesense (taxid:1980456). https://viralzone.expasy.org/1980456",
+        "baixado": true,
+        "revisado_visualmente": true
+      }
+    ],
+    "transmissao": [
+      {
+        "arquivo_local": "14_hantavirus\\transmissao\\hantavirus_transmissao.jpg",
+        "fonte": "categoria_commons:Hantaviridae",
+        "correspondencia_generica": false,
+        "correspondencia_exata": null,
+        "termo_buscado": "[categoria:Hantaviridae] pontos=4",
+        "titulo_wikimedia": "File:Deer mouse, Peromyscus maniculatus 8360 lores.jpg",
+        "pagina_descricao": "https://commons.wikimedia.org/wiki/File:Deer_mouse,_Peromyscus_maniculatus_8360_lores.jpg",
+        "url_original": "https://upload.wikimedia.org/wikipedia/commons/4/42/Deer_mouse%2C_Peromyscus_maniculatus_8360_lores.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "licenca": "Public domain",
+        "licenca_url": "",
+        "autor": "Nao informado",
+        "credito": "http://sphotos-f.ak.fbcdn.net/hphotos-ak-snc7/318948_4409574690334_2114548395_n.jpg",
+        "baixado": true,
+        "revisado_visualmente": true
+      }
+    ],
+    "achado": [
+      {
+        "arquivo_local": "14_hantavirus\\achado\\hantavirus_achado.jpg",
+        "fonte": "busca_manual_commons",
+        "correspondencia_generica": false,
+        "correspondencia_exata": true,
+        "termo_buscado": "hantavirus pulmonary syndrome chest x-ray (busca manual, pool automatico so trouxe diagramas de estrutura duplicados)",
+        "titulo_wikimedia": "File:6075 lores.jpg",
+        "pagina_descricao": "https://commons.wikimedia.org/wiki/File:6075_lores.jpg",
+        "url_original": "https://upload.wikimedia.org/wikipedia/commons/2/29/6075_lores.jpg",
+        "licenca": "Public domain",
+        "licenca_url": "",
+        "autor": "CDC PHIL",
+        "credito": "",
+        "baixado": true,
+        "revisado_visualmente": true
+      }
+    ],
+    "tratamento": [
+      {
+        "arquivo_local": "14_hantavirus\\tratamento\\hantavirus_tratamento.jpg",
+        "fonte": "openverse_manual",
+        "correspondencia_generica": false,
+        "correspondencia_exata": true,
+        "termo_buscado": "ventilator machine hospital (Flickr, via Openverse)",
+        "titulo_wikimedia": "Ventilator",
+        "pagina_descricao": "https://www.flickr.com/",
+        "url_original": "https://live.staticflickr.com/5264/5645553229_e38697e98b_b.jpg",
+        "licenca": "CC BY-SA",
+        "licenca_url": "",
+        "autor": "Nao informado (Flickr)",
+        "credito": "",
+        "baixado": true,
+        "revisado_visualmente": true
+      }
+    ]
+  }
+}

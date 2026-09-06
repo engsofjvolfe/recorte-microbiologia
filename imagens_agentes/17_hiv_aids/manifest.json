@@ -1,0 +1,68 @@
+{
+  "ordem": 17,
+  "disciplina": "virologia",
+  "agente": "HIV/Aids",
+  "observacao": "",
+  "conteudo_sensivel_pulado": false,
+  "tratamento_ref": "tarv",
+  "imagens": {
+    "categoria": [
+      {
+        "arquivo_local": "17_hiv_aids\\categoria\\hiv_aids_categoria.jpg",
+        "fonte": "busca_texto",
+        "correspondencia_generica": false,
+        "correspondencia_exata": false,
+        "termo_buscado": "HIV virus structure diagram filetype:bitmap",
+        "titulo_wikimedia": "File:HI-Virion Structure (5080768345).jpg",
+        "pagina_descricao": "https://commons.wikimedia.org/wiki/File:HI-Virion_Structure_(5080768345).jpg",
+        "url_original": "https://upload.wikimedia.org/wikipedia/commons/b/ba/HI-Virion_Structure_%285080768345%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "licenca": "CC BY 2.0",
+        "licenca_url": "https://creativecommons.org/licenses/by/2.0",
+        "autor": "NIAID",
+        "credito": "HIV Virion Structure",
+        "baixado": true,
+        "revisado_visualmente": true
+      }
+    ],
+    "transmissao": {
+      "confirmado": false,
+      "motivo": "candidatos eram capa de documento do CDC, mapa estatistico, charge e historia pessoal em espanhol -- nenhuma imagem real do mecanismo de transmissao"
+    },
+    "achado": [
+      {
+        "arquivo_local": "17_hiv_aids\\achado\\hiv_aids_achado.jpg",
+        "fonte": "categoria_commons:Kaposi's sarcoma",
+        "correspondencia_generica": false,
+        "correspondencia_exata": null,
+        "termo_buscado": "[categoria:Kaposi's sarcoma] pontos=2",
+        "titulo_wikimedia": "File:Kaposi's sarcoma lesion.jpg",
+        "pagina_descricao": "https://commons.wikimedia.org/wiki/File:Kaposi%27s_sarcoma_lesion.jpg",
+        "url_original": "https://upload.wikimedia.org/wikipedia/commons/2/26/Kaposi%27s_sarcoma_lesion.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "licenca": "Public domain",
+        "licenca_url": "",
+        "autor": "Photo Credit: Content Providers: CDC/ Dr. Steve Kraus",
+        "credito": "This media comes from the Centers for Disease Control and Prevention's Public Health Image Library (PHIL), with identification number #6436. Note: Not all PHIL images are public domain; be sure to check copyright status and credit authors and content providers. العربية | Deutsch | English | македонски | slovenščina | +/−",
+        "baixado": true,
+        "revisado_visualmente": true
+      }
+    ],
+    "tratamento": [
+      {
+        "arquivo_local": "17_hiv_aids\\tratamento\\hiv_aids_tratamento.jpg",
+        "fonte": "categoria_commons:Antiretroviral drugs",
+        "correspondencia_generica": false,
+        "correspondencia_exata": null,
+        "termo_buscado": "[categoria:Antiretroviral drugs] pontos=1",
+        "titulo_wikimedia": "File:Antiretroviral Drug to Treat HIV Infection (32596243406).jpg",
+        "pagina_descricao": "https://commons.wikimedia.org/wiki/File:Antiretroviral_Drug_to_Treat_HIV_Infection_(32596243406).jpg",
+        "url_original": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Antiretroviral_Drug_to_Treat_HIV_Infection_%2832596243406%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "licenca": "CC BY 2.0",
+        "licenca_url": "https://creativecommons.org/licenses/by/2.0",
+        "autor": "NIAID",
+        "credito": "Antiretroviral Drug to Treat HIV Infection",
+        "baixado": true,
+        "revisado_visualmente": true
+      }
+    ]
+  }
+}

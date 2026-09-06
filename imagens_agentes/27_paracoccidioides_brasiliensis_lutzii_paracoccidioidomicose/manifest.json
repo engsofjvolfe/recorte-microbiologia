@@ -1,0 +1,82 @@
+{
+  "ordem": 27,
+  "disciplina": "micologia",
+  "agente": "Paracoccidioides brasiliensis/lutzii (Paracoccidioidomicose)",
+  "observacao": "",
+  "conteudo_sensivel_pulado": false,
+  "tratamento_ref": "itraconazol",
+  "imagens": {
+    "categoria": [
+      {
+        "arquivo_local": "27_paracoccidioides_brasiliensis_lutzii_paracoccidioidomicose\\categoria\\paracoccidioides_brasiliensis_lutzii_par_categoria.jpg",
+        "fonte": "categoria_commons:Paracoccidioidomycosis",
+        "correspondencia_generica": true,
+        "correspondencia_exata": null,
+        "termo_buscado": "[categoria:Paracoccidioidomycosis] pontos=0",
+        "titulo_wikimedia": "File:Histopathology of paracoccidioidomycosis.jpg",
+        "pagina_descricao": "https://commons.wikimedia.org/wiki/File:Histopathology_of_paracoccidioidomycosis.jpg",
+        "url_original": "https://upload.wikimedia.org/wikipedia/commons/d/d6/Histopathology_of_paracoccidioidomycosis.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "licenca": "Public domain",
+        "licenca_url": "",
+        "autor": "CDC",
+        "credito": "http://www.publicdomainfiles.com/show_file.php?id=13512762014367",
+        "baixado": true,
+        "revisado_visualmente": true
+      }
+    ],
+    "transmissao": [
+      {
+        "arquivo_local": "27_paracoccidioides_brasiliensis_lutzii_paracoccidioidomicose\\transmissao\\paracoccidioides_brasiliensis_lutzii_par_transmissao.jpg",
+        "fonte": "busca_texto",
+        "correspondencia_generica": false,
+        "correspondencia_exata": false,
+        "termo_buscado": "coffee plantation farming filetype:bitmap",
+        "titulo_wikimedia": "File:Araku Coffee fields.jpg",
+        "pagina_descricao": "https://commons.wikimedia.org/wiki/File:Araku_Coffee_fields.jpg",
+        "url_original": "https://upload.wikimedia.org/wikipedia/commons/2/21/Araku_Coffee_fields.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "licenca": "CC BY 4.0",
+        "licenca_url": "https://creativecommons.org/licenses/by/4.0",
+        "autor": "SyedJos1657G",
+        "credito": "Own work",
+        "baixado": true,
+        "revisado_visualmente": true
+      }
+    ],
+    "achado": [
+      {
+        "arquivo_local": "27_paracoccidioides_brasiliensis_lutzii_paracoccidioidomicose\\achado\\paracoccidioides_brasiliensis_lutzii_par_achado.png",
+        "fonte": "categoria_commons:Paracoccidioidomycosis",
+        "correspondencia_generica": true,
+        "correspondencia_exata": null,
+        "termo_buscado": "[categoria:Paracoccidioidomycosis] pontos=0",
+        "titulo_wikimedia": "File:Paracoccidioidomycosis lesions.png",
+        "pagina_descricao": "https://commons.wikimedia.org/wiki/File:Paracoccidioidomycosis_lesions.png",
+        "url_original": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Paracoccidioidomycosis_lesions.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "licenca": "Public domain",
+        "licenca_url": "",
+        "autor": "CDC/ Dr. Martins Castro, San Paulo, Brazil; Dr. Lucille K. Georg",
+        "credito": "This media comes from the Centers for Disease Control and Prevention's Public Health Image Library (PHIL), with identification number #12156. Note: Not all PHIL images are public domain; be sure to check copyright status and credit authors and content providers. العربية | Deutsch | English | македонски | slovenščina | +/−",
+        "baixado": true,
+        "revisado_visualmente": true
+      }
+    ],
+    "tratamento": [
+      {
+        "arquivo_local": "27_paracoccidioides_brasiliensis_lutzii_paracoccidioidomicose\\tratamento\\paracoccidioides_brasiliensis_lutzii_par_tratamento.jpg",
+        "fonte": "dailymed",
+        "correspondencia_generica": false,
+        "correspondencia_exata": null,
+        "termo_buscado": "[dailymed] itraconazole",
+        "titulo_wikimedia": "itraconazole-carton-of-7-day-treatment-pack.jpg",
+        "pagina_descricao": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=23126370-8d6a-4027-bd8f-860e2776ba3a",
+        "url_original": "https://dailymed.nlm.nih.gov/dailymed/image.cfm?setid=23126370-8d6a-4027-bd8f-860e2776ba3a&name=itraconazole-carton-of-7-day-treatment-pack.jpg",
+        "licenca": "Documento regulatorio publico (FDA/NLM) - confirmar uso antes de publicar",
+        "licenca_url": "",
+        "autor": "Fabricante (bula regulatoria)",
+        "credito": "ITRACONAZOLE CAPSULE [ALEMBIC PHARMACEUTICALS INC.]",
+        "baixado": true,
+        "revisado_visualmente": true
+      }
+    ]
+  }
+}

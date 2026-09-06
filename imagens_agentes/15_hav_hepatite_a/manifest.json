@@ -1,0 +1,82 @@
+{
+  "ordem": 15,
+  "disciplina": "virologia",
+  "agente": "HAV (Hepatite A)",
+  "observacao": "",
+  "conteudo_sensivel_pulado": false,
+  "tratamento_ref": "vacina_hepatite_a",
+  "imagens": {
+    "categoria": [
+      {
+        "arquivo_local": "15_hav_hepatite_a\\categoria\\hav_hepatite_a_categoria.jpg",
+        "fonte": "categoria_commons:Picornaviridae",
+        "correspondencia_generica": false,
+        "correspondencia_exata": null,
+        "termo_buscado": "[categoria:Picornaviridae] pontos=2",
+        "titulo_wikimedia": "File:Picornavirus genome, proteins, and capsid.jpg",
+        "pagina_descricao": "https://commons.wikimedia.org/wiki/File:Picornavirus_genome,_proteins,_and_capsid.jpg",
+        "url_original": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Picornavirus_genome%2C_proteins%2C_and_capsid.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "licenca": "CC BY 4.0",
+        "licenca_url": "https://creativecommons.org/licenses/by/4.0",
+        "autor": "Javier Orlando Cifuente and Gonzalo Moratorio",
+        "credito": "https://www.frontiersin.org/articles/10.3389/fcimb.2019.00283/full",
+        "baixado": true,
+        "revisado_visualmente": true
+      }
+    ],
+    "transmissao": [
+      {
+        "arquivo_local": "15_hav_hepatite_a\\transmissao\\hav_hepatite_a_transmissao.jpg",
+        "fonte": "busca_manual_suplementar",
+        "correspondencia_generica": false,
+        "correspondencia_exata": true,
+        "termo_buscado": "File:Oysters at LFS Fish Market.jpg",
+        "titulo_wikimedia": "File:Oysters at LFS Fish Market.jpg",
+        "pagina_descricao": "https://commons.wikimedia.org/wiki/File:Oysters_at_LFS_Fish_Market.jpg",
+        "url_original": "https://upload.wikimedia.org/wikipedia/commons/Oysters_at_LFS_Fish_Market.jpg",
+        "licenca": "Nao verificada - conferir pagina do Commons antes de publicar",
+        "licenca_url": "",
+        "autor": "Nao informado",
+        "credito": "",
+        "baixado": true,
+        "revisado_visualmente": true
+      }
+    ],
+    "achado": [
+      {
+        "arquivo_local": "15_hav_hepatite_a\\achado\\hav_hepatite_a_achado.jpg",
+        "fonte": "busca_texto",
+        "correspondencia_generica": false,
+        "correspondencia_exata": false,
+        "termo_buscado": "jaundice icteric sclera filetype:bitmap",
+        "titulo_wikimedia": "File:Jaundice eye new.jpg",
+        "pagina_descricao": "https://commons.wikimedia.org/wiki/File:Jaundice_eye_new.jpg",
+        "url_original": "https://upload.wikimedia.org/wikipedia/commons/8/80/Jaundice_eye_new.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "licenca": "Public domain",
+        "licenca_url": "",
+        "autor": "Jaundice_eye.jpg: * Photo Credit: Content Providers(s): CDC/Dr. Thomas F. Sellers/Emory University derivative work: த.உழவன் (talk)",
+        "credito": "This is a retouched picture, which means that it has been digitally altered from its original version. Modifications: the eyes are focused for the jaundice symptom. The original can be viewed here: Jaundice eye.jpg: .",
+        "baixado": true,
+        "revisado_visualmente": true
+      }
+    ],
+    "tratamento": [
+      {
+        "arquivo_local": "15_hav_hepatite_a\\tratamento\\hav_hepatite_a_tratamento.jpg",
+        "fonte": "categoria_commons:Hepatitis A vaccines",
+        "correspondencia_generica": false,
+        "correspondencia_exata": null,
+        "termo_buscado": "[categoria:Hepatitis A vaccines] pontos=1",
+        "titulo_wikimedia": "File:Avaxim vaccine.jpg",
+        "pagina_descricao": "https://commons.wikimedia.org/wiki/File:Avaxim_vaccine.jpg",
+        "url_original": "https://upload.wikimedia.org/wikipedia/commons/a/af/Avaxim_vaccine.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "licenca": "CC BY-SA 4.0",
+        "licenca_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "autor": "Whispyhistory",
+        "credito": "Own work",
+        "baixado": true,
+        "revisado_visualmente": true
+      }
+    ]
+  }
+}

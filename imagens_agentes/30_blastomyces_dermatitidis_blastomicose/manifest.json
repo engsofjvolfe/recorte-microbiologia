@@ -1,0 +1,66 @@
+{
+  "ordem": 30,
+  "disciplina": "micologia",
+  "agente": "Blastomyces dermatitidis (Blastomicose)",
+  "observacao": "",
+  "conteudo_sensivel_pulado": false,
+  "tratamento_ref": "itraconazol",
+  "imagens": {
+    "categoria": [
+      {
+        "arquivo_local": "30_blastomyces_dermatitidis_blastomicose\\categoria\\blastomyces_dermatitidis_blastomicose_categoria.jpeg",
+        "fonte": "busca_texto",
+        "correspondencia_generica": false,
+        "correspondencia_exata": false,
+        "termo_buscado": "Blastomyces broad-based budding filetype:bitmap",
+        "titulo_wikimedia": "File:Blastomyces dermatitidis GMS.jpeg",
+        "pagina_descricao": "https://commons.wikimedia.org/wiki/File:Blastomyces_dermatitidis_GMS.jpeg",
+        "url_original": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Blastomyces_dermatitidis_GMS.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "licenca": "CC0",
+        "licenca_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "autor": "Medmyco (talk) (Uploads)",
+        "credito": "Transferred from en.wikipedia to Commons.",
+        "baixado": true
+      }
+    ],
+    "transmissao": {
+      "confirmado": false,
+      "motivo": "candidatos eram fotos de plantas de jardim (Chrysophyllum, Erythrina, Allamanda), sem relacao com solo umido perto de rios"
+    },
+    "achado": [
+      {
+        "arquivo_local": "30_blastomyces_dermatitidis_blastomicose\\achado\\blastomyces_dermatitidis_blastomicose_achado.jpg",
+        "fonte": "categoria_commons:Blastomycosis",
+        "correspondencia_generica": true,
+        "correspondencia_exata": null,
+        "termo_buscado": "[categoria:Blastomycosis] pontos=0",
+        "titulo_wikimedia": "File:Blastomycosis of skin.jpg",
+        "pagina_descricao": "https://commons.wikimedia.org/wiki/File:Blastomycosis_of_skin.jpg",
+        "url_original": "https://upload.wikimedia.org/wikipedia/commons/b/b1/Blastomycosis_of_skin.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "licenca": "Public domain",
+        "licenca_url": "",
+        "autor": "Nao informado",
+        "credito": "Transferred from en.wikipedia to Commons. This media comes from the Centers for Disease Control and Prevention's Public Health Image Library (PHIL), with identification number #492. Note: Not all PHIL images are public domain; be sure to check copyright status and credit authors and content providers. العربية | Deutsch | English | македонски | slovenščina | +/−",
+        "baixado": true
+      }
+    ],
+    "tratamento": [
+      {
+        "arquivo_local": "30_blastomyces_dermatitidis_blastomicose\\tratamento\\blastomyces_dermatitidis_blastomicose_tratamento.jpg",
+        "fonte": "dailymed",
+        "correspondencia_generica": false,
+        "correspondencia_exata": null,
+        "termo_buscado": "[dailymed] itraconazole",
+        "titulo_wikimedia": "itraconazole-carton-of-7-day-treatment-pack.jpg",
+        "pagina_descricao": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=23126370-8d6a-4027-bd8f-860e2776ba3a",
+        "url_original": "https://dailymed.nlm.nih.gov/dailymed/image.cfm?setid=23126370-8d6a-4027-bd8f-860e2776ba3a&name=itraconazole-carton-of-7-day-treatment-pack.jpg",
+        "licenca": "Documento regulatorio publico (FDA/NLM) - confirmar uso antes de publicar",
+        "licenca_url": "",
+        "autor": "Fabricante (bula regulatoria)",
+        "credito": "ITRACONAZOLE CAPSULE [ALEMBIC PHARMACEUTICALS INC.]",
+        "baixado": true,
+        "revisado_visualmente": true
+      }
+    ]
+  }
+}

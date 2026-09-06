@@ -1,0 +1,68 @@
+{
+  "ordem": 29,
+  "disciplina": "micologia",
+  "agente": "Coccidioides immitis/posadasii (Coccidioidomicose)",
+  "observacao": "",
+  "conteudo_sensivel_pulado": false,
+  "tratamento_ref": "anfotericina_b",
+  "imagens": {
+    "categoria": [
+      {
+        "arquivo_local": "29_coccidioides_immitis_posadasii_coccidioidomicose\\categoria\\coccidioides_immitis_posadasii_coccidioi_categoria.png",
+        "fonte": "categoria_commons:Coccidioidomycosis",
+        "correspondencia_generica": false,
+        "correspondencia_exata": null,
+        "termo_buscado": "[categoria:Coccidioidomycosis] pontos=1",
+        "titulo_wikimedia": "File:Life cycle of Coccidioides.PNG",
+        "pagina_descricao": "https://commons.wikimedia.org/wiki/File:Life_cycle_of_Coccidioides.PNG",
+        "url_original": "https://upload.wikimedia.org/wikipedia/commons/1/19/Life_cycle_of_Coccidioides.PNG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "licenca": "CC BY 4.0",
+        "licenca_url": "https://creativecommons.org/licenses/by/4.0",
+        "autor": "Lewis ERG, et al.",
+        "credito": "http://journals.plos.org/plospathogens/article?id=10.1371/journal.ppat.1004762",
+        "baixado": true,
+        "revisado_visualmente": true
+      }
+    ],
+    "transmissao": [
+      {
+        "arquivo_local": "29_coccidioides_immitis_posadasii_coccidioidomicose\\transmissao\\coccidioides_immitis_posadasii_coccidioi_transmissao.jpg",
+        "fonte": "busca_texto",
+        "correspondencia_generica": false,
+        "correspondencia_exata": false,
+        "termo_buscado": "dust storm desert soil arid filetype:bitmap",
+        "titulo_wikimedia": "File:Dust storm over the Mediterranean Sea (MODIS 2016-05-16).jpg",
+        "pagina_descricao": "https://commons.wikimedia.org/wiki/File:Dust_storm_over_the_Mediterranean_Sea_(MODIS_2016-05-16).jpg",
+        "url_original": "https://upload.wikimedia.org/wikipedia/commons/7/70/Dust_storm_over_the_Mediterranean_Sea_%28MODIS_2016-05-16%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "licenca": "Public domain",
+        "licenca_url": "",
+        "autor": "Jeff Schmaltz, MODIS Land Rapid Response Team, NASA GSFC",
+        "credito": "This image or video was catalogued by Goddard Space Flight Center of the United States National Aeronautics and Space Administration (NASA) under Photo ID: 2016-05-16.",
+        "baixado": true,
+        "revisado_visualmente": true
+      }
+    ],
+    "achado": {
+      "confirmado": false,
+      "motivo": "achado real e radiografia de torax (febre do vale); nenhum raio-x encontrado no Commons/Openverse, so histopatologia de esferula (que era o alvo antigo)"
+    },
+    "tratamento": [
+      {
+        "arquivo_local": "29_coccidioides_immitis_posadasii_coccidioidomicose\\tratamento\\coccidioides_immitis_posadasii_coccidioi_tratamento.jpg",
+        "fonte": "dailymed",
+        "correspondencia_generica": false,
+        "correspondencia_exata": null,
+        "termo_buscado": "[dailymed] amphotericin b",
+        "titulo_wikimedia": "prorx-carton label.jpg",
+        "pagina_descricao": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=02aadef1-390b-4270-b56d-33452eb89dde",
+        "url_original": "https://dailymed.nlm.nih.gov/dailymed/image.cfm?setid=02aadef1-390b-4270-b56d-33452eb89dde&name=prorx-carton+label.jpg",
+        "licenca": "Documento regulatorio publico (FDA/NLM) - confirmar uso antes de publicar",
+        "licenca_url": "",
+        "autor": "Fabricante (bula regulatoria)",
+        "credito": "AMPHOTERICIN B INJECTABLE, LIPOSOMAL [SUN PHARMACEUTICAL INDUSTRIES, INC.]",
+        "baixado": true,
+        "revisado_visualmente": true
+      }
+    ]
+  }
+}

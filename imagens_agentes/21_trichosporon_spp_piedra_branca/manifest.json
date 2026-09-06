@@ -1,0 +1,68 @@
+{
+  "ordem": 21,
+  "disciplina": "micologia",
+  "agente": "Trichosporon spp. (Piedra Branca)",
+  "observacao": "",
+  "conteudo_sensivel_pulado": false,
+  "tratamento_ref": "xampu_cetoconazol",
+  "imagens": {
+    "categoria": [
+      {
+        "arquivo_local": "21_trichosporon_spp_piedra_branca\\categoria\\trichosporon_spp_piedra_branca_categoria.jpg",
+        "fonte": "categoria_commons:White piedra",
+        "correspondencia_generica": true,
+        "correspondencia_exata": null,
+        "termo_buscado": "[categoria:White piedra] pontos=0",
+        "titulo_wikimedia": "File:Piedra Blanca Micosis.jpg",
+        "pagina_descricao": "https://commons.wikimedia.org/wiki/File:Piedra_Blanca_Micosis.jpg",
+        "url_original": "https://upload.wikimedia.org/wikipedia/commons/1/15/Piedra_Blanca_Micosis.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "licenca": "CC BY-SA 4.0",
+        "licenca_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "autor": "JOAN",
+        "credito": "Own work",
+        "baixado": true,
+        "revisado_visualmente": true
+      }
+    ],
+    "transmissao": {
+      "confirmado": false,
+      "motivo": "candidatos eram fotos aleatorias (coruja, catalogo de plantas, livro antigo), nenhuma mostra umidade ou ma higiene"
+    },
+    "achado": [
+      {
+        "arquivo_local": "21_trichosporon_spp_piedra_branca\\achado\\trichosporon_spp_piedra_branca_achado.jpg",
+        "fonte": "categoria_commons:White piedra",
+        "correspondencia_generica": false,
+        "correspondencia_exata": null,
+        "termo_buscado": "[categoria:White piedra] pontos=1",
+        "titulo_wikimedia": "File:Piedra Blanca Micosis.jpg",
+        "pagina_descricao": "https://commons.wikimedia.org/wiki/File:Piedra_Blanca_Micosis.jpg",
+        "url_original": "https://upload.wikimedia.org/wikipedia/commons/1/15/Piedra_Blanca_Micosis.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "licenca": "CC BY-SA 4.0",
+        "licenca_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "autor": "JOAN",
+        "credito": "Own work",
+        "baixado": true,
+        "revisado_visualmente": true
+      }
+    ],
+    "tratamento": [
+      {
+        "arquivo_local": "21_trichosporon_spp_piedra_branca\\tratamento\\trichosporon_spp_piedra_branca_tratamento.jpg",
+        "fonte": "dailymed_manual",
+        "correspondencia_generica": false,
+        "correspondencia_exata": true,
+        "termo_buscado": "ketoconazole shampoo (mesma fonte usada para Piedra Negra, mesmo catalogo de tratamento)",
+        "titulo_wikimedia": "GEMBOOXT KETOCONAZOLE 1% MEDICATED SHAMPOOS",
+        "pagina_descricao": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=49965e91-43c3-65d7-e063-6294a90abaec",
+        "url_original": "https://dailymed.nlm.nih.gov/dailymed/image.cfm?setid=49965e91-43c3-65d7-e063-6294a90abaec&name=label2.jpg",
+        "licenca": "Documento regulatorio publico (FDA/NLM) - confirmar uso antes de publicar",
+        "licenca_url": "",
+        "autor": "Fabricante (bula regulatoria)",
+        "credito": "",
+        "baixado": true,
+        "revisado_visualmente": true
+      }
+    ]
+  }
+}

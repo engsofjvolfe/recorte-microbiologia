@@ -1,0 +1,68 @@
+{
+  "ordem": 1,
+  "disciplina": "virologia",
+  "agente": "HSV-1 (Herpes Labial)",
+  "observacao": "",
+  "conteudo_sensivel_pulado": false,
+  "tratamento_ref": "aciclovir",
+  "imagens": {
+    "categoria": [
+      {
+        "arquivo_local": "01_hsv_1_herpes_labial\\categoria\\hsv_1_herpes_labial_categoria.png",
+        "fonte": "categoria_commons:Herpesviridae",
+        "correspondencia_generica": false,
+        "correspondencia_exata": null,
+        "termo_buscado": "[categoria:Herpesviridae] pontos=1",
+        "titulo_wikimedia": "File:Herpesvirus structure.png",
+        "pagina_descricao": "https://commons.wikimedia.org/wiki/File:Herpesvirus_structure.png",
+        "url_original": "https://upload.wikimedia.org/wikipedia/commons/8/85/Herpesvirus_structure.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "licenca": "CC BY-SA 3.0",
+        "licenca_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "autor": "Nao informado",
+        "credito": "",
+        "baixado": true,
+        "revisado_visualmente": true
+      }
+    ],
+    "transmissao": {
+      "confirmado": false,
+      "motivo": "candidatos eram arte antiga e foto de formigas (casaram so com a palavra kissing), nenhum mostra contato com saliva"
+    },
+    "achado": [
+      {
+        "arquivo_local": "01_hsv_1_herpes_labial\\achado\\hsv_1_herpes_labial_achado.jpg",
+        "fonte": "categoria_commons:Herpes labialis",
+        "correspondencia_generica": false,
+        "correspondencia_exata": null,
+        "termo_buscado": "[categoria:Herpes labialis] pontos=3",
+        "titulo_wikimedia": "File:Herpes labialis - opryszczka wargowa.jpg",
+        "pagina_descricao": "https://commons.wikimedia.org/wiki/File:Herpes_labialis_-_opryszczka_wargowa.jpg",
+        "url_original": "https://upload.wikimedia.org/wikipedia/commons/5/55/Herpes_labialis_-_opryszczka_wargowa.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "licenca": "Public domain",
+        "licenca_url": "",
+        "autor": "Nao informado",
+        "credito": "",
+        "baixado": true,
+        "revisado_visualmente": true
+      }
+    ],
+    "tratamento": [
+      {
+        "arquivo_local": "01_hsv_1_herpes_labial\\tratamento\\hsv_1_herpes_labial_tratamento.jpg",
+        "fonte": "dailymed",
+        "correspondencia_generica": false,
+        "correspondencia_exata": null,
+        "termo_buscado": "[dailymed] acyclovir",
+        "titulo_wikimedia": "Acyclovirointment-15g-carton.jpg",
+        "pagina_descricao": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=1c510390-fb00-4271-967d-0883a9d5e1fd",
+        "url_original": "https://dailymed.nlm.nih.gov/dailymed/image.cfm?setid=1c510390-fb00-4271-967d-0883a9d5e1fd&name=Acyclovirointment-15g-carton.jpg",
+        "licenca": "Documento regulatorio publico (FDA/NLM) - confirmar uso antes de publicar",
+        "licenca_url": "",
+        "autor": "Fabricante (bula regulatoria)",
+        "credito": "ACYCLOVIR OINTMENT [TORRENT PHARMACEUTICALS LIMITED]",
+        "baixado": true,
+        "revisado_visualmente": true
+      }
+    ]
+  }
+}

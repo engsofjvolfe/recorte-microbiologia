@@ -1,0 +1,68 @@
+{
+  "ordem": 2,
+  "disciplina": "virologia",
+  "agente": "HSV-2 (Herpes Genital)",
+  "observacao": "Conteudo anogenital - priorizar imagens de bancos medicos com enquadramento clinico/didatico.",
+  "conteudo_sensivel_pulado": false,
+  "tratamento_ref": "aciclovir",
+  "imagens": {
+    "achado": [
+      {
+        "arquivo_local": "02_hsv_2_herpes_genital\\achado\\hsv_2_herpes_genital_achado.jpg",
+        "fonte": "busca_manual_pos_revisao_consentida",
+        "correspondencia_generica": false,
+        "correspondencia_exata": true,
+        "termo_buscado": "File:Herpes genitalis.jpg",
+        "titulo_wikimedia": "File:Herpes genitalis.jpg",
+        "pagina_descricao": "https://commons.wikimedia.org/wiki/File:Herpes_genitalis.jpg",
+        "url_original": "https://upload.wikimedia.org/wikipedia/commons/Herpes_genitalis.jpg",
+        "licenca": "CC BY-SA 3.0",
+        "licenca_url": "",
+        "autor": "Nao informado",
+        "credito": "",
+        "baixado": true,
+        "revisado_visualmente": true
+      }
+    ],
+    "categoria": [
+      {
+        "arquivo_local": "02_hsv_2_herpes_genital\\categoria\\hsv_2_herpes_genital_categoria.png",
+        "fonte": "categoria_commons:Herpesviridae",
+        "correspondencia_generica": false,
+        "correspondencia_exata": null,
+        "termo_buscado": "[categoria:Herpesviridae] pontos=1",
+        "titulo_wikimedia": "File:Herpesvirus structure.png",
+        "pagina_descricao": "https://commons.wikimedia.org/wiki/File:Herpesvirus_structure.png",
+        "url_original": "https://upload.wikimedia.org/wikipedia/commons/8/85/Herpesvirus_structure.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "licenca": "CC BY-SA 3.0",
+        "licenca_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "autor": "Nao informado",
+        "credito": "",
+        "baixado": true,
+        "revisado_visualmente": true
+      }
+    ],
+    "transmissao": {
+      "confirmado": false,
+      "motivo": "candidatos eram ciclo de vida de ameba, foto de evento fetichista e outras imagens aleatorias, nenhuma mostra contato sexual de forma adequada"
+    },
+    "tratamento": [
+      {
+        "arquivo_local": "02_hsv_2_herpes_genital\\tratamento\\hsv_2_herpes_genital_tratamento.jpg",
+        "fonte": "dailymed",
+        "correspondencia_generica": false,
+        "correspondencia_exata": null,
+        "termo_buscado": "[dailymed] acyclovir",
+        "titulo_wikimedia": "Acyclovirointment-15g-carton.jpg",
+        "pagina_descricao": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=1c510390-fb00-4271-967d-0883a9d5e1fd",
+        "url_original": "https://dailymed.nlm.nih.gov/dailymed/image.cfm?setid=1c510390-fb00-4271-967d-0883a9d5e1fd&name=Acyclovirointment-15g-carton.jpg",
+        "licenca": "Documento regulatorio publico (FDA/NLM) - confirmar uso antes de publicar",
+        "licenca_url": "",
+        "autor": "Fabricante (bula regulatoria)",
+        "credito": "ACYCLOVIR OINTMENT [TORRENT PHARMACEUTICALS LIMITED]",
+        "baixado": true,
+        "revisado_visualmente": true
+      }
+    ]
+  }
+}

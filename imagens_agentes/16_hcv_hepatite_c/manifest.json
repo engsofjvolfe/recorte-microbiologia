@@ -1,0 +1,82 @@
+{
+  "ordem": 16,
+  "disciplina": "virologia",
+  "agente": "HCV (Hepatite C)",
+  "observacao": "",
+  "conteudo_sensivel_pulado": false,
+  "tratamento_ref": "sofosbuvir",
+  "imagens": {
+    "categoria": [
+      {
+        "arquivo_local": "16_hcv_hepatite_c\\categoria\\hcv_hepatite_c_categoria.jpg",
+        "fonte": "busca_texto",
+        "correspondencia_generica": false,
+        "correspondencia_exata": false,
+        "termo_buscado": "hepatitis C virus structure filetype:bitmap",
+        "titulo_wikimedia": "File:Hegasy Hep C Virus EN-01.jpg",
+        "pagina_descricao": "https://commons.wikimedia.org/wiki/File:Hegasy_Hep_C_Virus_EN-01.jpg",
+        "url_original": "https://upload.wikimedia.org/wikipedia/commons/7/78/Hegasy_Hep_C_Virus_EN-01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "licenca": "CC BY-SA 4.0",
+        "licenca_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "autor": "Guido4",
+        "credito": "Own work",
+        "baixado": true,
+        "revisado_visualmente": true
+      }
+    ],
+    "transmissao": [
+      {
+        "arquivo_local": "16_hcv_hepatite_c\\transmissao\\hcv_hepatite_c_transmissao.jpg",
+        "fonte": "busca_texto",
+        "correspondencia_generica": false,
+        "correspondencia_exata": false,
+        "termo_buscado": "shared needle drug injection filetype:bitmap",
+        "titulo_wikimedia": "File:If you're dabbling in drugs - you could be dabbling with your life (6797750972).jpg",
+        "pagina_descricao": "https://commons.wikimedia.org/wiki/File:If_you%27re_dabbling_in_drugs_-_you_could_be_dabbling_with_your_life_(6797750972).jpg",
+        "url_original": "https://upload.wikimedia.org/wikipedia/commons/c/c6/If_you%27re_dabbling_in_drugs_-_you_could_be_dabbling_with_your_life_%286797750972%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "licenca": "No restrictions",
+        "licenca_url": "https://www.flickr.com/commons/usage/",
+        "autor": "National Library of Medicine - History of Medicine",
+        "credito": "https://www.flickr.com/photos/nlmhmd/6797750972/",
+        "baixado": true,
+        "revisado_visualmente": true
+      }
+    ],
+    "achado": [
+      {
+        "arquivo_local": "16_hcv_hepatite_c\\achado\\hcv_hepatite_c_achado.jpg",
+        "fonte": "busca_texto",
+        "correspondencia_generica": false,
+        "correspondencia_exata": false,
+        "termo_buscado": "liver cirrhosis filetype:bitmap",
+        "titulo_wikimedia": "File:Cirrhosis liver.jpg",
+        "pagina_descricao": "https://commons.wikimedia.org/wiki/File:Cirrhosis_liver.jpg",
+        "url_original": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Cirrhosis_liver.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "licenca": "CC0",
+        "licenca_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "autor": "Narraburra",
+        "credito": "Own work",
+        "baixado": true,
+        "revisado_visualmente": true
+      }
+    ],
+    "tratamento": [
+      {
+        "arquivo_local": "16_hcv_hepatite_c\\tratamento\\hcv_hepatite_c_tratamento.jpg",
+        "fonte": "dailymed",
+        "correspondencia_generica": false,
+        "correspondencia_exata": null,
+        "termo_buscado": "[dailymed] sofosbuvir",
+        "titulo_wikimedia": "epclusa-03.jpg",
+        "pagina_descricao": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=996466df-f236-4804-b10f-838aa83231a1",
+        "url_original": "https://dailymed.nlm.nih.gov/dailymed/image.cfm?setid=996466df-f236-4804-b10f-838aa83231a1&name=epclusa-03.jpg",
+        "licenca": "Documento regulatorio publico (FDA/NLM) - confirmar uso antes de publicar",
+        "licenca_url": "",
+        "autor": "Fabricante (bula regulatoria)",
+        "credito": "EPCLUSA ACCESS (VELPATASVIR AND SOFOSBUVIR) TABLET, FILM COATED [GILEAD SCIENCES, INC.]",
+        "baixado": true,
+        "revisado_visualmente": true
+      }
+    ]
+  }
+}

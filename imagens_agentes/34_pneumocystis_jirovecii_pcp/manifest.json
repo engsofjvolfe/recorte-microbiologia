@@ -1,0 +1,68 @@
+{
+  "ordem": 34,
+  "disciplina": "micologia",
+  "agente": "Pneumocystis jirovecii (PCP)",
+  "observacao": "",
+  "conteudo_sensivel_pulado": false,
+  "tratamento_ref": "sulfametoxazol_trimetoprima",
+  "imagens": {
+    "categoria": [
+      {
+        "arquivo_local": "34_pneumocystis_jirovecii_pcp\\categoria\\pneumocystis_jirovecii_pcp_categoria.jpg",
+        "fonte": "categoria_commons:Pneumocystis jirovecii",
+        "correspondencia_generica": false,
+        "correspondencia_exata": null,
+        "termo_buscado": "[categoria:Pneumocystis jirovecii] pontos=1",
+        "titulo_wikimedia": "File:Pneumocystis carinii PHIL 2998 lores.jpg",
+        "pagina_descricao": "https://commons.wikimedia.org/wiki/File:Pneumocystis_carinii_PHIL_2998_lores.jpg",
+        "url_original": "https://upload.wikimedia.org/wikipedia/commons/1/12/Pneumocystis_carinii_PHIL_2998_lores.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "licenca": "Public domain",
+        "licenca_url": "",
+        "autor": "Nao informado",
+        "credito": "CDC http://phil.cdc.gov/phil_images/20030124/16/PHIL_2998_lores.jpg",
+        "baixado": true,
+        "revisado_visualmente": true
+      }
+    ],
+    "transmissao": {
+      "confirmado": false,
+      "motivo": "ocorre em imunodeprimido, sem vetor fotografavel; candidatos eram outros fungos/parasitas sem relacao (Lomentospora, Ochroconis, Toxoplasmose, Whipple)"
+    },
+    "achado": [
+      {
+        "arquivo_local": "34_pneumocystis_jirovecii_pcp\\achado\\pneumocystis_jirovecii_pcp_achado.jpg",
+        "fonte": "busca_manual_commons",
+        "correspondencia_generica": false,
+        "correspondencia_exata": true,
+        "termo_buscado": "X-ray of ground glass opacities of pneumocystis pneumonia (substituto por convencao medica; resposta do CSV fala de sintomas, nao imagem, mas RX de vidro fosco e o achado radiologico classico)",
+        "titulo_wikimedia": "File:X-ray of ground glass opacities of pneumocystis pneumonia.jpg",
+        "pagina_descricao": "https://commons.wikimedia.org/wiki/File:X-ray_of_ground_glass_opacities_of_pneumocystis_pneumonia.jpg",
+        "url_original": "https://upload.wikimedia.org/wikipedia/commons/9/9f/X-ray_of_ground_glass_opacities_of_pneumocystis_pneumonia.jpg",
+        "licenca": "CC BY 4.0",
+        "licenca_url": "",
+        "autor": "Carolyn M. Allen, Hamdan H. AL-Jahdali, Klaus L. Irion, Sarah Al Ghanem, Alaa Gouda, and Ali Nawaz Khan",
+        "credito": "",
+        "baixado": true,
+        "revisado_visualmente": true
+      }
+    ],
+    "tratamento": [
+      {
+        "arquivo_local": "34_pneumocystis_jirovecii_pcp\\tratamento\\pneumocystis_jirovecii_pcp_tratamento.jpg",
+        "fonte": "dailymed",
+        "correspondencia_generica": false,
+        "correspondencia_exata": null,
+        "termo_buscado": "[dailymed] sulfamethoxazole and trimethoprim",
+        "titulo_wikimedia": "sulfatrim---fn0854-3.jpg",
+        "pagina_descricao": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=cd4932ce-0856-4e99-8baf-70afce1d7ffd",
+        "url_original": "https://dailymed.nlm.nih.gov/dailymed/image.cfm?setid=cd4932ce-0856-4e99-8baf-70afce1d7ffd&name=sulfatrim---fn0854-3.jpg",
+        "licenca": "Documento regulatorio publico (FDA/NLM) - confirmar uso antes de publicar",
+        "licenca_url": "",
+        "autor": "Fabricante (bula regulatoria)",
+        "credito": "SULFATRIM (SULFAMETHOXAZOLE AND TRIMETHOPRIM) SUSPENSION [PREFERRED PHARMACEUTICALS, INC.]",
+        "baixado": true,
+        "revisado_visualmente": true
+      }
+    ]
+  }
+}

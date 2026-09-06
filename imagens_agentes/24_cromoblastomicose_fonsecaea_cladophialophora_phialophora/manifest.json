@@ -1,0 +1,82 @@
+{
+  "ordem": 24,
+  "disciplina": "micologia",
+  "agente": "Cromoblastomicose (Fonsecaea/Cladophialophora/Phialophora)",
+  "observacao": "",
+  "conteudo_sensivel_pulado": false,
+  "tratamento_ref": "cirurgia_procedimento",
+  "imagens": {
+    "categoria": [
+      {
+        "arquivo_local": "24_cromoblastomicose_fonsecaea_cladophialophora_phialophora\\categoria\\cromoblastomicose_fonsecaea_cladophialop_categoria.jpg",
+        "fonte": "categoria_commons:Chromoblastomycosis",
+        "correspondencia_generica": false,
+        "correspondencia_exata": null,
+        "termo_buscado": "[categoria:Chromoblastomycosis] pontos=1",
+        "titulo_wikimedia": "File:Chromoblastomycosis 2.jpg",
+        "pagina_descricao": "https://commons.wikimedia.org/wiki/File:Chromoblastomycosis_2.jpg",
+        "url_original": "https://upload.wikimedia.org/wikipedia/commons/1/19/Chromoblastomycosis_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "licenca": "CC BY-SA 3.0",
+        "licenca_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "autor": "Ran Yuping et al.",
+        "credito": "[1]",
+        "baixado": true,
+        "revisado_visualmente": true
+      }
+    ],
+    "transmissao": [
+      {
+        "arquivo_local": "24_cromoblastomicose_fonsecaea_cladophialophora_phialophora\\transmissao\\cromoblastomicose_fonsecaea_cladophialop_transmissao.jpg",
+        "fonte": "busca_texto",
+        "correspondencia_generica": false,
+        "correspondencia_exata": false,
+        "termo_buscado": "wood splinter filetype:bitmap",
+        "titulo_wikimedia": "File:Splinter.jpg",
+        "pagina_descricao": "https://commons.wikimedia.org/wiki/File:Splinter.jpg",
+        "url_original": "https://upload.wikimedia.org/wikipedia/commons/f/f6/Splinter.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "licenca": "CC BY-SA 3.0",
+        "licenca_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "autor": "Sanba38",
+        "credito": "Own work",
+        "baixado": true,
+        "revisado_visualmente": true
+      }
+    ],
+    "achado": [
+      {
+        "arquivo_local": "24_cromoblastomicose_fonsecaea_cladophialophora_phialophora\\achado\\cromoblastomicose_fonsecaea_cladophialop_achado.jpg",
+        "fonte": "categoria_commons:Chromoblastomycosis",
+        "correspondencia_generica": false,
+        "correspondencia_exata": null,
+        "termo_buscado": "[categoria:Chromoblastomycosis] pontos=1",
+        "titulo_wikimedia": "File:Chromoblastomycosis 2.jpg",
+        "pagina_descricao": "https://commons.wikimedia.org/wiki/File:Chromoblastomycosis_2.jpg",
+        "url_original": "https://upload.wikimedia.org/wikipedia/commons/1/19/Chromoblastomycosis_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "licenca": "CC BY-SA 3.0",
+        "licenca_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "autor": "Ran Yuping et al.",
+        "credito": "[1]",
+        "baixado": true,
+        "revisado_visualmente": true
+      }
+    ],
+    "tratamento": [
+      {
+        "arquivo_local": "24_cromoblastomicose_fonsecaea_cladophialophora_phialophora\\tratamento\\cromoblastomicose_fonsecaea_cl_tratamento.jpg",
+        "fonte": "reaproveitado_de_23_esporotricose",
+        "correspondencia_generica": true,
+        "correspondencia_exata": false,
+        "termo_buscado": "Itraconazole (componente medicamentoso do tratamento combinado com cirurgia; nenhuma foto de procedimento cirurgico foi encontrada)",
+        "titulo_wikimedia": "Itraconazole carton of 7 day treatment pack",
+        "pagina_descricao": "",
+        "url_original": "",
+        "licenca": "Documento regulatorio publico (FDA/NLM) - confirmar uso antes de publicar",
+        "licenca_url": "",
+        "autor": "Fabricante (bula regulatoria)",
+        "credito": "",
+        "baixado": true,
+        "revisado_visualmente": true
+      }
+    ]
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "ordem": 20,
+  "disciplina": "micologia",
+  "agente": "Piedraia hortae (Piedra Negra)",
+  "observacao": "",
+  "conteudo_sensivel_pulado": false,
+  "tratamento_ref": "xampu_cetoconazol",
+  "imagens": {
+    "categoria": [
+      {
+        "arquivo_local": "20_piedraia_hortae_piedra_negra\\categoria\\piedraia_hortae_piedra_negra_categoria.png",
+        "fonte": "busca_texto",
+        "correspondencia_generica": false,
+        "correspondencia_exata": false,
+        "termo_buscado": "Piedraia hortae fungal filetype:bitmap",
+        "titulo_wikimedia": "File:Piedra Negra Micosis.png",
+        "pagina_descricao": "https://commons.wikimedia.org/wiki/File:Piedra_Negra_Micosis.png",
+        "url_original": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Piedra_Negra_Micosis.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "licenca": "CC BY 2.0",
+        "licenca_url": "https://creativecommons.org/licenses/by/2.0",
+        "autor": "https://openi.nlm.nih.gov",
+        "credito": "https://openi.nlm.nih.gov/detailedresult.php?img=PMC2938571_IJT-1-100-g015&amp;req=4",
+        "baixado": true,
+        "revisado_visualmente": true
+      }
+    ],
+    "transmissao": [
+      {
+        "arquivo_local": "20_piedraia_hortae_piedra_negra\\transmissao\\piedraia_hortae_piedra_negra_transmissao.jpg",
+        "fonte": "busca_manual_suplementar",
+        "correspondencia_generica": false,
+        "correspondencia_exata": true,
+        "termo_buscado": "File:Men bathing in a river.jpg",
+        "titulo_wikimedia": "File:Men bathing in a river.jpg",
+        "pagina_descricao": "https://commons.wikimedia.org/wiki/File:Men_bathing_in_a_river.jpg",
+        "url_original": "https://upload.wikimedia.org/wikipedia/commons/Men_bathing_in_a_river.jpg",
+        "licenca": "Nao verificada - conferir pagina do Commons antes de publicar",
+        "licenca_url": "",
+        "autor": "Nao informado",
+        "credito": "",
+        "baixado": true,
+        "revisado_visualmente": true
+      }
+    ],
+    "achado": [
+      {
+        "arquivo_local": "20_piedraia_hortae_piedra_negra\\achado\\piedraia_hortae_piedra_negra_achado.png",
+        "fonte": "categoria_commons:Black piedra",
+        "correspondencia_generica": false,
+        "correspondencia_exata": null,
+        "termo_buscado": "[categoria:Black piedra] pontos=1",
+        "titulo_wikimedia": "File:Piedra Negra Micosis.png",
+        "pagina_descricao": "https://commons.wikimedia.org/wiki/File:Piedra_Negra_Micosis.png",
+        "url_original": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Piedra_Negra_Micosis.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "licenca": "CC BY 2.0",
+        "licenca_url": "https://creativecommons.org/licenses/by/2.0",
+        "autor": "https://openi.nlm.nih.gov",
+        "credito": "https://openi.nlm.nih.gov/detailedresult.php?img=PMC2938571_IJT-1-100-g015&amp;req=4",
+        "baixado": true,
+        "revisado_visualmente": true
+      }
+    ],
+    "tratamento": [
+      {
+        "arquivo_local": "20_piedraia_hortae_piedra_negra\\tratamento\\piedraia_hortae_piedra_negra_tratamento.jpg",
+        "fonte": "dailymed_manual",
+        "correspondencia_generica": false,
+        "correspondencia_exata": true,
+        "termo_buscado": "ketoconazole shampoo (busca manual DailyMed, pool automatico so trouxe produto veterinario e fotos sem embalagem)",
+        "titulo_wikimedia": "GEMBOOXT KETOCONAZOLE 1% MEDICATED SHAMPOOS",
+        "pagina_descricao": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=49965e91-43c3-65d7-e063-6294a90abaec",
+        "url_original": "https://dailymed.nlm.nih.gov/dailymed/image.cfm?setid=49965e91-43c3-65d7-e063-6294a90abaec&name=label2.jpg",
+        "licenca": "Documento regulatorio publico (FDA/NLM) - confirmar uso antes de publicar",
+        "licenca_url": "",
+        "autor": "Fabricante (bula regulatoria)",
+        "credito": "",
+        "baixado": true,
+        "revisado_visualmente": true
+      }
+    ]
+  }
+}

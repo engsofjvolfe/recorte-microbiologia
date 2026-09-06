@@ -1,0 +1,54 @@
+{
+  "ordem": 10,
+  "disciplina": "virologia",
+  "agente": "Molusco Contagioso",
+  "observacao": "",
+  "conteudo_sensivel_pulado": false,
+  "tratamento_ref": "crioterapia_lesao_cutanea",
+  "imagens": {
+    "categoria": [
+      {
+        "arquivo_local": "10_molusco_contagioso\\categoria\\molusco_contagioso_categoria.jpg",
+        "fonte": "categoria_commons:Poxviridae",
+        "correspondencia_generica": false,
+        "correspondencia_exata": null,
+        "termo_buscado": "[categoria:Poxviridae] pontos=1",
+        "titulo_wikimedia": "File:Poxviridae virion image- 1.jpg",
+        "pagina_descricao": "https://commons.wikimedia.org/wiki/File:Poxviridae_virion_image-_1.jpg",
+        "url_original": "https://upload.wikimedia.org/wikipedia/commons/7/79/Poxviridae_virion_image-_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "licenca": "CC BY-SA 4.0",
+        "licenca_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "autor": "SIB Swiss Institute of Bioinformatics",
+        "credito": "https://viralzone.expasy.org/172",
+        "baixado": true,
+        "revisado_visualmente": true
+      }
+    ],
+    "transmissao": {
+      "confirmado": false,
+      "motivo": "candidatos eram livros antigos de dermatologia e procissao religiosa (Black Nazarene), nenhum mostra toalha compartilhada ou contato pele a pele"
+    },
+    "achado": [
+      {
+        "arquivo_local": "10_molusco_contagioso\\achado\\molusco_contagioso_achado.jpg",
+        "fonte": "categoria_commons:Molluscum contagiosum",
+        "correspondencia_generica": false,
+        "correspondencia_exata": null,
+        "termo_buscado": "[categoria:Molluscum contagiosum] pontos=2",
+        "titulo_wikimedia": "File:03 Molluscum Contagiosum.jpg",
+        "pagina_descricao": "https://commons.wikimedia.org/wiki/File:03_Molluscum_Contagiosum.jpg",
+        "url_original": "https://upload.wikimedia.org/wikipedia/commons/8/80/03_Molluscum_Contagiosum.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "licenca": "CC BY 4.0",
+        "licenca_url": "https://creativecommons.org/licenses/by/4.0",
+        "autor": "Dr.Gandikota Raghurama Rao",
+        "credito": "Own work",
+        "baixado": true,
+        "revisado_visualmente": true
+      }
+    ],
+    "tratamento": {
+      "confirmado": false,
+      "motivo": "nenhuma foto real de procedimento de crioterapia/curetagem encontrada no Commons nem Openverse"
+    }
+  }
+}

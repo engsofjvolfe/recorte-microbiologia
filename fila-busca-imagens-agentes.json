@@ -1,0 +1,1117 @@
+{
+  "meta": {
+    "descricao": "Fila de busca de imagens para os 34 agentes do nucleo. Cada agente tem 4 buscas de imagem unicas: Categoria (estrutura da familia viral / classe fungica), Transmissao (rota ou vetor), Achado (achado clinico ou laboratorial mais marcante) e Tratamento (remedio ou procedimento, via catalogo). A imagem de Categoria e reaproveitada tambem na pergunta Vinheta (como confirmacao do agente deduzido) - por isso sao 4 buscas por agente, nao 5.",
+    "total_de_buscas": "34 agentes x 4 = 136 buscas de imagem (o catalogo de tratamento reduz buscas repetidas entre agentes que compartilham remedio, mas 136 e o total de necessidades de imagem mapeadas).",
+    "sobre_tipo_de_imagem": "Quando nao ha certeza de que existe uma imagem verdadeiramente iconica para um aspecto, o campo nao força uma categoria (ex: 'achado clinico' vs 'microscopia') - apenas traz uma descricao e termos de busca mais direcionados, para busca manual ou por script.",
+    "aviso_sobre_uso_no_card": "A forma como as imagens vao aparecer nos cards de fato (todas juntas, so 1 por vez, so na resposta) ainda nao foi definida - isso pode mudar a estrutura deste arquivo depois. Por ora, o foco e so ter o material de busca completo.",
+    "bancos_recomendados": [
+      {
+        "nome": "CDC Public Health Image Library (PHIL)",
+        "url": "https://phil.cdc.gov",
+        "status_de_fonte": "Fonte oficial (CDC, governo dos EUA), maioria de dominio publico."
+      },
+      {
+        "nome": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org",
+        "status_de_fonte": "Agregador com API oficial, boa para automacao; verificar licenca por imagem."
+      },
+      {
+        "nome": "DermNet (DermNet NZ)",
+        "url": "https://dermnetnz.org",
+        "status_de_fonte": "Referencia dermatologica; verificar termos de uso por imagem."
+      }
+    ],
+    "fonte_para_tratamento": "ANVISA Bulario Eletronico (https://www.gov.br/anvisa/pt-br/sistemas/bulario-eletronico) verifica nome/registro do medicamento no Brasil, mas nao tem fotos de embalagem - a foto da caixa precisa de busca de imagem geral, verificada manualmente.",
+    "aviso_geral": "Nenhuma imagem foi baixada, validada ou incorporada a qualquer nota/card neste momento."
+  },
+  "catalogo_tratamentos": [
+    {
+      "id": "aciclovir",
+      "nome": "Aciclovir (comprimido ou creme)",
+      "termos_de_busca": [
+        "Aciclovir tablet box packaging",
+        "Aciclovir creme bula ANVISA"
+      ],
+      "usado_por": [
+        "HSV-1 (Herpes Labial)",
+        "HSV-2 (Herpes Genital)",
+        "VZV (Varicela-Zoster)"
+      ]
+    },
+    {
+      "id": "amoxicilina_rash_alerta",
+      "nome": "Rash por amoxicilina/ampicilina em mononucleose (alerta, nao remedio a favor)",
+      "termos_de_busca": [
+        "amoxicillin rash mononucleosis",
+        "ampicillin rash EBV maculopapular"
+      ],
+      "usado_por": [
+        "EBV (Mononucleose)"
+      ]
+    },
+    {
+      "id": "ganciclovir",
+      "nome": "Ganciclovir (intravenoso)",
+      "termos_de_busca": [
+        "Ganciclovir injection vial box"
+      ],
+      "usado_por": [
+        "CMV (Citomegalovirus)"
+      ]
+    },
+    {
+      "id": "tenofovir_entecavir",
+      "nome": "Tenofovir ou Entecavir",
+      "termos_de_busca": [
+        "Tenofovir tablet box packaging",
+        "Entecavir tablet box"
+      ],
+      "usado_por": [
+        "HBV (Hepatite B)"
+      ]
+    },
+    {
+      "id": "vacina_hpv",
+      "nome": "Vacina HPV (quadrivalente/nonavalente)",
+      "termos_de_busca": [
+        "Gardasil vaccine box packaging",
+        "HPV vaccine vial"
+      ],
+      "usado_por": [
+        "HPV"
+      ]
+    },
+    {
+      "id": "hidratacao_suporte",
+      "nome": "Soro de reidratacao oral / hidratacao venosa",
+      "termos_de_busca": [
+        "oral rehydration salts packet",
+        "IV fluid bag hydration"
+      ],
+      "usado_por": [
+        "Adenovirus"
+      ]
+    },
+    {
+      "id": "tecovirimat",
+      "nome": "Tecovirimat",
+      "termos_de_busca": [
+        "Tecovirimat TPOXX box packaging"
+      ],
+      "usado_por": [
+        "Poxvirus (Variola/Mpox)"
+      ]
+    },
+    {
+      "id": "crioterapia_lesao_cutanea",
+      "nome": "Crioterapia com nitrogenio liquido",
+      "termos_de_busca": [
+        "cryotherapy liquid nitrogen skin lesion treatment"
+      ],
+      "usado_por": [
+        "Molusco Contagioso"
+      ]
+    },
+    {
+      "id": "vacina_soro_antirrabico",
+      "nome": "Soro/Imunoglobulina e Vacina antirrabica",
+      "termos_de_busca": [
+        "rabies vaccine vial ampoule",
+        "rabies immunoglobulin vial"
+      ],
+      "usado_por": [
+        "Virus da Raiva"
+      ]
+    },
+    {
+      "id": "vitamina_a",
+      "nome": "Vitamina A (suplemento oral)",
+      "termos_de_busca": [
+        "Vitamin A supplement capsule box",
+        "vitamina A megadose caixa"
+      ],
+      "usado_por": [
+        "Virus do Sarampo"
+      ]
+    },
+    {
+      "id": "oseltamivir",
+      "nome": "Oseltamivir (Tamiflu)",
+      "termos_de_busca": [
+        "Tamiflu box packaging",
+        "Oseltamivir capsule box"
+      ],
+      "usado_por": [
+        "Influenza A"
+      ]
+    },
+    {
+      "id": "suporte_uti_ventilacao",
+      "nome": "Suporte intensivo em UTI com ventilacao mecanica",
+      "termos_de_busca": [
+        "mechanical ventilator ICU patient critical care"
+      ],
+      "usado_por": [
+        "Hantavirus"
+      ]
+    },
+    {
+      "id": "vacina_hepatite_a",
+      "nome": "Vacina Hepatite A",
+      "termos_de_busca": [
+        "Hepatitis A vaccine vial box"
+      ],
+      "usado_por": [
+        "HAV (Hepatite A)"
+      ]
+    },
+    {
+      "id": "sofosbuvir",
+      "nome": "Sofosbuvir (associado a Daclatasvir/Velpatasvir)",
+      "termos_de_busca": [
+        "Sofosbuvir tablet box packaging"
+      ],
+      "usado_por": [
+        "HCV (Hepatite C)"
+      ]
+    },
+    {
+      "id": "tarv",
+      "nome": "TARV - combo Tenofovir/Lamivudina/Dolutegravir",
+      "termos_de_busca": [
+        "TDF 3TC DTG combo pill box",
+        "antiretroviral therapy pill box SUS"
+      ],
+      "usado_por": [
+        "HIV/Aids"
+      ]
+    },
+    {
+      "id": "antifungico_topico_generico",
+      "nome": "Antifungico topico (ex: Clotrimazol)",
+      "termos_de_busca": [
+        "Clotrimazole cream tube box"
+      ],
+      "usado_por": [
+        "Malassezia spp. (Pitiriase Versicolor)",
+        "Hortaea werneckii (Tinea Nigra)",
+        "Dermatofitos (Trichophyton, Microsporum, Epidermophyton)"
+      ]
+    },
+    {
+      "id": "xampu_cetoconazol",
+      "nome": "Xampu de Cetoconazol 2%",
+      "termos_de_busca": [
+        "Ketoconazole shampoo bottle box"
+      ],
+      "usado_por": [
+        "Piedraia hortae (Piedra Negra)",
+        "Trichosporon spp. (Piedra Branca)"
+      ]
+    },
+    {
+      "id": "itraconazol",
+      "nome": "Itraconazol (capsula oral)",
+      "termos_de_busca": [
+        "Itraconazole capsule box packaging"
+      ],
+      "usado_por": [
+        "Sporothrix spp. (Esporotricose)",
+        "Eumicetomas (Madurella, Pseudallescheria, Acremonium)",
+        "Paracoccidioides brasiliensis/lutzii (Paracoccidioidomicose)",
+        "Blastomyces dermatitidis (Blastomicose)"
+      ]
+    },
+    {
+      "id": "cirurgia_procedimento",
+      "nome": "Excisao cirurgica / desbridamento",
+      "termos_de_busca": [
+        "surgical excision skin lesion procedure"
+      ],
+      "usado_por": [
+        "Cromoblastomicose (Fonsecaea/Cladophialophora/Phialophora)",
+        "Lacazia loboi (Lobomicose)"
+      ]
+    },
+    {
+      "id": "anfotericina_b",
+      "nome": "Anfotericina B (intravenosa)",
+      "termos_de_busca": [
+        "Amphotericin B injection vial box"
+      ],
+      "usado_por": [
+        "Histoplasma capsulatum (Histoplasmose)",
+        "Coccidioides immitis/posadasii (Coccidioidomicose)"
+      ]
+    },
+    {
+      "id": "fluconazol",
+      "nome": "Fluconazol",
+      "termos_de_busca": [
+        "Fluconazole capsule box packaging"
+      ],
+      "usado_por": [
+        "Candida spp./albicans (Candidiase)"
+      ]
+    },
+    {
+      "id": "anfotericina_b_flucitosina",
+      "nome": "Anfotericina B associada a Flucitosina",
+      "termos_de_busca": [
+        "Amphotericin B flucytosine combination vial"
+      ],
+      "usado_por": [
+        "Cryptococcus neoformans/gattii (Criptococose)"
+      ]
+    },
+    {
+      "id": "voriconazol",
+      "nome": "Voriconazol",
+      "termos_de_busca": [
+        "Voriconazole tablet box packaging"
+      ],
+      "usado_por": [
+        "Aspergillus spp. (Aspergilose)"
+      ]
+    },
+    {
+      "id": "sulfametoxazol_trimetoprima",
+      "nome": "Sulfametoxazol-Trimetoprima (Bactrim/Cotrimoxazol)",
+      "termos_de_busca": [
+        "Bactrim box packaging",
+        "Cotrimoxazole tablet box"
+      ],
+      "usado_por": [
+        "Pneumocystis jirovecii (PCP)"
+      ]
+    }
+  ],
+  "fila_de_busca": [
+    {
+      "ordem": 1,
+      "disciplina": "virologia",
+      "agente": "HSV-1 (Herpes Labial)",
+      "categoria": {
+        "descricao": "DNA dupla-fita, envelopado - capsideo icosaedrico com tegumento (Herpesviridae)",
+        "termos_de_busca": [
+          "herpesvirus virion structure illustration"
+        ]
+      },
+      "transmissao": {
+        "descricao": "Contato com saliva (beijo, objetos compartilhados)",
+        "termos_de_busca": [
+          "kissing saliva contact transmission illustration"
+        ]
+      },
+      "achado": {
+        "descricao": "Vesiculas agrupadas dolorosas na regiao perioral",
+        "termos_de_busca": [
+          "herpes labialis grouped vesicles",
+          "herpes simplex lip lesion erythematous base"
+        ]
+      },
+      "tratamento_ref": "aciclovir"
+    },
+    {
+      "ordem": 2,
+      "disciplina": "virologia",
+      "agente": "HSV-2 (Herpes Genital)",
+      "categoria": {
+        "descricao": "DNA dupla-fita, envelopado - capsideo icosaedrico com tegumento (Herpesviridae)",
+        "termos_de_busca": [
+          "herpesvirus virion structure illustration"
+        ]
+      },
+      "transmissao": {
+        "descricao": "Contato sexual desprotegido",
+        "termos_de_busca": [
+          "sexual contact transmission diagram genital"
+        ]
+      },
+      "achado": {
+        "descricao": "Vesiculas/ulceras dolorosas na regiao genital",
+        "termos_de_busca": [
+          "genital herpes lesion clinical photo",
+          "herpes simplex genital ulcer"
+        ]
+      },
+      "tratamento_ref": "aciclovir",
+      "observacao": "Conteudo anogenital - priorizar imagens de bancos medicos com enquadramento clinico/didatico."
+    },
+    {
+      "ordem": 3,
+      "disciplina": "virologia",
+      "agente": "VZV (Varicela-Zoster)",
+      "categoria": {
+        "descricao": "DNA dupla-fita, envelopado - capsideo icosaedrico (Herpesviridae)",
+        "termos_de_busca": [
+          "herpesvirus virion structure illustration"
+        ]
+      },
+      "transmissao": {
+        "descricao": "Via respiratoria ou contato com liquido de vesiculas",
+        "termos_de_busca": [
+          "airborne respiratory droplet transmission illustration"
+        ]
+      },
+      "achado": {
+        "descricao": "Herpes-zoster: vesiculas restritas a um dermatomo",
+        "termos_de_busca": [
+          "herpes zoster dermatomal rash",
+          "shingles unilateral vesicular eruption"
+        ]
+      },
+      "tratamento_ref": "aciclovir"
+    },
+    {
+      "ordem": 4,
+      "disciplina": "virologia",
+      "agente": "EBV (Mononucleose)",
+      "categoria": {
+        "descricao": "DNA dupla-fita, envelopado - capsideo icosaedrico (Herpesviridae)",
+        "termos_de_busca": [
+          "herpesvirus virion structure illustration"
+        ]
+      },
+      "transmissao": {
+        "descricao": "Contato com saliva (doenca do beijo)",
+        "termos_de_busca": [
+          "kissing disease saliva transmission illustration"
+        ]
+      },
+      "achado": {
+        "descricao": "Linfocitos atipicos no esfregaco de sangue periferico",
+        "termos_de_busca": [
+          "atypical lymphocyte peripheral blood smear mononucleosis"
+        ]
+      },
+      "tratamento_ref": "amoxicilina_rash_alerta"
+    },
+    {
+      "ordem": 5,
+      "disciplina": "virologia",
+      "agente": "CMV (Citomegalovirus)",
+      "categoria": {
+        "descricao": "DNA dupla-fita, envelopado - capsideo icosaedrico (Herpesviridae)",
+        "termos_de_busca": [
+          "herpesvirus virion structure illustration"
+        ]
+      },
+      "transmissao": {
+        "descricao": "Contato com urina, saliva, semen, transplante ou via transplacentaria",
+        "termos_de_busca": [
+          "bodily fluids contact transmission illustration infant"
+        ]
+      },
+      "achado": {
+        "descricao": "Inclusao intranuclear com halo claro - olho de coruja",
+        "termos_de_busca": [
+          "cytomegalovirus owl's eye inclusion histopathology"
+        ]
+      },
+      "tratamento_ref": "ganciclovir"
+    },
+    {
+      "ordem": 6,
+      "disciplina": "virologia",
+      "agente": "HBV (Hepatite B)",
+      "categoria": {
+        "descricao": "DNA parcialmente dupla-fita (circular), envelopado (Hepadnaviridae)",
+        "termos_de_busca": [
+          "hepatitis B virus structure diagram"
+        ]
+      },
+      "transmissao": {
+        "descricao": "Sangue contaminado (perfurocortante), sexual ou vertical no parto",
+        "termos_de_busca": [
+          "used needle contaminated syringe transmission"
+        ]
+      },
+      "achado": {
+        "descricao": "Particula de Dane (microscopia eletronica)",
+        "termos_de_busca": [
+          "Dane particle hepatitis B electron micrograph"
+        ]
+      },
+      "tratamento_ref": "tenofovir_entecavir"
+    },
+    {
+      "ordem": 7,
+      "disciplina": "virologia",
+      "agente": "HPV",
+      "categoria": {
+        "descricao": "DNA dupla-fita, NAO envelopado - capsideo icosaedrico pequeno (Papillomaviridae)",
+        "termos_de_busca": [
+          "papillomavirus icosahedral capsid structure"
+        ]
+      },
+      "transmissao": {
+        "descricao": "Contato sexual ou contato pele a pele com verrugas",
+        "termos_de_busca": [
+          "skin to skin contact wart transmission diagram"
+        ]
+      },
+      "achado": {
+        "descricao": "Condiloma acuminado com aspecto de couve-flor",
+        "termos_de_busca": [
+          "condyloma acuminatum wart clinical image"
+        ]
+      },
+      "tratamento_ref": "vacina_hpv",
+      "observacao": "Conteudo anogenital no achado."
+    },
+    {
+      "ordem": 8,
+      "disciplina": "virologia",
+      "agente": "Adenovirus",
+      "categoria": {
+        "descricao": "DNA dupla-fita, NAO envelopado - capsideo icosaedrico com fibras/pentons (Adenoviridae)",
+        "termos_de_busca": [
+          "adenovirus icosahedral capsid fiber structure illustration"
+        ]
+      },
+      "transmissao": {
+        "descricao": "Via respiratoria, fecal-oral (piscina) ou secrecao ocular",
+        "termos_de_busca": [
+          "contaminated swimming pool water transmission"
+        ]
+      },
+      "achado": {
+        "descricao": "Ceratoconjuntivite epidemica (olho vermelho, dor e lacrimejamento)",
+        "termos_de_busca": [
+          "epidemic keratoconjunctivitis adenovirus red eye"
+        ]
+      },
+      "tratamento_ref": "hidratacao_suporte"
+    },
+    {
+      "ordem": 9,
+      "disciplina": "virologia",
+      "agente": "Poxvirus (Variola/Mpox)",
+      "categoria": {
+        "descricao": "DNA dupla-fita, envelopado - virion complexo em formato de tijolo/ovoide (Poxviridae)",
+        "termos_de_busca": [
+          "poxvirus brick shaped virion structure illustration"
+        ]
+      },
+      "transmissao": {
+        "descricao": "Contato direto pele a pele com lesoes, goticulas ou fomites",
+        "termos_de_busca": [
+          "close contact skin lesion transmission mpox"
+        ]
+      },
+      "achado": {
+        "descricao": "Lesoes evoluindo de mancha a pustula profunda ate crosta",
+        "termos_de_busca": [
+          "mpox skin lesions CDC",
+          "smallpox pustular rash historical"
+        ]
+      },
+      "tratamento_ref": "tecovirimat"
+    },
+    {
+      "ordem": 10,
+      "disciplina": "virologia",
+      "agente": "Molusco Contagioso",
+      "categoria": {
+        "descricao": "DNA dupla-fita, envelopado - virion em formato de tijolo (Poxviridae, mesma familia do Mpox)",
+        "termos_de_busca": [
+          "poxvirus virion structure illustration"
+        ]
+      },
+      "transmissao": {
+        "descricao": "Contato pele a pele, fomites (toalhas) ou via sexual",
+        "termos_de_busca": [
+          "shared towel skin contact transmission"
+        ]
+      },
+      "achado": {
+        "descricao": "Papulas ceroides umbilicadas (com covinha central)",
+        "termos_de_busca": [
+          "molluscum contagiosum umbilicated papules"
+        ]
+      },
+      "tratamento_ref": "crioterapia_lesao_cutanea"
+    },
+    {
+      "ordem": 11,
+      "disciplina": "virologia",
+      "agente": "Virus da Raiva",
+      "categoria": {
+        "descricao": "RNA fita simples de sentido negativo, envelopado - virion em formato de bala (Rhabdoviridae)",
+        "termos_de_busca": [
+          "rabies virus bullet shaped structure illustration"
+        ]
+      },
+      "transmissao": {
+        "descricao": "Mordedura, arranhadura ou lambedura de animal infectado",
+        "termos_de_busca": [
+          "animal bite rabies transmission dog bat"
+        ]
+      },
+      "achado": {
+        "descricao": "Corpusculos de Negri em neuronios",
+        "termos_de_busca": [
+          "Negri bodies rabies histopathology neuron"
+        ]
+      },
+      "tratamento_ref": "vacina_soro_antirrabico"
+    },
+    {
+      "ordem": 12,
+      "disciplina": "virologia",
+      "agente": "Virus do Sarampo",
+      "categoria": {
+        "descricao": "RNA fita simples de sentido negativo, envelopado - nucleocapsideo helicoidal pleomorfico (Paramyxoviridae)",
+        "termos_de_busca": [
+          "paramyxovirus structure illustration measles virus"
+        ]
+      },
+      "transmissao": {
+        "descricao": "Via respiratoria (altissima contagiosidade)",
+        "termos_de_busca": [
+          "airborne respiratory droplet transmission cough sneeze"
+        ]
+      },
+      "achado": {
+        "descricao": "Exantema maculopapular; alternativa: Manchas de Koplik",
+        "termos_de_busca": [
+          "measles morbilliform rash child",
+          "Koplik spots oral mucosa"
+        ]
+      },
+      "tratamento_ref": "vitamina_a"
+    },
+    {
+      "ordem": 13,
+      "disciplina": "virologia",
+      "agente": "Influenza A",
+      "categoria": {
+        "descricao": "RNA fita simples de sentido negativo, segmentado, envelopado - espiculas de Hemaglutinina (HA) e Neuraminidase (NA) (Orthomyxoviridae)",
+        "termos_de_busca": [
+          "influenza virus hemagglutinin neuraminidase illustration",
+          "influenza virus structure CDC"
+        ]
+      },
+      "transmissao": {
+        "descricao": "Via respiratoria (goticulas) ou fomites",
+        "termos_de_busca": [
+          "respiratory droplet transmission cough illustration"
+        ]
+      },
+      "achado": {
+        "descricao": "Febre alta subita e mialgia intensa (sem achado visual proprio distinto)",
+        "termos_de_busca": [
+          "influenza symptoms fever illustration"
+        ]
+      },
+      "tratamento_ref": "oseltamivir"
+    },
+    {
+      "ordem": 14,
+      "disciplina": "virologia",
+      "agente": "Hantavirus",
+      "categoria": {
+        "descricao": "RNA fita simples de sentido negativo, segmentado, envelopado - virion esferico (Bunyavirales)",
+        "termos_de_busca": [
+          "hantavirus virion structure illustration"
+        ]
+      },
+      "transmissao": {
+        "descricao": "Rato-veado (Peromyscus maniculatus), reservatorio classico; poeira de fezes/urina secas",
+        "termos_de_busca": [
+          "deer mouse Peromyscus maniculatus hantavirus reservoir",
+          "hantavirus rodent reservoir CDC"
+        ]
+      },
+      "achado": {
+        "descricao": "Edema pulmonar agudo bilateral e choque",
+        "termos_de_busca": [
+          "hantavirus pulmonary syndrome chest x-ray bilateral infiltrate"
+        ]
+      },
+      "tratamento_ref": "suporte_uti_ventilacao"
+    },
+    {
+      "ordem": 15,
+      "disciplina": "virologia",
+      "agente": "HAV (Hepatite A)",
+      "categoria": {
+        "descricao": "RNA fita simples de sentido positivo, NAO envelopado - capsideo icosaedrico pequeno (Picornaviridae)",
+        "termos_de_busca": [
+          "picornavirus icosahedral capsid structure hepatitis A"
+        ]
+      },
+      "transmissao": {
+        "descricao": "Moluscos bivalves crus (ostras e mexilhoes) - fonte classica citada no material",
+        "termos_de_busca": [
+          "raw oysters shellfish contamination hepatitis A"
+        ]
+      },
+      "achado": {
+        "descricao": "Hepatite aguda com icetricia, autolimitada",
+        "termos_de_busca": [
+          "jaundice icteric sclera patient"
+        ]
+      },
+      "tratamento_ref": "vacina_hepatite_a"
+    },
+    {
+      "ordem": 16,
+      "disciplina": "virologia",
+      "agente": "HCV (Hepatite C)",
+      "categoria": {
+        "descricao": "RNA fita simples de sentido positivo, envelopado - virion esferico (Flaviviridae)",
+        "termos_de_busca": [
+          "hepatitis C virus structure illustration flavivirus"
+        ]
+      },
+      "transmissao": {
+        "descricao": "Sangue contaminado (agulhas compartilhadas, transfusao antes de 1993)",
+        "termos_de_busca": [
+          "shared needle drug injection transmission"
+        ]
+      },
+      "achado": {
+        "descricao": "Cirrose hepatica (desfecho da cronificacao em 80% dos casos)",
+        "termos_de_busca": [
+          "liver cirrhosis nodular surface gross pathology"
+        ]
+      },
+      "tratamento_ref": "sofosbuvir"
+    },
+    {
+      "ordem": 17,
+      "disciplina": "virologia",
+      "agente": "HIV/Aids",
+      "categoria": {
+        "descricao": "RNA fita simples de sentido positivo (retrovirus), envelopado - capsideo conico com espiculas gp120/gp41 (Retroviridae)",
+        "termos_de_busca": [
+          "HIV virus structure diagram gp120 gp41"
+        ]
+      },
+      "transmissao": {
+        "descricao": "Sexual, sangue contaminado ou transmissao vertical",
+        "termos_de_busca": [
+          "HIV transmission routes illustration"
+        ]
+      },
+      "achado": {
+        "descricao": "Sarcoma de Kaposi (lesoes vasculares violaceas)",
+        "termos_de_busca": [
+          "Kaposi sarcoma skin lesion HIV"
+        ]
+      },
+      "tratamento_ref": "tarv"
+    },
+    {
+      "ordem": 18,
+      "disciplina": "micologia",
+      "agente": "Malassezia spp. (Pitiriase Versicolor)",
+      "categoria": {
+        "descricao": "Levedura lipofilica - morfologia leveduriforme",
+        "termos_de_busca": [
+          "Malassezia yeast morphology microscopy"
+        ]
+      },
+      "transmissao": {
+        "descricao": "Endogena - fungo ja residente na pele normal",
+        "termos_de_busca": [
+          "normal skin microbiota sebaceous gland illustration"
+        ]
+      },
+      "achado": {
+        "descricao": "Padrao espaguete com almondegas no KOH",
+        "termos_de_busca": [
+          "Malassezia furfur spaghetti and meatballs KOH"
+        ]
+      },
+      "tratamento_ref": "antifungico_topico_generico"
+    },
+    {
+      "ordem": 19,
+      "disciplina": "micologia",
+      "agente": "Hortaea werneckii (Tinea Nigra)",
+      "categoria": {
+        "descricao": "Fungo negro dematiaceo, morfologia leveduriforme pigmentada",
+        "termos_de_busca": [
+          "dematiaceous fungus melanin pigmented morphology"
+        ]
+      },
+      "transmissao": {
+        "descricao": "Contato com solo/madeira em decomposicao (regiao tropical)",
+        "termos_de_busca": [
+          "decaying wood soil contact tropical"
+        ]
+      },
+      "achado": {
+        "descricao": "Mancha escura e plana na palma da mao",
+        "termos_de_busca": [
+          "tinea nigra palm dark macule"
+        ]
+      },
+      "tratamento_ref": "antifungico_topico_generico"
+    },
+    {
+      "ordem": 20,
+      "disciplina": "micologia",
+      "agente": "Piedraia hortae (Piedra Negra)",
+      "categoria": {
+        "descricao": "Fungo dematiaceo formando ascos (fase sexuada)",
+        "termos_de_busca": [
+          "Piedraia hortae fungal morphology asci"
+        ]
+      },
+      "transmissao": {
+        "descricao": "Contato com agua de rio ou solo umido",
+        "termos_de_busca": [
+          "river water contact tropical forest"
+        ]
+      },
+      "achado": {
+        "descricao": "Nodulos pretos e duros no fio de cabelo",
+        "termos_de_busca": [
+          "black piedra hair nodules"
+        ]
+      },
+      "tratamento_ref": "xampu_cetoconazol"
+    },
+    {
+      "ordem": 21,
+      "disciplina": "micologia",
+      "agente": "Trichosporon spp. (Piedra Branca)",
+      "categoria": {
+        "descricao": "Levedura basidiomiceta formando artroconidios",
+        "termos_de_busca": [
+          "Trichosporon yeast arthroconidia morphology"
+        ]
+      },
+      "transmissao": {
+        "descricao": "Umidade e ma higiene nos pelos do corpo",
+        "termos_de_busca": [
+          "humid hair poor hygiene illustration"
+        ]
+      },
+      "achado": {
+        "descricao": "Nodulos esbranquicados e macios ao redor do pelo",
+        "termos_de_busca": [
+          "white piedra hair nodules"
+        ]
+      },
+      "tratamento_ref": "xampu_cetoconazol"
+    },
+    {
+      "ordem": 22,
+      "disciplina": "micologia",
+      "agente": "Dermatofitos (Trichophyton, Microsporum, Epidermophyton)",
+      "categoria": {
+        "descricao": "Bolor formando hifas septadas e macroconidios",
+        "termos_de_busca": [
+          "dermatophyte hyphae macroconidia morphology"
+        ]
+      },
+      "transmissao": {
+        "descricao": "Contato com pessoa, solo ou animal infectado",
+        "termos_de_busca": [
+          "pet dog cat ringworm transmission contact"
+        ]
+      },
+      "achado": {
+        "descricao": "Lesao circular avermelhada em anel (impingem)",
+        "termos_de_busca": [
+          "tinea corporis ringworm annular lesion"
+        ]
+      },
+      "tratamento_ref": "antifungico_topico_generico"
+    },
+    {
+      "ordem": 23,
+      "disciplina": "micologia",
+      "agente": "Sporothrix spp. (Esporotricose)",
+      "categoria": {
+        "descricao": "Fungo dimorfico - fase micelial (bolor) e fase leveduriforme",
+        "termos_de_busca": [
+          "Sporothrix dimorphic fungus mold yeast form"
+        ]
+      },
+      "transmissao": {
+        "descricao": "Espinho de planta (doenca do jardineiro de rosas) ou arranhadura de gato",
+        "termos_de_busca": [
+          "rose gardener thorn prick cat scratch transmission"
+        ]
+      },
+      "achado": {
+        "descricao": "Padrao linfocutaneo ascendente ao longo do braco",
+        "termos_de_busca": [
+          "sporotrichosis lymphocutaneous nodular pattern arm"
+        ]
+      },
+      "tratamento_ref": "itraconazol"
+    },
+    {
+      "ordem": 24,
+      "disciplina": "micologia",
+      "agente": "Cromoblastomicose (Fonsecaea/Cladophialophora/Phialophora)",
+      "categoria": {
+        "descricao": "Fungo dematiaceo pigmentado por melanina",
+        "termos_de_busca": [
+          "dematiaceous fungus melanin pigmented mold morphology"
+        ]
+      },
+      "transmissao": {
+        "descricao": "Espinho ou farpa de madeira contaminada",
+        "termos_de_busca": [
+          "wood splinter thorn injury foot"
+        ]
+      },
+      "achado": {
+        "descricao": "Placa verrucosa em couve-flor",
+        "termos_de_busca": [
+          "chromoblastomycosis verrucous cauliflower-like plaque"
+        ]
+      },
+      "tratamento_ref": "cirurgia_procedimento"
+    },
+    {
+      "ordem": 25,
+      "disciplina": "micologia",
+      "agente": "Eumicetomas (Madurella, Pseudallescheria, Acremonium)",
+      "categoria": {
+        "descricao": "Fungo formando graos compactos (eumicetoma)",
+        "termos_de_busca": [
+          "eumycetoma fungal grain morphology"
+        ]
+      },
+      "transmissao": {
+        "descricao": "Espinho contaminado, tipicamente no pe descalco",
+        "termos_de_busca": [
+          "thorn injury bare foot walking"
+        ]
+      },
+      "achado": {
+        "descricao": "Tumefacao com fistulas que drenam graos (pe de Madura)",
+        "termos_de_busca": [
+          "mycetoma Madura foot draining sinuses grains"
+        ]
+      },
+      "tratamento_ref": "cirurgia_procedimento",
+      "observacao": "Tratamento real combina cirurgia + Itraconazol; imagem usa a cirurgia como principal."
+    },
+    {
+      "ordem": 26,
+      "disciplina": "micologia",
+      "agente": "Lacazia loboi (Lobomicose)",
+      "categoria": {
+        "descricao": "Fungo nao cultivavel, morfologia leveduriforme",
+        "termos_de_busca": [
+          "Lacazia loboi yeast morphology"
+        ]
+      },
+      "transmissao": {
+        "descricao": "Trauma na pele em floresta amazonica umida",
+        "termos_de_busca": [
+          "amazon rainforest skin trauma injury"
+        ]
+      },
+      "achado": {
+        "descricao": "Leveduras em cadeia linear (rosario)",
+        "termos_de_busca": [
+          "Lobomycosis Lacazia loboi chain of yeast cells histopathology"
+        ]
+      },
+      "tratamento_ref": "cirurgia_procedimento"
+    },
+    {
+      "ordem": 27,
+      "disciplina": "micologia",
+      "agente": "Paracoccidioides brasiliensis/lutzii (Paracoccidioidomicose)",
+      "categoria": {
+        "descricao": "Fungo dimorfico - fase micelial e fase leveduriforme",
+        "termos_de_busca": [
+          "Paracoccidioides dimorphic fungus mold yeast phase"
+        ]
+      },
+      "transmissao": {
+        "descricao": "Inalacao de poeira de lavoura (cafe, cana)",
+        "termos_de_busca": [
+          "coffee plantation farming dust inhalation"
+        ]
+      },
+      "achado": {
+        "descricao": "Gemulacao multipla em roda de leme",
+        "termos_de_busca": [
+          "Paracoccidioides mariner's wheel multiple budding yeast"
+        ]
+      },
+      "tratamento_ref": "itraconazol"
+    },
+    {
+      "ordem": 28,
+      "disciplina": "micologia",
+      "agente": "Histoplasma capsulatum (Histoplasmose)",
+      "categoria": {
+        "descricao": "Fungo dimorfico - fase micelial e fase leveduriforme",
+        "termos_de_busca": [
+          "Histoplasma capsulatum dimorphic fungus mold yeast phase"
+        ]
+      },
+      "transmissao": {
+        "descricao": "Inalacao de poeira com fezes secas de morcego/ave (cavernas)",
+        "termos_de_busca": [
+          "bat guano cave dust exposure"
+        ]
+      },
+      "achado": {
+        "descricao": "Leveduras intracelulares em macrofagos",
+        "termos_de_busca": [
+          "Histoplasma capsulatum intracellular yeast macrophage"
+        ]
+      },
+      "tratamento_ref": "anfotericina_b"
+    },
+    {
+      "ordem": 29,
+      "disciplina": "micologia",
+      "agente": "Coccidioides immitis/posadasii (Coccidioidomicose)",
+      "categoria": {
+        "descricao": "Fungo dimorfico formando artroconidios na fase micelial",
+        "termos_de_busca": [
+          "Coccidioides arthroconidia mold phase morphology"
+        ]
+      },
+      "transmissao": {
+        "descricao": "Inalacao de poeira de solo seco em regiao semiarida",
+        "termos_de_busca": [
+          "dust storm desert soil arid region"
+        ]
+      },
+      "achado": {
+        "descricao": "Esferula gigante com endosporos",
+        "termos_de_busca": [
+          "Coccidioides spherule endospores histopathology"
+        ]
+      },
+      "tratamento_ref": "anfotericina_b"
+    },
+    {
+      "ordem": 30,
+      "disciplina": "micologia",
+      "agente": "Blastomyces dermatitidis (Blastomicose)",
+      "categoria": {
+        "descricao": "Fungo dimorfico - fase micelial e fase leveduriforme",
+        "termos_de_busca": [
+          "Blastomyces dimorphic fungus mold yeast phase"
+        ]
+      },
+      "transmissao": {
+        "descricao": "Inalacao de poeira com esporos de solo umido perto de rios",
+        "termos_de_busca": [
+          "riverbank moist soil forest exposure"
+        ]
+      },
+      "achado": {
+        "descricao": "Levedura de brotamento de base larga",
+        "termos_de_busca": [
+          "Blastomyces broad-based budding yeast"
+        ]
+      },
+      "tratamento_ref": "itraconazol"
+    },
+    {
+      "ordem": 31,
+      "disciplina": "micologia",
+      "agente": "Candida spp./albicans (Candidiase)",
+      "categoria": {
+        "descricao": "Levedura formando pseudo-hifas",
+        "termos_de_busca": [
+          "Candida albicans yeast pseudohyphae morphology"
+        ]
+      },
+      "transmissao": {
+        "descricao": "Endogena - fungo ja residente nas mucosas normais",
+        "termos_de_busca": [
+          "oral mucosa normal flora illustration"
+        ]
+      },
+      "achado": {
+        "descricao": "Placas brancas orais (sapinho)",
+        "termos_de_busca": [
+          "oral thrush candidiasis white plaques tongue"
+        ]
+      },
+      "tratamento_ref": "fluconazol"
+    },
+    {
+      "ordem": 32,
+      "disciplina": "micologia",
+      "agente": "Cryptococcus neoformans/gattii (Criptococose)",
+      "categoria": {
+        "descricao": "Levedura encapsulada",
+        "termos_de_busca": [
+          "Cryptococcus encapsulated yeast morphology"
+        ]
+      },
+      "transmissao": {
+        "descricao": "Fezes secas de pombo ou arvores tropicais",
+        "termos_de_busca": [
+          "pigeon droppings urban building exposure"
+        ]
+      },
+      "achado": {
+        "descricao": "Halo capsular na tinta da China",
+        "termos_de_busca": [
+          "Cryptococcus India ink capsule halo"
+        ]
+      },
+      "tratamento_ref": "anfotericina_b_flucitosina"
+    },
+    {
+      "ordem": 33,
+      "disciplina": "micologia",
+      "agente": "Aspergillus spp. (Aspergilose)",
+      "categoria": {
+        "descricao": "Bolor formando conidioforos",
+        "termos_de_busca": [
+          "Aspergillus conidiophore mold morphology"
+        ]
+      },
+      "transmissao": {
+        "descricao": "Inalacao de esporos ambientais (solo, ar-condicionado)",
+        "termos_de_busca": [
+          "mold spores air conditioning duct"
+        ]
+      },
+      "achado": {
+        "descricao": "Hifas septadas com ramificacao em 45 graus",
+        "termos_de_busca": [
+          "Aspergillus septate hyphae acute-angle branching histopathology"
+        ]
+      },
+      "tratamento_ref": "voriconazol"
+    },
+    {
+      "ordem": 34,
+      "disciplina": "micologia",
+      "agente": "Pneumocystis jirovecii (PCP)",
+      "categoria": {
+        "descricao": "Fungo atipico formando cistos e forma trofica",
+        "termos_de_busca": [
+          "Pneumocystis jirovecii cyst trophic form morphology"
+        ]
+      },
+      "transmissao": {
+        "descricao": "Inalacao; ocorre em imunodeprimido grave",
+        "termos_de_busca": [
+          "immunocompromised patient respiratory exposure illustration"
+        ]
+      },
+      "achado": {
+        "descricao": "Cistos redondos no Grocott",
+        "termos_de_busca": [
+          "Pneumocystis jirovecii Grocott silver stain cysts"
+        ]
+      },
+      "tratamento_ref": "sulfametoxazol_trimetoprima"
+    }
+  ]
+}

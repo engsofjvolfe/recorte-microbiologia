@@ -1,0 +1,72 @@
+# === Material de terceiros — NUNCA versionar (ver NOTICE.md) ===
+# PDFs de aula de uma universidade de Minas Gerais, obtidos via aluno da disciplina.
+# Nao sao nossos para redistribuir; ficam so localmente.
+docs/material-base/*.pdf
+
+# === Python ===
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+.eggs/
+build/
+dist/
+.venv/
+venv/
+env/
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# === Saida gerada / temporaria dos scripts deste projeto ===
+_media_apkg_tmp/
+*.apkg.bak
+
+# === Futuro mini-site de garimpagem (Node/JS/TS, caso o projeto escale pra web) ===
+node_modules/
+dist/
+build/
+out/
+.next/
+.nuxt/
+.svelte-kit/
+.cache/
+.parcel-cache/
+coverage/
+*.tsbuildinfo
+.env
+.env.*
+!.env.example
+
+# === Editor / IDE ===
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+.idea/
+*.code-workspace
+*.swp
+*.swo
+
+# === Ferramentas de IA (configs/cache locais, nao para versionar) ===
+.claude/settings.local.json
+.cursor/
+.continue/
+.aider*
+.copilot/
+
+# === Sistema operacional ===
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# === Backups e arquivos compactados ad-hoc (nao sao entregaveis do projeto) ===
+*.rar
+*.zip
+*.7z
+*.bak
+
+# === Arquivos de configuração para agentes de IA ===
+.claude/

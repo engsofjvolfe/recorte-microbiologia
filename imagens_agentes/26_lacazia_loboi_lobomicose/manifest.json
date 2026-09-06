@@ -1,0 +1,54 @@
+{
+  "ordem": 26,
+  "disciplina": "micologia",
+  "agente": "Lacazia loboi (Lobomicose)",
+  "observacao": "",
+  "conteudo_sensivel_pulado": false,
+  "tratamento_ref": "cirurgia_procedimento",
+  "imagens": {
+    "categoria": [
+      {
+        "arquivo_local": "26_lacazia_loboi_lobomicose\\categoria\\lacazia_loboi_lobomicose_categoria.jpg",
+        "fonte": "busca_manual_commons",
+        "correspondencia_generica": false,
+        "correspondencia_exata": true,
+        "termo_buscado": "Lobomycosis histopathology chain of yeast cells (recuperado apos remocao acidental)",
+        "titulo_wikimedia": "File:Lobomycosis.jpg",
+        "pagina_descricao": "https://commons.wikimedia.org/wiki/File:Lobomycosis.jpg",
+        "url_original": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Lobomycosis.jpg",
+        "licenca": "Nao verificada - conferir pagina do Commons antes de publicar",
+        "licenca_url": "",
+        "autor": "Nao informado",
+        "credito": "",
+        "baixado": true,
+        "revisado_visualmente": true
+      }
+    ],
+    "transmissao": {
+      "confirmado": false,
+      "motivo": "candidatos eram festival, sapo e cobra da Amazonia, sem relacao com trauma cutaneo especifico"
+    },
+    "achado": [
+      {
+        "arquivo_local": "26_lacazia_loboi_lobomicose\\achado\\lacazia_loboi_lobomicose_achado.png",
+        "fonte": "busca_texto",
+        "correspondencia_generica": false,
+        "correspondencia_exata": false,
+        "termo_buscado": "Lobomycosis Lacazia loboi filetype:bitmap",
+        "titulo_wikimedia": "File:Disseminated lobomycosis.png",
+        "pagina_descricao": "https://commons.wikimedia.org/wiki/File:Disseminated_lobomycosis.png",
+        "url_original": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Disseminated_lobomycosis.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "licenca": "CC BY 4.0",
+        "licenca_url": "https://creativecommons.org/licenses/by/4.0",
+        "autor": "RODOLFO LUIS KORTE",
+        "credito": "https://www.scielo.br/j/rbcp/a/KCm8SvYcpyqPbp4nkjLfsqj/?lang=pt",
+        "baixado": true,
+        "revisado_visualmente": true
+      }
+    ],
+    "tratamento": {
+      "confirmado": false,
+      "motivo": "candidatos eram livros antigos, histopatologia de carcinoma basocelular e cirurgia equina, nenhum mostra excisao cirurgica ampla de pele"
+    }
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "ordem": 6,
+  "disciplina": "virologia",
+  "agente": "HBV (Hepatite B)",
+  "observacao": "",
+  "conteudo_sensivel_pulado": false,
+  "tratamento_ref": "tenofovir_entecavir",
+  "imagens": {
+    "categoria": [
+      {
+        "arquivo_local": "06_hbv_hepatite_b\\categoria\\hbv_hepatite_b_categoria.png",
+        "fonte": "categoria_commons:Hepatitis B virus",
+        "correspondencia_generica": false,
+        "correspondencia_exata": null,
+        "termo_buscado": "[categoria:Hepatitis B virus] pontos=2",
+        "titulo_wikimedia": "File:Hepatitis B virus v2.png",
+        "pagina_descricao": "https://commons.wikimedia.org/wiki/File:Hepatitis_B_virus_v2.png",
+        "url_original": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Hepatitis_B_virus_v2.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "licenca": "Public domain",
+        "licenca_url": "",
+        "autor": "Created by en:User:GrahamColm. Original uploader was TimVickers at en.wikipedia",
+        "credito": "Transferred from en.wikipedia",
+        "baixado": true,
+        "revisado_visualmente": true
+      }
+    ],
+    "transmissao": [
+      {
+        "arquivo_local": "06_hbv_hepatite_b\\transmissao\\hbv_hepatite_b_transmissao.jpg",
+        "fonte": "openverse",
+        "correspondencia_generica": false,
+        "correspondencia_exata": null,
+        "termo_buscado": "[openverse] used needle contaminated syringe transmission",
+        "titulo_wikimedia": "2018 - Vancouver - IV Drug Use Tools",
+        "pagina_descricao": "https://www.flickr.com/photos/90955804@N04/45116010241",
+        "url_original": "https://live.staticflickr.com/1935/45116010241_11ca147f5b_b.jpg",
+        "licenca": "BY-NC-SA 2.0",
+        "licenca_url": "https://creativecommons.org/licenses/by-nc-sa/2.0/",
+        "autor": "Ted's photos - Returns in December",
+        "credito": "\"2018 - Vancouver - IV Drug Use Tools\" by Ted's photos - Returns in December is licensed under CC BY-NC-SA 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/2.0/.",
+        "baixado": true,
+        "revisado_visualmente": true
+      }
+    ],
+    "achado": [
+      {
+        "arquivo_local": "06_hbv_hepatite_b\\achado\\hbv_hepatite_b_achado.jpg",
+        "fonte": "busca_manual_commons",
+        "correspondencia_generica": false,
+        "correspondencia_exata": true,
+        "termo_buscado": "liver cirrhosis gross pathology nodular / cirrhotic liver gross specimen (busca manual, pool automatico so trouxe serologia e diagrama de estrutura)",
+        "titulo_wikimedia": "File:Hepatocellular carcinoma 1.jpg",
+        "pagina_descricao": "https://commons.wikimedia.org/wiki/File:Hepatocellular_carcinoma_1.jpg",
+        "url_original": "https://upload.wikimedia.org/wikipedia/commons/2/24/Hepatocellular_carcinoma_1.jpg",
+        "licenca": "Nao verificada no momento da busca manual - conferir pagina antes de publicar",
+        "licenca_url": "",
+        "autor": "Nao informado (verificar na pagina do Commons)",
+        "credito": "",
+        "baixado": true,
+        "revisado_visualmente": true
+      }
+    ],
+    "tratamento": [
+      {
+        "arquivo_local": "06_hbv_hepatite_b\\tratamento\\hbv_hepatite_b_tratamento.jpg",
+        "fonte": "dailymed",
+        "correspondencia_generica": false,
+        "correspondencia_exata": null,
+        "termo_buscado": "[dailymed] entecavir",
+        "titulo_wikimedia": "0.5mg-30-s.jpg",
+        "pagina_descricao": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=73dea2a4-a596-477f-b66d-5a80dd019837",
+        "url_original": "https://dailymed.nlm.nih.gov/dailymed/image.cfm?setid=73dea2a4-a596-477f-b66d-5a80dd019837&name=0.5mg-30-s.jpg",
+        "licenca": "Documento regulatorio publico (FDA/NLM) - confirmar uso antes de publicar",
+        "licenca_url": "",
+        "autor": "Fabricante (bula regulatoria)",
+        "credito": "ENTECAVIR TABLET, FILM COATED [YAOPHARMA CO., LTD.]",
+        "baixado": true,
+        "revisado_visualmente": true
+      }
+    ]
+  }
+}

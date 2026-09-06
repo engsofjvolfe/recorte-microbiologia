@@ -1,0 +1,68 @@
+{
+  "ordem": 3,
+  "disciplina": "virologia",
+  "agente": "VZV (Varicela-Zoster)",
+  "observacao": "",
+  "conteudo_sensivel_pulado": false,
+  "tratamento_ref": "aciclovir",
+  "imagens": {
+    "categoria": [
+      {
+        "arquivo_local": "03_vzv_varicela_zoster\\categoria\\vzv_varicela_zoster_categoria.png",
+        "fonte": "categoria_commons:Herpesviridae",
+        "correspondencia_generica": false,
+        "correspondencia_exata": null,
+        "termo_buscado": "[categoria:Herpesviridae] pontos=1",
+        "titulo_wikimedia": "File:Herpesvirus structure.png",
+        "pagina_descricao": "https://commons.wikimedia.org/wiki/File:Herpesvirus_structure.png",
+        "url_original": "https://upload.wikimedia.org/wikipedia/commons/8/85/Herpesvirus_structure.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "licenca": "CC BY-SA 3.0",
+        "licenca_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "autor": "Nao informado",
+        "credito": "",
+        "baixado": true,
+        "revisado_visualmente": true
+      }
+    ],
+    "transmissao": {
+      "confirmado": false,
+      "motivo": "candidatos eram fotos de rua vazia (lockdown Italia por COVID), matcheou so por respiratory/airborne, nenhum mostra transmissao real"
+    },
+    "achado": [
+      {
+        "arquivo_local": "03_vzv_varicela_zoster\\achado\\vzv_varicela_zoster_achado.jpg",
+        "fonte": "categoria_commons:Herpes zoster",
+        "correspondencia_generica": false,
+        "correspondencia_exata": null,
+        "termo_buscado": "[categoria:Herpes zoster] pontos=3",
+        "titulo_wikimedia": "File:Day03 shingles or Herpes Zoster Virus attacking forehead and eye.jpg",
+        "pagina_descricao": "https://commons.wikimedia.org/wiki/File:Day03_shingles_or_Herpes_Zoster_Virus_attacking_forehead_and_eye.jpg",
+        "url_original": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Day03_shingles_or_Herpes_Zoster_Virus_attacking_forehead_and_eye.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "licenca": "CC BY-SA 4.0",
+        "licenca_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "autor": "Burntfingers",
+        "credito": "Own work",
+        "baixado": true,
+        "revisado_visualmente": true
+      }
+    ],
+    "tratamento": [
+      {
+        "arquivo_local": "03_vzv_varicela_zoster\\tratamento\\vzv_varicela_zoster_tratamento.jpg",
+        "fonte": "dailymed",
+        "correspondencia_generica": false,
+        "correspondencia_exata": null,
+        "termo_buscado": "[dailymed] acyclovir",
+        "titulo_wikimedia": "Acyclovirointment-15g-carton.jpg",
+        "pagina_descricao": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=1c510390-fb00-4271-967d-0883a9d5e1fd",
+        "url_original": "https://dailymed.nlm.nih.gov/dailymed/image.cfm?setid=1c510390-fb00-4271-967d-0883a9d5e1fd&name=Acyclovirointment-15g-carton.jpg",
+        "licenca": "Documento regulatorio publico (FDA/NLM) - confirmar uso antes de publicar",
+        "licenca_url": "",
+        "autor": "Fabricante (bula regulatoria)",
+        "credito": "ACYCLOVIR OINTMENT [TORRENT PHARMACEUTICALS LIMITED]",
+        "baixado": true,
+        "revisado_visualmente": true
+      }
+    ]
+  }
+}

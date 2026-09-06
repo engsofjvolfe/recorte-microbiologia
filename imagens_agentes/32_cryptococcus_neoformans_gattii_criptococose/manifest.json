@@ -1,0 +1,82 @@
+{
+  "ordem": 32,
+  "disciplina": "micologia",
+  "agente": "Cryptococcus neoformans/gattii (Criptococose)",
+  "observacao": "",
+  "conteudo_sensivel_pulado": false,
+  "tratamento_ref": "anfotericina_b_flucitosina",
+  "imagens": {
+    "categoria": [
+      {
+        "arquivo_local": "32_cryptococcus_neoformans_gattii_criptococose\\categoria\\cryptococcus_neoformans_gattii_criptococ_categoria.jpg",
+        "fonte": "categoria_commons:Cryptococcus neoformans",
+        "correspondencia_generica": false,
+        "correspondencia_exata": null,
+        "termo_buscado": "[categoria:Cryptococcus neoformans] pontos=1",
+        "titulo_wikimedia": "File:Cryptococcus in LPCB mount of Culture.jpg",
+        "pagina_descricao": "https://commons.wikimedia.org/wiki/File:Cryptococcus_in_LPCB_mount_of_Culture.jpg",
+        "url_original": "https://upload.wikimedia.org/wikipedia/commons/4/46/Cryptococcus_in_LPCB_mount_of_Culture.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "licenca": "CC BY-SA 4.0",
+        "licenca_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "autor": "Ajay Kumar Chaurasiya",
+        "credito": "Own work",
+        "baixado": true,
+        "revisado_visualmente": true
+      }
+    ],
+    "transmissao": [
+      {
+        "arquivo_local": "32_cryptococcus_neoformans_gattii_criptococose\\transmissao\\cryptococcus_neoformans_gattii_criptococ_transmissao.jpg",
+        "fonte": "busca_texto",
+        "correspondencia_generica": false,
+        "correspondencia_exata": false,
+        "termo_buscado": "pigeon droppings filetype:bitmap",
+        "titulo_wikimedia": "File:Pigeon droppings -or- Pigeon poop.JPG",
+        "pagina_descricao": "https://commons.wikimedia.org/wiki/File:Pigeon_droppings_-or-_Pigeon_poop.JPG",
+        "url_original": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Pigeon_droppings_-or-_Pigeon_poop.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "licenca": "CC0",
+        "licenca_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "autor": "01x07x2022000",
+        "credito": "Own work",
+        "baixado": true,
+        "revisado_visualmente": true
+      }
+    ],
+    "achado": [
+      {
+        "arquivo_local": "32_cryptococcus_neoformans_gattii_criptococose\\achado\\cryptococcus_neoformans_gattii_criptococ_achado.jpg",
+        "fonte": "categoria_commons:Cryptococcus neoformans",
+        "correspondencia_generica": false,
+        "correspondencia_exata": null,
+        "termo_buscado": "[categoria:Cryptococcus neoformans] pontos=3",
+        "titulo_wikimedia": "File:Cryptococcus in India Ink.jpg",
+        "pagina_descricao": "https://commons.wikimedia.org/wiki/File:Cryptococcus_in_India_Ink.jpg",
+        "url_original": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Cryptococcus_in_India_Ink.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "licenca": "CC BY-SA 4.0",
+        "licenca_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "autor": "Ajay Kumar Chaurasiya",
+        "credito": "Own work",
+        "baixado": true,
+        "revisado_visualmente": true
+      }
+    ],
+    "tratamento": [
+      {
+        "arquivo_local": "32_cryptococcus_neoformans_gattii_criptococose\\tratamento\\cryptococcus_neoformans_gattii_criptococ_tratamento.jpg",
+        "fonte": "dailymed",
+        "correspondencia_generica": false,
+        "correspondencia_exata": null,
+        "termo_buscado": "[dailymed] amphotericin b",
+        "titulo_wikimedia": "prorx-carton label.jpg",
+        "pagina_descricao": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=02aadef1-390b-4270-b56d-33452eb89dde",
+        "url_original": "https://dailymed.nlm.nih.gov/dailymed/image.cfm?setid=02aadef1-390b-4270-b56d-33452eb89dde&name=prorx-carton+label.jpg",
+        "licenca": "Documento regulatorio publico (FDA/NLM) - confirmar uso antes de publicar",
+        "licenca_url": "",
+        "autor": "Fabricante (bula regulatoria)",
+        "credito": "AMPHOTERICIN B INJECTABLE, LIPOSOMAL [SUN PHARMACEUTICAL INDUSTRIES, INC.]",
+        "baixado": true,
+        "revisado_visualmente": true
+      }
+    ]
+  }
+}

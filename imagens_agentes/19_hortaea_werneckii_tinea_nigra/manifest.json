@@ -1,0 +1,68 @@
+{
+  "ordem": 19,
+  "disciplina": "micologia",
+  "agente": "Hortaea werneckii (Tinea Nigra)",
+  "observacao": "",
+  "conteudo_sensivel_pulado": false,
+  "tratamento_ref": "antifungico_topico_generico",
+  "imagens": {
+    "categoria": {
+      "confirmado": false,
+      "motivo": "candidatos eram outros generos de fungo dematiaceo (Chaetomium, Curvularia, Exserohilum), nenhum e Hortaea werneckii; busca manual tambem nao achou micrografia especifica dessa especie"
+    },
+    "transmissao": [
+      {
+        "arquivo_local": "19_hortaea_werneckii_tinea_nigra\\transmissao\\hortaea_werneckii_tinea_nigra_transmissao.jpg",
+        "fonte": "busca_texto",
+        "correspondencia_generica": false,
+        "correspondencia_exata": false,
+        "termo_buscado": "decaying wood soil contact filetype:bitmap",
+        "titulo_wikimedia": "File:Decaying logs, Fritham Plain - geograph.org.uk - 668424.jpg",
+        "pagina_descricao": "https://commons.wikimedia.org/wiki/File:Decaying_logs,_Fritham_Plain_-_geograph.org.uk_-_668424.jpg",
+        "url_original": "https://upload.wikimedia.org/wikipedia/commons/7/71/Decaying_logs%2C_Fritham_Plain_-_geograph.org.uk_-_668424.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "licenca": "CC BY-SA 2.0",
+        "licenca_url": "https://creativecommons.org/licenses/by-sa/2.0",
+        "autor": "Trish Steel",
+        "credito": "From geograph.org.uk",
+        "baixado": true,
+        "revisado_visualmente": true
+      }
+    ],
+    "achado": [
+      {
+        "arquivo_local": "19_hortaea_werneckii_tinea_nigra\\achado\\hortaea_werneckii_tinea_nigra_achado.jpg",
+        "fonte": "categoria_commons:Tinea nigra",
+        "correspondencia_generica": false,
+        "correspondencia_exata": null,
+        "termo_buscado": "[categoria:Tinea nigra] pontos=2",
+        "titulo_wikimedia": "File:Tinea nigra.jpg",
+        "pagina_descricao": "https://commons.wikimedia.org/wiki/File:Tinea_nigra.jpg",
+        "url_original": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Tinea_nigra.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "licenca": "CC BY 4.0",
+        "licenca_url": "https://creativecommons.org/licenses/by/4.0",
+        "autor": "Academia Española de Dermatología y Venereología",
+        "credito": "http://www.actasdermo.org/imatges/103/103v100n07/grande/103v100n07-13140517fig3.jpg",
+        "baixado": true,
+        "revisado_visualmente": true
+      }
+    ],
+    "tratamento": [
+      {
+        "arquivo_local": "19_hortaea_werneckii_tinea_nigra\\tratamento\\hortaea_werneckii_tinea_nigra_tratamento.jpg",
+        "fonte": "dailymed",
+        "correspondencia_generica": false,
+        "correspondencia_exata": null,
+        "termo_buscado": "[dailymed] clotrimazole",
+        "titulo_wikimedia": "clotrimazole-10ml.jpg",
+        "pagina_descricao": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=5a5cfed9-0587-7bef-e063-6294a90a64bf",
+        "url_original": "https://dailymed.nlm.nih.gov/dailymed/image.cfm?setid=5a5cfed9-0587-7bef-e063-6294a90a64bf&name=clotrimazole-10ml.jpg",
+        "licenca": "Documento regulatorio publico (FDA/NLM) - confirmar uso antes de publicar",
+        "licenca_url": "",
+        "autor": "Fabricante (bula regulatoria)",
+        "credito": "CLOTRIMAZOLE SOLUTION [INVADERM CORPORATION]",
+        "baixado": true,
+        "revisado_visualmente": true
+      }
+    ]
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "ordem": 8,
+  "disciplina": "virologia",
+  "agente": "Adenovirus",
+  "observacao": "",
+  "conteudo_sensivel_pulado": false,
+  "tratamento_ref": "hidratacao_suporte",
+  "imagens": {
+    "categoria": [
+      {
+        "arquivo_local": "08_adenovirus\\categoria\\adenovirus_categoria.png",
+        "fonte": "categoria_commons:Adenoviridae",
+        "correspondencia_generica": false,
+        "correspondencia_exata": null,
+        "termo_buscado": "[categoria:Adenoviridae] pontos=1",
+        "titulo_wikimedia": "File:Adenovirus (NIH BioArt 646).png",
+        "pagina_descricao": "https://commons.wikimedia.org/wiki/File:Adenovirus_(NIH_BioArt_646).png",
+        "url_original": "https://upload.wikimedia.org/wikipedia/commons/a/a3/Adenovirus_%28NIH_BioArt_646%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "licenca": "Public domain",
+        "licenca_url": "",
+        "autor": "Courtesy of NIAID Kristen Browne",
+        "credito": "Adenovirus",
+        "baixado": true,
+        "revisado_visualmente": true
+      }
+    ],
+    "transmissao": {
+      "confirmado": false,
+      "motivo": "Candidato anterior removido: foto de um grupo etnico especifico (criancas negras, piscina publica em Kampala) ao lado do texto 'aguas de piscina mal tratadas' cria uma leitura racializada indevida que o fato biologico (cloracao inadequada, sem relacao com quem esta na piscina) nao sustenta. A licenca desse candidato tambem nunca tinha sido verificada. Buscar substituto sem pessoas identificaveis (ex.: piscina vazia, teste de cloro) ou refazer a busca seguindo a regra nova da secao 'Conteudo sensivel'."
+    },
+    "achado": [
+      {
+        "arquivo_local": "08_adenovirus\\achado\\adenovirus_achado.jpg",
+        "fonte": "categoria_commons:Conjunctivitis",
+        "correspondencia_generica": false,
+        "correspondencia_exata": null,
+        "termo_buscado": "[categoria:Conjunctivitis] pontos=1",
+        "titulo_wikimedia": "File:An eye with conjunctivitis.jpg",
+        "pagina_descricao": "https://commons.wikimedia.org/wiki/File:An_eye_with_conjunctivitis.jpg",
+        "url_original": "https://upload.wikimedia.org/wikipedia/commons/3/3c/An_eye_with_conjunctivitis.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "licenca": "CC BY-SA 3.0",
+        "licenca_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "autor": "Daemonanyndel",
+        "credito": "Own work",
+        "baixado": true,
+        "revisado_visualmente": true
+      }
+    ],
+    "tratamento": [
+      {
+        "arquivo_local": "08_adenovirus\\tratamento\\adenovirus_tratamento.jpg",
+        "fonte": "busca_texto",
+        "correspondencia_generica": false,
+        "correspondencia_exata": true,
+        "termo_buscado": "oral rehydration salts packet filetype:bitmap",
+        "titulo_wikimedia": "File:Oral rehydration salts (ORS) - Packet.jpg",
+        "pagina_descricao": "https://commons.wikimedia.org/wiki/File:Oral_rehydration_salts_(ORS)_-_Packet.jpg",
+        "url_original": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Oral_rehydration_salts_%28ORS%29_-_Packet.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "licenca": "CC BY-SA 4.0",
+        "licenca_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "autor": "Cjp24",
+        "credito": "Own work",
+        "baixado": true,
+        "revisado_visualmente": true
+      }
+    ]
+  }
+}

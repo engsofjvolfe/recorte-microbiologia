@@ -1,0 +1,68 @@
+{
+  "ordem": 4,
+  "disciplina": "virologia",
+  "agente": "EBV (Mononucleose)",
+  "observacao": "",
+  "conteudo_sensivel_pulado": false,
+  "tratamento_ref": "amoxicilina_rash_alerta",
+  "imagens": {
+    "categoria": [
+      {
+        "arquivo_local": "04_ebv_mononucleose\\categoria\\ebv_mononucleose_categoria.png",
+        "fonte": "categoria_commons:Herpesviridae",
+        "correspondencia_generica": false,
+        "correspondencia_exata": null,
+        "termo_buscado": "[categoria:Herpesviridae] pontos=1",
+        "titulo_wikimedia": "File:Herpesvirus structure.png",
+        "pagina_descricao": "https://commons.wikimedia.org/wiki/File:Herpesvirus_structure.png",
+        "url_original": "https://upload.wikimedia.org/wikipedia/commons/8/85/Herpesvirus_structure.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "licenca": "CC BY-SA 3.0",
+        "licenca_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "autor": "Nao informado",
+        "credito": "",
+        "baixado": true,
+        "revisado_visualmente": true
+      }
+    ],
+    "transmissao": {
+      "confirmado": false,
+      "motivo": "candidatos eram esfregaco de sangue (pertence a achado, nao transmissao) e fotos do lago Mono Lake (coincidencia de nome), nenhum mostra contato com saliva"
+    },
+    "achado": [
+      {
+        "arquivo_local": "04_ebv_mononucleose\\achado\\ebv_mononucleose_achado.jpg",
+        "fonte": "categoria_commons:Atypical lymphocytes",
+        "correspondencia_generica": false,
+        "correspondencia_exata": null,
+        "termo_buscado": "[categoria:Atypical lymphocytes] pontos=1",
+        "titulo_wikimedia": "File:Atypical lymphocytes 2.jpg",
+        "pagina_descricao": "https://commons.wikimedia.org/wiki/File:Atypical_lymphocytes_2.jpg",
+        "url_original": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Atypical_lymphocytes_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "licenca": "CC BY-SA 3.0",
+        "licenca_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "autor": "Dr Erhabor Osaro",
+        "credito": "Own work",
+        "baixado": true,
+        "revisado_visualmente": true
+      }
+    ],
+    "tratamento": [
+      {
+        "arquivo_local": "04_ebv_mononucleose\\tratamento\\ebv_mononucleose_tratamento.jpg",
+        "fonte": "categoria_commons:Infectious mononucleosis",
+        "correspondencia_generica": false,
+        "correspondencia_exata": null,
+        "termo_buscado": "[categoria:Infectious mononucleosis] pontos=4",
+        "titulo_wikimedia": "File:Rash of amoxicillin use during EBV infection.jpg",
+        "pagina_descricao": "https://commons.wikimedia.org/wiki/File:Rash_of_amoxicillin_use_during_EBV_infection.jpg",
+        "url_original": "https://upload.wikimedia.org/wikipedia/commons/4/43/Rash_of_amoxicillin_use_during_EBV_infection.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "licenca": "CC BY-SA 4.0",
+        "licenca_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "autor": "Sgamer1770",
+        "credito": "Own work",
+        "baixado": true,
+        "revisado_visualmente": true
+      }
+    ]
+  }
+}

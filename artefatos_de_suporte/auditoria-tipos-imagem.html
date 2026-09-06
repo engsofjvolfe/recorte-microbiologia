@@ -1,0 +1,418 @@
+<title>Auditoria de tipos de imagem — deck de agentes</title>
+<style>
+  :root{
+    --bg: #f4f6f3;
+    --bg-panel: #ffffff;
+    --ink: #1f2b26;
+    --ink-soft: #4b5b54;
+    --line: #dde3dd;
+    --accent: #2f5d50;
+    --accent-soft: #e4ede9;
+
+    --tag-foto-bg: #e3f0e6; --tag-foto-fg: #226844; --tag-foto-line: #b9dcc3;
+    --tag-diag-bg: #e6eefb; --tag-diag-fg: #2d5691; --tag-diag-line: #c2d7f4;
+    --tag-rad-bg:  #f1e9f6; --tag-rad-fg:  #6a4184; --tag-rad-line: #ddc7ea;
+    --tag-abs-bg:  #fbeee0; --tag-abs-fg:  #96591a; --tag-abs-line: #f0d3ab;
+    --tag-endo-bg: #eceeec; --tag-endo-fg: #5b625d; --tag-endo-line: #d3d7d2;
+    --tag-sens-bg: #fbe7e6; --tag-sens-fg: #a13a35; --tag-sens-line: #f0c2bf;
+  }
+
+  *{ box-sizing: border-box; }
+  body{
+    margin:0;
+    background: var(--bg);
+    color: var(--ink);
+    font-family: -apple-system, "Segoe UI", system-ui, sans-serif;
+    line-height: 1.5;
+  }
+  .wrap{ max-width: 1180px; margin: 0 auto; padding: 40px 24px 80px; }
+
+  header{ margin-bottom: 28px; }
+  h1{
+    font-family: Georgia, "Iowan Old Style", "Source Serif Pro", serif;
+    font-size: 2rem;
+    font-weight: 600;
+    margin: 0 0 8px;
+    text-wrap: balance;
+    color: var(--accent);
+  }
+  header p{
+    max-width: 68ch;
+    color: var(--ink-soft);
+    margin: 0 0 6px;
+    font-size: 0.98rem;
+  }
+  .callout{
+    background: var(--accent-soft);
+    border: 1px solid var(--tag-foto-line);
+    border-radius: 8px;
+    padding: 12px 16px;
+    margin: 18px 0 6px;
+    font-size: 0.92rem;
+    color: #234840;
+  }
+  .callout strong{ color: var(--accent); }
+
+  .legend{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px 14px;
+    margin: 18px 0 4px;
+    padding: 14px 16px;
+    background: var(--bg-panel);
+    border: 1px solid var(--line);
+    border-radius: 10px;
+  }
+  .legend-item{ display:flex; align-items:center; gap:7px; font-size:0.82rem; color: var(--ink-soft); }
+
+  .controls{
+    display:flex; gap:10px; align-items:center; flex-wrap:wrap;
+    margin: 20px 0 14px;
+  }
+  .controls input[type=search]{
+    flex: 1 1 240px;
+    padding: 9px 12px;
+    border: 1px solid var(--line);
+    border-radius: 7px;
+    font-size: 0.92rem;
+    background: var(--bg-panel);
+    color: var(--ink);
+  }
+  .controls input[type=search]:focus{ outline: 2px solid var(--accent); outline-offset: 1px; }
+  .seg{ display:flex; border: 1px solid var(--line); border-radius: 7px; overflow:hidden; }
+  .seg button{
+    border: none; background: var(--bg-panel); color: var(--ink-soft);
+    padding: 8px 14px; font-size: 0.86rem; cursor: pointer; border-right: 1px solid var(--line);
+  }
+  .seg button:last-child{ border-right:none; }
+  .seg button.active{ background: var(--accent); color: #fff; }
+  .count{ font-size: 0.82rem; color: var(--ink-soft); margin-left: auto; }
+
+  .table-scroll{
+    overflow-x: auto;
+    border: 1px solid var(--line);
+    border-radius: 10px;
+    background: var(--bg-panel);
+  }
+  table{ border-collapse: collapse; width: 100%; min-width: 980px; }
+  thead th{
+    position: sticky; top: 0;
+    background: #eef2ee;
+    text-align: left;
+    font-size: 0.72rem;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    color: var(--ink-soft);
+    padding: 10px 12px;
+    border-bottom: 1px solid var(--line);
+    white-space: nowrap;
+  }
+  tbody td{
+    padding: 11px 12px;
+    border-bottom: 1px solid var(--line);
+    vertical-align: top;
+    font-size: 0.87rem;
+  }
+  tbody tr:last-child td{ border-bottom: none; }
+  tbody tr:hover{ background: #fafcfa; }
+  td.ord{ font-variant-numeric: tabular-nums; color: var(--ink-soft); width: 34px; }
+  td.agente{ min-width: 210px; }
+  td.agente .nome{ font-weight: 600; }
+  td.agente .disc{ display:block; font-size: 0.74rem; color: var(--ink-soft); margin-top: 2px; }
+  td.cell{ min-width: 190px; }
+
+  .tag{
+    display: inline-block;
+    font-size: 0.72rem;
+    font-weight: 600;
+    padding: 2px 8px;
+    border-radius: 999px;
+    border: 1px solid transparent;
+    white-space: nowrap;
+    margin-bottom: 4px;
+  }
+  .tag.foto{ background: var(--tag-foto-bg); color: var(--tag-foto-fg); border-color: var(--tag-foto-line); }
+  .tag.diag{ background: var(--tag-diag-bg); color: var(--tag-diag-fg); border-color: var(--tag-diag-line); }
+  .tag.rad{  background: var(--tag-rad-bg);  color: var(--tag-rad-fg);  border-color: var(--tag-rad-line); }
+  .tag.abs{  background: var(--tag-abs-bg);  color: var(--tag-abs-fg);  border-color: var(--tag-abs-line); }
+  .tag.endo{ background: var(--tag-endo-bg); color: var(--tag-endo-fg); border-color: var(--tag-endo-line); }
+  .tag.sens{ background: var(--tag-sens-bg); color: var(--tag-sens-fg); border-color: var(--tag-sens-line); }
+
+  .note{ display:block; color: var(--ink-soft); font-size: 0.79rem; margin-top: 2px; }
+  .vinheta-note{ color: var(--ink-soft); font-size: 0.79rem; }
+
+  tr[data-disc="mico"] td.agente .disc{ color: #7a6a3f; }
+
+  footer{ margin-top: 26px; font-size: 0.8rem; color: var(--ink-soft); }
+</style>
+
+<div class="wrap">
+  <header>
+    <h1>Auditoria de tipos de imagem por card</h1>
+    <p>Classificação das 34 linhas do <code>perguntas-nucleo-dicionarios.csv</code> por tipo de imagem esperado em cada uma das 4 buscas (Categoria, Transmissão, Achado, Aplicado/Tratamento). Vinheta reaproveita a imagem de Categoria.</p>
+    <div class="callout">
+      <strong>Regra fixa por coluna:</strong> Categoria = sempre imagem real (diagrama de estrutura em virologia, micrografia de morfologia em micologia). Transmissão/Achado = sempre foto real (nunca desenho) quando existir; marcados como "sem foto direta" quando o fato não é fotografável. Aplicado = sempre foto real de produto/procedimento.
+    </div>
+  </header>
+
+  <div class="legend">
+    <span class="legend-item"><span class="tag foto">foto real</span> evidência fotografável direta</span>
+    <span class="legend-item"><span class="tag diag">diagrama</span> mecanismo sem foto fidedigna — usa esquema</span>
+    <span class="legend-item"><span class="tag rad">radiologia/patologia</span> imagem real de exame, não de exame físico</span>
+    <span class="legend-item"><span class="tag abs">sem foto direta</span> fato sistêmico/estatístico, sem imagem única</span>
+    <span class="legend-item"><span class="tag endo">endógeno</span> não há transmissão a ilustrar</span>
+    <span class="legend-item"><span class="tag sens">sensível</span> revisar manualmente antes de baixar</span>
+  </div>
+
+  <div class="controls">
+    <input type="search" id="busca" placeholder="Filtrar por agente…" aria-label="Filtrar por agente">
+    <div class="seg" role="group" aria-label="Filtrar por disciplina">
+      <button data-disc="todas" class="active">Todas</button>
+      <button data-disc="viro">Virologia</button>
+      <button data-disc="mico">Micologia</button>
+    </div>
+    <span class="count" id="contagem"></span>
+  </div>
+
+  <div class="table-scroll">
+    <table id="tabela">
+      <thead>
+        <tr>
+          <th>#</th>
+          <th>Agente</th>
+          <th>Categoria</th>
+          <th>Transmissão</th>
+          <th>Achado</th>
+          <th>Aplicado (tratamento)</th>
+        </tr>
+      </thead>
+      <tbody id="corpo"></tbody>
+    </table>
+  </div>
+
+  <footer>Vinheta (agente) não tem coluna própria: reaproveita a imagem escolhida para Categoria em todas as 34 linhas.</footer>
+</div>
+
+<script>
+const TAGS = {
+  foto: "foto real", diag: "diagrama", rad: "radiologia/patologia",
+  abs: "sem foto direta", endo: "endógeno", sens: "sensível"
+};
+
+function tag(kind, extra){
+  return '<span class="tag ' + kind + '">' + TAGS[kind] + (extra ? " · " + extra : "") + '</span>';
+}
+function cell(html){ return '<td class="cell">' + html + '</td>'; }
+
+const linhas = [
+  ["viro","HSV-1 (Herpes Labial)",
+    [tag("diag")+'<span class="note">estrutura Herpesviridae</span>'],
+    [tag("diag")+'<span class="note">contato com saliva/beijo</span>'],
+    [tag("foto")+'<span class="note">vesículas agrupadas perilabiais</span>'],
+    [tag("foto")+'<span class="note">Aciclovir (caixa/creme)</span>']],
+  ["viro","HSV-2 (Herpes Genital)",
+    [tag("diag")+'<span class="note">estrutura Herpesviridae</span>'],
+    [tag("diag")+'<span class="note">contato sexual</span>'],
+    [tag("foto","sensível")+tag("sens")+'<span class="note">úlceras genitais — revisar manual</span>'],
+    [tag("foto")+'<span class="note">Aciclovir / Valaciclovir</span>']],
+  ["viro","VZV (Varicela-Zoster)",
+    [tag("diag")+'<span class="note">estrutura Herpesviridae</span>'],
+    [tag("diag")+'<span class="note">respiratório / líquido vesicular</span>'],
+    [tag("foto")+'<span class="note">2 fotos: exantema disseminado (varicela) + faixa dermatomal (zoster)</span>'],
+    [tag("foto")+'<span class="note">Aciclovir</span>']],
+  ["viro","EBV (Mononucleose)",
+    [tag("diag")+'<span class="note">estrutura Herpesviridae</span>'],
+    [tag("diag")+'<span class="note">saliva/beijo</span>'],
+    [tag("foto")+'<span class="note">faringite exsudativa com placas (visível); linfonodo/baço não isolados numa foto</span>'],
+    [tag("abs")+'<span class="note">resposta real é "evitar esforço + evitar amoxicilina" — foto do rash ilustra o alerta, não um remédio</span>']],
+  ["viro","CMV (Citomegalovirus)",
+    [tag("diag")+'<span class="note">estrutura Herpesviridae</span>'],
+    [tag("diag")+'<span class="note">fluidos corporais / transplante / transplacentária</span>'],
+    [tag("foto")+'<span class="note">microcefalia (surdez não é fotografável)</span>'],
+    [tag("foto")+'<span class="note">Ganciclovir</span>']],
+  ["viro","HBV (Hepatite B)",
+    [tag("diag")+'<span class="note">estrutura Hepadnaviridae</span>'],
+    [tag("diag")+'<span class="note">sexual / sangue / vertical</span>'],
+    [tag("rad")+'<span class="note">fígado cirrótico (patologia bruta) — resposta é sobre evolução, não sinal físico</span>'],
+    [tag("foto")+'<span class="note">Tenofovir / Entecavir</span>']],
+  ["viro","HPV",
+    [tag("diag")+'<span class="note">estrutura Papillomaviridae</span>'],
+    [tag("diag")+'<span class="note">sexual / pele a pele</span>'],
+    [tag("sens")+'<span class="note">câncer de colo — sensível/interno, revisar manual ou pular</span>'],
+    [tag("foto")+'<span class="note">resposta real é excisão/cauterização — não é a vacina do catálogo antigo</span>']],
+  ["viro","Adenovirus",
+    [tag("diag")+'<span class="note">estrutura Adenoviridae</span>'],
+    [tag("foto")+'<span class="note">piscina contaminada (mais fotografável das 3 vias)</span>'],
+    [tag("foto")+'<span class="note">ceratoconjuntivite — olho vermelho</span>'],
+    [tag("foto")+'<span class="note">suporte / hidratação</span>']],
+  ["viro","Poxvirus (Variola/Mpox)",
+    [tag("diag")+'<span class="note">estrutura Poxviridae</span>'],
+    [tag("diag")+'<span class="note">contato direto / gotícula / fômite</span>'],
+    [tag("foto")+'<span class="note">lesões mancha → pústula → crosta</span>'],
+    [tag("foto")+'<span class="note">Tecovirimat</span>']],
+  ["viro","Molusco Contagioso",
+    [tag("diag")+'<span class="note">estrutura Poxviridae</span>'],
+    [tag("foto")+'<span class="note">toalha compartilhada</span>'],
+    [tag("foto")+'<span class="note">pápulas umbilicadas</span>'],
+    [tag("foto")+'<span class="note">curetagem / crioterapia</span>']],
+  ["viro","Vírus da Raiva",
+    [tag("diag")+'<span class="note">estrutura Rhabdoviridae</span>'],
+    [tag("foto")+'<span class="note">mordedura de animal (cão/morcego)</span>'],
+    [tag("abs")+'<span class="note">hidrofobia — comportamental, sem foto estática confiável</span>'],
+    [tag("foto")+'<span class="note">vacina / imunoglobulina antirrábica</span>']],
+  ["viro","Vírus do Sarampo",
+    [tag("diag")+'<span class="note">estrutura Paramyxoviridae</span>'],
+    [tag("diag")+'<span class="note">respiratório</span>'],
+    [tag("foto")+'<span class="note">manchas de Koplik (mucosa oral)</span>'],
+    [tag("foto")+'<span class="note">Vitamina A</span>']],
+  ["viro","Influenza A",
+    [tag("diag")+'<span class="note">estrutura Orthomyxoviridae</span>'],
+    [tag("diag")+'<span class="note">respiratório / gotícula</span>'],
+    [tag("abs")+'<span class="note">febre + mialgia — sintomas, sem sinal físico único</span>'],
+    [tag("foto")+'<span class="note">Oseltamivir (Tamiflu)</span>']],
+  ["viro","Hantavirus",
+    [tag("diag")+'<span class="note">estrutura Bunyavirales</span>'],
+    [tag("foto")+'<span class="note">roedor silvestre (reservatório)</span>'],
+    [tag("rad")+'<span class="note">raio-x de tórax — edema pulmonar bilateral</span>'],
+    [tag("foto")+'<span class="note">suporte UTI / ventilação</span>']],
+  ["viro","HAV (Hepatite A)",
+    [tag("diag")+'<span class="note">estrutura Picornaviridae</span>'],
+    [tag("foto")+'<span class="note">água/alimentos contaminados</span>'],
+    [tag("foto")+'<span class="note">icterícia / esclera ictérica</span>'],
+    [tag("foto")+'<span class="note">vacina Hepatite A</span>']],
+  ["viro","HCV (Hepatite C)",
+    [tag("diag")+'<span class="note">estrutura Flaviviridae</span>'],
+    [tag("foto")+'<span class="note">agulha contaminada</span>'],
+    [tag("rad")+'<span class="note">fígado cirrótico — reaproveita mesma classe de imagem do HBV</span>'],
+    [tag("foto")+'<span class="note">Sofosbuvir</span>']],
+  ["viro","HIV/Aids",
+    [tag("diag")+'<span class="note">estrutura Retroviridae</span>'],
+    [tag("diag")+'<span class="note">sexual / sangue / vertical</span>'],
+    [tag("foto")+'<span class="note">Kaposi sarcoma como proxy visível da fase Aids/CD4 baixo</span>'],
+    [tag("foto")+'<span class="note">TARV</span>']],
+  ["mico","Malassezia (Pitiríase Versicolor)",
+    [tag("foto")+'<span class="note">micrografia — morfologia leveduriforme</span>'],
+    [tag("endo")+'<span class="note">fungo endógeno — não há via de transmissão real</span>'],
+    [tag("foto")+'<span class="note">manchas claras/escuras na pele</span>'],
+    [tag("foto")+'<span class="note">antifúngico tópico</span>']],
+  ["mico","Hortaea werneckii (Tinea Nigra)",
+    [tag("foto")+'<span class="note">micrografia — fungo negro dematiáceo</span>'],
+    [tag("foto")+'<span class="note">solo/madeira em decomposição</span>'],
+    [tag("foto")+'<span class="note">mancha escura na palma da mão</span>'],
+    [tag("foto")+'<span class="note">antifúngico tópico</span>']],
+  ["mico","Piedraia hortae (Piedra Negra)",
+    [tag("foto")+'<span class="note">micrografia — ascos</span>'],
+    [tag("foto")+'<span class="note">água de rio / solo úmido</span>'],
+    [tag("foto")+'<span class="note">nódulos pretos no cabelo</span>'],
+    [tag("foto")+'<span class="note">xampu de cetoconazol</span>']],
+  ["mico","Trichosporon (Piedra Branca)",
+    [tag("foto")+'<span class="note">micrografia — artroconídios</span>'],
+    [tag("abs")+'<span class="note">umidade + má higiene — sem cena fotografável específica</span>'],
+    [tag("foto")+'<span class="note">nódulos esbranquiçados no pelo</span>'],
+    [tag("foto")+'<span class="note">xampu de cetoconazol</span>']],
+  ["mico","Dermatófitos",
+    [tag("foto")+'<span class="note">micrografia — hifas/macroconídios</span>'],
+    [tag("foto")+'<span class="note">contato com animal doméstico</span>'],
+    [tag("foto")+'<span class="note">lesão anular avermelhada (impingem)</span>'],
+    [tag("foto")+'<span class="note">antifúngico tópico ou oral</span>']],
+  ["mico","Sporothrix (Esporotricose)",
+    [tag("foto")+'<span class="note">micrografia — dimórfico</span>'],
+    [tag("foto")+'<span class="note">espinho de rosa / arranhadura de gato</span>'],
+    [tag("foto")+'<span class="note">padrão linfocutâneo no braço</span>'],
+    [tag("foto")+'<span class="note">Itraconazol</span>']],
+  ["mico","Cromoblastomicose",
+    [tag("foto")+'<span class="note">micrografia — dematiáceo</span>'],
+    [tag("foto")+'<span class="note">farpa de madeira</span>'],
+    [tag("foto")+'<span class="note">placa verrucosa em couve-flor</span>'],
+    [tag("foto")+'<span class="note">excisão / criocirurgia</span>']],
+  ["mico","Eumicetomas",
+    [tag("foto")+'<span class="note">micrografia — grãos</span>'],
+    [tag("foto")+'<span class="note">pé descalço / espinho</span>'],
+    [tag("foto")+'<span class="note">tumefação com fístulas (pé de Madura)</span>'],
+    [tag("foto")+'<span class="note">desbridamento + Itraconazol</span>']],
+  ["mico","Lacazia loboi (Lobomicose)",
+    [tag("foto")+'<span class="note">micrografia — leveduras em cadeia</span>'],
+    [tag("foto")+'<span class="note">trauma cutâneo em floresta amazônica</span>'],
+    [tag("foto")+'<span class="note">lesão tipo cicatriz queloidiana</span>'],
+    [tag("foto")+'<span class="note">excisão cirúrgica ampla</span>']],
+  ["mico","Paracoccidioides (Paracoccidioidomicose)",
+    [tag("foto")+'<span class="note">micrografia — roda de leme</span>'],
+    [tag("foto")+'<span class="note">lavoura de café/cana</span>'],
+    [tag("foto")+'<span class="note">úlceras orais (doença pulmonar não é fotografável isolada)</span>'],
+    [tag("foto")+'<span class="note">Itraconazol</span>']],
+  ["mico","Histoplasma (Histoplasmose)",
+    [tag("foto")+'<span class="note">micrografia — leveduras intracelulares</span>'],
+    [tag("foto")+'<span class="note">caverna / guano de morcego</span>'],
+    [tag("rad")+'<span class="note">raio-x — pneumonia leve vs. disseminada grave</span>'],
+    [tag("foto")+'<span class="note">Anfotericina B</span>']],
+  ["mico","Coccidioides (Coccidioidomicose)",
+    [tag("foto")+'<span class="note">micrografia — esférula/endósporos</span>'],
+    [tag("foto")+'<span class="note">poeira de deserto</span>'],
+    [tag("rad")+'<span class="note">raio-x — "febre do vale"</span>'],
+    [tag("foto")+'<span class="note">Anfotericina B / Itraconazol / Fluconazol</span>']],
+  ["mico","Blastomyces (Blastomicose)",
+    [tag("foto")+'<span class="note">micrografia — brotamento de base larga</span>'],
+    [tag("foto")+'<span class="note">solo úmido perto de rios</span>'],
+    [tag("foto")+'<span class="note">lesões verrucosas que imitam câncer</span>'],
+    [tag("foto")+'<span class="note">Itraconazol</span>']],
+  ["mico","Candida (Candidíase)",
+    [tag("foto")+'<span class="note">micrografia — pseudo-hifas</span>'],
+    [tag("endo")+'<span class="note">fungo endógeno — não há via de transmissão real</span>'],
+    [tag("foto")+'<span class="note">placas brancas orais (sapinho)</span>'],
+    [tag("foto")+'<span class="note">Fluconazol</span>']],
+  ["mico","Cryptococcus (Criptococose)",
+    [tag("foto")+'<span class="note">micrografia — cápsula, tinta da China</span>'],
+    [tag("foto")+'<span class="note">fezes secas de pombo / árvores</span>'],
+    [tag("abs")+'<span class="note">meningite grave — síndrome clínica sem sinal físico único</span>'],
+    [tag("foto")+'<span class="note">Anfotericina B + Flucitosina</span>']],
+  ["mico","Aspergillus (Aspergilose)",
+    [tag("foto")+'<span class="note">micrografia — conidióforos</span>'],
+    [tag("foto")+'<span class="note">ar-condicionado / mofo ambiental</span>'],
+    [tag("rad")+'<span class="note">raio-x — aspergiloma (pergunta já pede "achado radiológico")</span>'],
+    [tag("foto")+'<span class="note">Voriconazol</span>']],
+  ["mico","Pneumocystis jirovecii (PCP)",
+    [tag("foto")+'<span class="note">micrografia — cistos, coloração de Grocott</span>'],
+    [tag("abs")+'<span class="note">ocorre em imunodeprimido — não é um vetor fotografável</span>'],
+    [tag("rad","substituto")+'<span class="note">tosse+dispneia não é fotografável; substituto de convenção médica: RX vidro fosco</span>'],
+    [tag("foto")+'<span class="note">Sulfametoxazol-Trimetoprima (Bactrim)</span>']],
+];
+
+const corpo = document.getElementById("corpo");
+const contagem = document.getElementById("contagem");
+
+function render(filtroTexto, filtroDisc){
+  corpo.innerHTML = "";
+  let n = 0;
+  linhas.forEach((linha, i) => {
+    const [disc, agente, cCategoria, cTransmissao, cAchado, cAplicado] = linha;
+    if (filtroDisc !== "todas" && disc !== filtroDisc) return;
+    if (filtroTexto && !agente.toLowerCase().includes(filtroTexto)) return;
+    n++;
+    const discLabel = disc === "viro" ? "Virologia" : "Micologia";
+    const tr = document.createElement("tr");
+    tr.setAttribute("data-disc", disc);
+    tr.innerHTML =
+      '<td class="ord">' + (i + 1) + '</td>' +
+      '<td class="agente"><span class="nome">' + agente + '</span><span class="disc">' + discLabel + '</span></td>' +
+      cell(cCategoria.join("")) +
+      cell(cTransmissao.join("")) +
+      cell(cAchado.join("")) +
+      cell(cAplicado.join(""));
+    corpo.appendChild(tr);
+  });
+  contagem.textContent = n + " de " + linhas.length + " agentes";
+}
+
+const busca = document.getElementById("busca");
+const botoes = document.querySelectorAll(".seg button");
+let discAtual = "todas";
+busca.addEventListener("input", () => render(busca.value.trim().toLowerCase(), discAtual));
+botoes.forEach(b => b.addEventListener("click", () => {
+  botoes.forEach(x => x.classList.remove("active"));
+  b.classList.add("active");
+  discAtual = b.getAttribute("data-disc");
+  render(busca.value.trim().toLowerCase(), discAtual);
+}));
+
+render("", "todas");
+</script>

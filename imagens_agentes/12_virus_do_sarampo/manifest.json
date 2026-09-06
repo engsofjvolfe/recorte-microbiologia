@@ -1,0 +1,54 @@
+{
+  "ordem": 12,
+  "disciplina": "virologia",
+  "agente": "Virus do Sarampo",
+  "observacao": "",
+  "conteudo_sensivel_pulado": false,
+  "tratamento_ref": "vitamina_a",
+  "imagens": {
+    "categoria": [
+      {
+        "arquivo_local": "12_virus_do_sarampo\\categoria\\virus_do_sarampo_categoria.jpg",
+        "fonte": "busca_manual_suplementar",
+        "correspondencia_generica": false,
+        "correspondencia_exata": true,
+        "termo_buscado": "File:Measles virion.tif",
+        "titulo_wikimedia": "File:Measles virion.tif",
+        "pagina_descricao": "https://commons.wikimedia.org/wiki/File:Measles_virion.tif",
+        "url_original": "https://upload.wikimedia.org/wikipedia/commons/9/92/Measles_virion.tif",
+        "licenca": "Nao verificada - conferir pagina do Commons antes de publicar",
+        "licenca_url": "",
+        "autor": "Nao informado",
+        "credito": "",
+        "baixado": true,
+        "revisado_visualmente": true
+      }
+    ],
+    "transmissao": {
+      "confirmado": false,
+      "motivo": "candidatos eram graficos militares antigos e fotos de lockdown na Italia, nenhum mostra transmissao respiratoria de forma clara"
+    },
+    "achado": [
+      {
+        "arquivo_local": "12_virus_do_sarampo\\achado\\virus_do_sarampo_achado.jpg",
+        "fonte": "categoria_commons:Measles",
+        "correspondencia_generica": false,
+        "correspondencia_exata": null,
+        "termo_buscado": "[categoria:Measles] pontos=3",
+        "titulo_wikimedia": "File:Koplik spots, measles 6111 lores.jpg",
+        "pagina_descricao": "https://commons.wikimedia.org/wiki/File:Koplik_spots,_measles_6111_lores.jpg",
+        "url_original": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Koplik_spots%2C_measles_6111_lores.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "licenca": "Public domain",
+        "licenca_url": "",
+        "autor": "CDC",
+        "credito": "http://phil.cdc.gov/PHIL_Images/20040908/4f54ee8f0e5f49f58aaa30c1bc6413ba/6111_lores.jpg",
+        "baixado": true,
+        "revisado_visualmente": true
+      }
+    ],
+    "tratamento": {
+      "confirmado": false,
+      "motivo": "nenhuma foto de suplemento de Vitamina A em alta dose encontrada no Commons, Openverse ou DailyMed (so achou combinacoes tipo pomada A+D)"
+    }
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "ordem": 7,
+  "disciplina": "virologia",
+  "agente": "HPV",
+  "observacao": "Conteudo anogenital no achado.",
+  "conteudo_sensivel_pulado": false,
+  "tratamento_ref": "vacina_hpv",
+  "imagens": {
+    "achado": [
+      {
+        "arquivo_local": "07_hpv\\achado\\hpv_achado.jpg",
+        "fonte": "busca_manual_pos_revisao_consentida",
+        "correspondencia_generica": false,
+        "correspondencia_exata": true,
+        "termo_buscado": "File:Cervical Carcinoma with Adnexa.jpg",
+        "titulo_wikimedia": "File:Cervical Carcinoma with Adnexa.jpg",
+        "pagina_descricao": "https://commons.wikimedia.org/wiki/File:Cervical_Carcinoma_with_Adnexa.jpg",
+        "url_original": "https://upload.wikimedia.org/wikipedia/commons/Cervical_Carcinoma_with_Adnexa.jpg",
+        "licenca": "CC BY 2.0",
+        "licenca_url": "",
+        "autor": "Nao informado",
+        "credito": "",
+        "baixado": true,
+        "revisado_visualmente": true
+      }
+    ],
+    "categoria": [
+      {
+        "arquivo_local": "07_hpv\\categoria\\hpv_categoria.jpg",
+        "fonte": "categoria_commons:Papillomaviridae",
+        "correspondencia_generica": false,
+        "correspondencia_exata": null,
+        "termo_buscado": "[categoria:Papillomaviridae] pontos=1",
+        "titulo_wikimedia": "File:Papillomavirus.jpg",
+        "pagina_descricao": "https://commons.wikimedia.org/wiki/File:Papillomavirus.jpg",
+        "url_original": "https://upload.wikimedia.org/wikipedia/commons/2/24/Papillomavirus.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "licenca": "CC BY 3.0",
+        "licenca_url": "https://creativecommons.org/licenses/by/3.0",
+        "autor": "M.H.B. Catroxo and A.M.C.R.P.F. Martins",
+        "credito": "[1]",
+        "baixado": true,
+        "revisado_visualmente": true
+      }
+    ],
+    "transmissao": {
+      "confirmado": false,
+      "motivo": "candidatos eram livros antigos de sifilis e prancha de anfibios de Haeckel, sem relacao"
+    },
+    "tratamento": {
+      "confirmado": false,
+      "motivo": "resposta real do CSV e excisao/cauterizacao de verruga, nao a vacina Gardasil (que e prevencao); nenhuma foto de procedimento encontrada"
+    }
+  }
+}

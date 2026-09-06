@@ -1,0 +1,68 @@
+{
+  "ordem": 9,
+  "disciplina": "virologia",
+  "agente": "Poxvirus (Variola/Mpox)",
+  "observacao": "",
+  "conteudo_sensivel_pulado": false,
+  "tratamento_ref": "tecovirimat",
+  "imagens": {
+    "categoria": [
+      {
+        "arquivo_local": "09_poxvirus_variola_mpox\\categoria\\poxvirus_variola_mpox_categoria.jpg",
+        "fonte": "categoria_commons:Poxviridae",
+        "correspondencia_generica": false,
+        "correspondencia_exata": null,
+        "termo_buscado": "[categoria:Poxviridae] pontos=1",
+        "titulo_wikimedia": "File:Poxviridae virion image- 1.jpg",
+        "pagina_descricao": "https://commons.wikimedia.org/wiki/File:Poxviridae_virion_image-_1.jpg",
+        "url_original": "https://upload.wikimedia.org/wikipedia/commons/7/79/Poxviridae_virion_image-_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "licenca": "CC BY-SA 4.0",
+        "licenca_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "autor": "SIB Swiss Institute of Bioinformatics",
+        "credito": "https://viralzone.expasy.org/172",
+        "baixado": true,
+        "revisado_visualmente": true
+      }
+    ],
+    "transmissao": {
+      "confirmado": false,
+      "motivo": "candidatos eram paginas de livros antigos sobre sifilis/impetigo (matchearam por contato de pele), nenhum mostra contato direto com lesao de mpox"
+    },
+    "achado": [
+      {
+        "arquivo_local": "09_poxvirus_variola_mpox\\achado\\poxvirus_variola_mpox_achado.jpg",
+        "fonte": "busca_texto",
+        "correspondencia_generica": false,
+        "correspondencia_exata": true,
+        "termo_buscado": "mpox skin lesions CDC filetype:bitmap",
+        "titulo_wikimedia": "File:12779 lores.jpg",
+        "pagina_descricao": "https://commons.wikimedia.org/wiki/File:12779_lores.jpg",
+        "url_original": "https://upload.wikimedia.org/wikipedia/commons/9/9a/12779_lores.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "licenca": "Public domain",
+        "licenca_url": "",
+        "autor": "CDC/ Brian W.J. Mahy, BSc, MA, PhD, ScD, DSc",
+        "credito": "(CDC's Public Health Image Library) Media ID #12779",
+        "baixado": true,
+        "revisado_visualmente": true
+      }
+    ],
+    "tratamento": [
+      {
+        "arquivo_local": "09_poxvirus_variola_mpox\\tratamento\\poxvirus_variola_mpox_tratamento.jpg",
+        "fonte": "dailymed",
+        "correspondencia_generica": false,
+        "correspondencia_exata": null,
+        "termo_buscado": "[dailymed] tecovirimat",
+        "titulo_wikimedia": "tpoxx-02.jpg",
+        "pagina_descricao": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=fce826ab-4d6a-4139-a2ee-a304a913a253",
+        "url_original": "https://dailymed.nlm.nih.gov/dailymed/image.cfm?setid=fce826ab-4d6a-4139-a2ee-a304a913a253&name=tpoxx-02.jpg",
+        "licenca": "Documento regulatorio publico (FDA/NLM) - confirmar uso antes de publicar",
+        "licenca_url": "",
+        "autor": "Fabricante (bula regulatoria)",
+        "credito": "TPOXX (TECOVIRIMAT MONOHYDRATE) INJECTION, SOLUTION, CONCENTRATE TPOXX (TECOVIRIMAT MONOHYDRATE) CAPSULE [SIGA TECHNOLOGIES, INC.]",
+        "baixado": true,
+        "revisado_visualmente": true
+      }
+    ]
+  }
+}

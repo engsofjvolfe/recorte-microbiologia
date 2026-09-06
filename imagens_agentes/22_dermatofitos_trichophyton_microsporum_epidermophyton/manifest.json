@@ -1,0 +1,82 @@
+{
+  "ordem": 22,
+  "disciplina": "micologia",
+  "agente": "Dermatofitos (Trichophyton, Microsporum, Epidermophyton)",
+  "observacao": "",
+  "conteudo_sensivel_pulado": false,
+  "tratamento_ref": "antifungico_topico_generico",
+  "imagens": {
+    "categoria": [
+      {
+        "arquivo_local": "22_dermatofitos_trichophyton_microsporum_epidermophyton\\categoria\\dermatofitos_trichophyton_microsporum_ep_categoria.jpg",
+        "fonte": "categoria_commons:Dermatophytosis",
+        "correspondencia_generica": false,
+        "correspondencia_exata": null,
+        "termo_buscado": "[categoria:Dermatophytosis] pontos=1",
+        "titulo_wikimedia": "File:Microscope view of a dermatophyte fungus 03.jpg",
+        "pagina_descricao": "https://commons.wikimedia.org/wiki/File:Microscope_view_of_a_dermatophyte_fungus_03.jpg",
+        "url_original": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Microscope_view_of_a_dermatophyte_fungus_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "licenca": "CC BY 4.0",
+        "licenca_url": "https://creativecommons.org/licenses/by/4.0",
+        "autor": "Korinna",
+        "credito": "Own work",
+        "baixado": true,
+        "revisado_visualmente": true
+      }
+    ],
+    "transmissao": [
+      {
+        "arquivo_local": "22_dermatofitos_trichophyton_microsporum_epidermophyton\\transmissao\\dermatofitos_trichophyton_microspor_transmissao.jpg",
+        "fonte": "busca_manual_suplementar_openverse",
+        "correspondencia_generica": false,
+        "correspondencia_exata": true,
+        "termo_buscado": "Cat and dog together (Flickr)",
+        "titulo_wikimedia": "Cat and dog together (Flickr)",
+        "pagina_descricao": "https://www.flickr.com/",
+        "url_original": "https://live.staticflickr.com/3744/9557132881_08b7711ccc_b.jpg",
+        "licenca": "CC BY-NC-ND (uso nao comercial - conferir antes de publicar)",
+        "licenca_url": "",
+        "autor": "Nao informado",
+        "credito": "",
+        "baixado": true,
+        "revisado_visualmente": true
+      }
+    ],
+    "achado": [
+      {
+        "arquivo_local": "22_dermatofitos_trichophyton_microsporum_epidermophyton\\achado\\dermatofitos_trichophyton_microsporum_ep_achado.jpg",
+        "fonte": "categoria_commons:Tinea corporis",
+        "correspondencia_generica": false,
+        "correspondencia_exata": null,
+        "termo_buscado": "[categoria:Tinea corporis] pontos=2",
+        "titulo_wikimedia": "File:Tinea corporis.jpg",
+        "pagina_descricao": "https://commons.wikimedia.org/wiki/File:Tinea_corporis.jpg",
+        "url_original": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Tinea_corporis.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "licenca": "CC0",
+        "licenca_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "autor": "Mohammad3021",
+        "credito": "Own work",
+        "baixado": true,
+        "revisado_visualmente": true
+      }
+    ],
+    "tratamento": [
+      {
+        "arquivo_local": "22_dermatofitos_trichophyton_microsporum_epidermophyton\\tratamento\\dermatofitos_trichophyton_microsporum_ep_tratamento.jpg",
+        "fonte": "dailymed",
+        "correspondencia_generica": false,
+        "correspondencia_exata": null,
+        "termo_buscado": "[dailymed] clotrimazole",
+        "titulo_wikimedia": "clotrimazole-10ml.jpg",
+        "pagina_descricao": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=5a5cfed9-0587-7bef-e063-6294a90a64bf",
+        "url_original": "https://dailymed.nlm.nih.gov/dailymed/image.cfm?setid=5a5cfed9-0587-7bef-e063-6294a90a64bf&name=clotrimazole-10ml.jpg",
+        "licenca": "Documento regulatorio publico (FDA/NLM) - confirmar uso antes de publicar",
+        "licenca_url": "",
+        "autor": "Fabricante (bula regulatoria)",
+        "credito": "CLOTRIMAZOLE SOLUTION [INVADERM CORPORATION]",
+        "baixado": true,
+        "revisado_visualmente": true
+      }
+    ]
+  }
+}

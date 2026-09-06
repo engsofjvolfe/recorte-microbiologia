@@ -1,0 +1,82 @@
+{
+  "ordem": 28,
+  "disciplina": "micologia",
+  "agente": "Histoplasma capsulatum (Histoplasmose)",
+  "observacao": "",
+  "conteudo_sensivel_pulado": false,
+  "tratamento_ref": "anfotericina_b",
+  "imagens": {
+    "categoria": [
+      {
+        "arquivo_local": "28_histoplasma_capsulatum_histoplasmose\\categoria\\histoplasma_capsulatum_histoplasmose_categoria.jpg",
+        "fonte": "categoria_commons:Histoplasma capsulatum",
+        "correspondencia_generica": false,
+        "correspondencia_exata": null,
+        "termo_buscado": "[categoria:Histoplasma capsulatum] pontos=2",
+        "titulo_wikimedia": "File:Histopathology of Histoplasma capsulatum, GMS stain.jpg",
+        "pagina_descricao": "https://commons.wikimedia.org/wiki/File:Histopathology_of_Histoplasma_capsulatum,_GMS_stain.jpg",
+        "url_original": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Histopathology_of_Histoplasma_capsulatum%2C_GMS_stain.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "licenca": "CC BY 4.0",
+        "licenca_url": "https://creativecommons.org/licenses/by/4.0",
+        "autor": "Mikael Häggström, M.D. Author info - Reusing images- Conflicts of interest: None Mikael Häggström, M.D.Consent note: Consent from the patient or patient's relatives is regarded as redundant, because of absence of identifiable features (List of HIPAA identifiers) in the media and case information (See also HIPAA case reports guidance).",
+        "credito": "Own work",
+        "baixado": true,
+        "revisado_visualmente": true
+      }
+    ],
+    "transmissao": [
+      {
+        "arquivo_local": "28_histoplasma_capsulatum_histoplasmose\\transmissao\\histoplasma_capsulatum_histoplasmose_transmissao.jpg",
+        "fonte": "busca_texto",
+        "correspondencia_generica": false,
+        "correspondencia_exata": false,
+        "termo_buscado": "bat guano cave filetype:bitmap",
+        "titulo_wikimedia": "File:Inside the cave- hardened bat guano (9165592342).jpg",
+        "pagina_descricao": "https://commons.wikimedia.org/wiki/File:Inside_the_cave-_hardened_bat_guano_(9165592342).jpg",
+        "url_original": "https://upload.wikimedia.org/wikipedia/commons/3/31/Inside_the_cave-_hardened_bat_guano_%289165592342%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "licenca": "CC BY 2.0",
+        "licenca_url": "https://creativecommons.org/licenses/by/2.0",
+        "autor": "shankar s. from Dubai, united arab emirates",
+        "credito": "Inside the cave- hardened bat guano",
+        "baixado": true,
+        "revisado_visualmente": true
+      }
+    ],
+    "achado": [
+      {
+        "arquivo_local": "28_histoplasma_capsulatum_histoplasmose\\achado\\histoplasma_capsulatum_histoplasmose_achado.jpg",
+        "fonte": "busca_manual_suplementar",
+        "correspondencia_generica": false,
+        "correspondencia_exata": true,
+        "termo_buscado": "Chest X-ray acute pulmonary histoplasmosis PHIL 3954",
+        "titulo_wikimedia": "File:Chest X-ray acute pulmonary histoplasmosis PHIL 3954.jpg",
+        "pagina_descricao": "https://commons.wikimedia.org/wiki/File:Chest_X-ray_acute_pulmonary_histoplasmosis_PHIL_3954.jpg",
+        "url_original": "https://upload.wikimedia.org/wikipedia/commons/Chest_X-ray_acute_pulmonary_histoplasmosis_PHIL_3954.jpg",
+        "licenca": "Public domain (CDC PHIL)",
+        "licenca_url": "",
+        "autor": "CDC PHIL",
+        "credito": "",
+        "baixado": true,
+        "revisado_visualmente": true
+      }
+    ],
+    "tratamento": [
+      {
+        "arquivo_local": "28_histoplasma_capsulatum_histoplasmose\\tratamento\\histoplasma_capsulatum_histoplasmose_tratamento.jpg",
+        "fonte": "dailymed",
+        "correspondencia_generica": false,
+        "correspondencia_exata": null,
+        "termo_buscado": "[dailymed] amphotericin b",
+        "titulo_wikimedia": "prorx-carton label.jpg",
+        "pagina_descricao": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=02aadef1-390b-4270-b56d-33452eb89dde",
+        "url_original": "https://dailymed.nlm.nih.gov/dailymed/image.cfm?setid=02aadef1-390b-4270-b56d-33452eb89dde&name=prorx-carton+label.jpg",
+        "licenca": "Documento regulatorio publico (FDA/NLM) - confirmar uso antes de publicar",
+        "licenca_url": "",
+        "autor": "Fabricante (bula regulatoria)",
+        "credito": "AMPHOTERICIN B INJECTABLE, LIPOSOMAL [SUN PHARMACEUTICAL INDUSTRIES, INC.]",
+        "baixado": true,
+        "revisado_visualmente": true
+      }
+    ]
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "ordem": 31,
+  "disciplina": "micologia",
+  "agente": "Candida spp./albicans (Candidiase)",
+  "observacao": "",
+  "conteudo_sensivel_pulado": false,
+  "tratamento_ref": "fluconazol",
+  "imagens": {
+    "categoria": [
+      {
+        "arquivo_local": "31_candida_spp_albicans_candidiase\\categoria\\candida_spp_albicans_candidiase_categoria.jpg",
+        "fonte": "busca_texto",
+        "correspondencia_generica": false,
+        "correspondencia_exata": true,
+        "termo_buscado": "Candida albicans yeast pseudohyphae morphology filetype:bitmap",
+        "titulo_wikimedia": "File:Microscopic morphology of Candida albicans in Gram staining of sputum.jpg",
+        "pagina_descricao": "https://commons.wikimedia.org/wiki/File:Microscopic_morphology_of_Candida_albicans_in_Gram_staining_of_sputum.jpg",
+        "url_original": "https://upload.wikimedia.org/wikipedia/commons/2/25/Microscopic_morphology_of_Candida_albicans_in_Gram_staining_of_sputum.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "licenca": "CC0",
+        "licenca_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "autor": "Ajay Kumar Chaurasiya",
+        "credito": "Own work",
+        "baixado": true,
+        "revisado_visualmente": true
+      }
+    ],
+    "transmissao": {
+      "confirmado": false,
+      "motivo": "fungo endogeno, sem via de transmissao real"
+    },
+    "achado": [
+      {
+        "arquivo_local": "31_candida_spp_albicans_candidiase\\achado\\candida_spp_albicans_candidiase_achado.jpg",
+        "fonte": "categoria_commons:Oral candidiasis",
+        "correspondencia_generica": false,
+        "correspondencia_exata": null,
+        "termo_buscado": "[categoria:Oral candidiasis] pontos=2",
+        "titulo_wikimedia": "File:Oral thrush Aphthae Candida albicans. PHIL 1217 lores.jpg",
+        "pagina_descricao": "https://commons.wikimedia.org/wiki/File:Oral_thrush_Aphthae_Candida_albicans._PHIL_1217_lores.jpg",
+        "url_original": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Oral_thrush_Aphthae_Candida_albicans._PHIL_1217_lores.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "licenca": "Public domain",
+        "licenca_url": "",
+        "autor": "Photo Credit: Content Providers(s): CDC",
+        "credito": "This media comes from the Centers for Disease Control and Prevention's Public Health Image Library (PHIL), with identification number #1217. Note: Not all PHIL images are public domain; be sure to check copyright status and credit authors and content providers. العربية | Deutsch | English | македонски | slovenščina | +/−",
+        "baixado": true,
+        "revisado_visualmente": true
+      }
+    ],
+    "tratamento": [
+      {
+        "arquivo_local": "31_candida_spp_albicans_candidiase\\tratamento\\candida_spp_albicans_candidiase_tratamento.jpg",
+        "fonte": "dailymed",
+        "correspondencia_generica": false,
+        "correspondencia_exata": null,
+        "termo_buscado": "[dailymed] fluconazole",
+        "titulo_wikimedia": "Fluconazole 100mg_70518-4242-00.jpg",
+        "pagina_descricao": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=2bd1c038-ab82-496c-8129-3182238ad1a1",
+        "url_original": "https://dailymed.nlm.nih.gov/dailymed/image.cfm?setid=2bd1c038-ab82-496c-8129-3182238ad1a1&name=Fluconazole+100mg_70518-4242-00.jpg",
+        "licenca": "Documento regulatorio publico (FDA/NLM) - confirmar uso antes de publicar",
+        "licenca_url": "",
+        "autor": "Fabricante (bula regulatoria)",
+        "credito": "FLUCONAZOLE TABLET [REMEDYREPACK INC.]",
+        "baixado": true,
+        "revisado_visualmente": true
+      }
+    ]
+  }
+}

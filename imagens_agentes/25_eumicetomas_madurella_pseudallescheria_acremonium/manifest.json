@@ -1,0 +1,68 @@
+{
+  "ordem": 25,
+  "disciplina": "micologia",
+  "agente": "Eumicetomas (Madurella, Pseudallescheria, Acremonium)",
+  "observacao": "Tratamento real combina cirurgia + Itraconazol; imagem usa a cirurgia como principal.",
+  "conteudo_sensivel_pulado": false,
+  "tratamento_ref": "cirurgia_procedimento",
+  "imagens": {
+    "categoria": [
+      {
+        "arquivo_local": "25_eumicetomas_madurella_pseudallescheria_acremonium\\categoria\\eumicetomas_madurella_pseudallescheria_a_categoria.jpg",
+        "fonte": "busca_texto",
+        "correspondencia_generica": false,
+        "correspondencia_exata": false,
+        "termo_buscado": "eumycetoma fungal filetype:bitmap",
+        "titulo_wikimedia": "File:Eumycotic Mycetoma, GMS over H&E (10191064806).jpg",
+        "pagina_descricao": "https://commons.wikimedia.org/wiki/File:Eumycotic_Mycetoma,_GMS_over_H%26E_(10191064806).jpg",
+        "url_original": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Eumycotic_Mycetoma%2C_GMS_over_H%26E_%2810191064806%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "licenca": "CC BY 2.0",
+        "licenca_url": "https://creativecommons.org/licenses/by/2.0",
+        "autor": "Ed Uthman from Houston, TX, USA",
+        "credito": "Eumycotic Mycetoma, GMS over H&amp;E Uploaded by CFCF",
+        "baixado": true,
+        "revisado_visualmente": true
+      }
+    ],
+    "transmissao": {
+      "confirmado": false,
+      "motivo": "candidatos eram foto que na verdade e de achado (pe do Egito), fossil de bambu e foto de CEO de ONG; busca manual (barefoot soil) so achou fotos de lifestyle sem relacao clara com espinho/pe descalco"
+    },
+    "achado": [
+      {
+        "arquivo_local": "25_eumicetomas_madurella_pseudallescheria_acremonium\\achado\\eumicetomas_madurella_pseudallescheria_a_achado.jpg",
+        "fonte": "categoria_commons:Mycetomas",
+        "correspondencia_generica": false,
+        "correspondencia_exata": null,
+        "termo_buscado": "[categoria:Mycetomas] pontos=1",
+        "titulo_wikimedia": "File:Mycetoma.jpg",
+        "pagina_descricao": "https://commons.wikimedia.org/wiki/File:Mycetoma.jpg",
+        "url_original": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Mycetoma.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "licenca": "CC BY-SA 4.0",
+        "licenca_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "autor": "Mohammad2018",
+        "credito": "Own work",
+        "baixado": true,
+        "revisado_visualmente": true
+      }
+    ],
+    "tratamento": [
+      {
+        "arquivo_local": "25_eumicetomas_madurella_pseudallescheria_acremonium\\tratamento\\eumicetomas_madurella_pseudall_tratamento.jpg",
+        "fonte": "reaproveitado_de_23_esporotricose",
+        "correspondencia_generica": true,
+        "correspondencia_exata": false,
+        "termo_buscado": "Itraconazole (componente medicamentoso do tratamento combinado com cirurgia; nenhuma foto de procedimento cirurgico foi encontrada)",
+        "titulo_wikimedia": "Itraconazole carton of 7 day treatment pack",
+        "pagina_descricao": "",
+        "url_original": "",
+        "licenca": "Documento regulatorio publico (FDA/NLM) - confirmar uso antes de publicar",
+        "licenca_url": "",
+        "autor": "Fabricante (bula regulatoria)",
+        "credito": "",
+        "baixado": true,
+        "revisado_visualmente": true
+      }
+    ]
+  }
+}

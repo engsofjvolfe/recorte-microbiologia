@@ -1,0 +1,54 @@
+{
+  "ordem": 11,
+  "disciplina": "virologia",
+  "agente": "Virus da Raiva",
+  "observacao": "",
+  "conteudo_sensivel_pulado": false,
+  "tratamento_ref": "vacina_soro_antirrabico",
+  "imagens": {
+    "categoria": [
+      {
+        "arquivo_local": "11_virus_da_raiva\\categoria\\virus_da_raiva_categoria.jpg",
+        "fonte": "busca_texto",
+        "correspondencia_generica": false,
+        "correspondencia_exata": false,
+        "termo_buscado": "rabies virus filetype:bitmap",
+        "titulo_wikimedia": "File:Rabies Virus - 54025744743.jpg",
+        "pagina_descricao": "https://commons.wikimedia.org/wiki/File:Rabies_Virus_-_54025744743.jpg",
+        "url_original": "https://upload.wikimedia.org/wikipedia/commons/3/30/Rabies_Virus_-_54025744743.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "licenca": "CC BY 2.0",
+        "licenca_url": "https://creativecommons.org/licenses/by/2.0",
+        "autor": "NIAID",
+        "credito": "https://www.flickr.com/photos/niaid/54025744743/",
+        "baixado": true,
+        "revisado_visualmente": true
+      }
+    ],
+    "transmissao": {
+      "confirmado": false,
+      "motivo": "candidatos eram placas de aviso e livros antigos, nenhuma foto real de mordedura/contato com animal"
+    },
+    "achado": {
+      "confirmado": false,
+      "motivo": "hidrofobia e comportamental (dificil fotografar); unico candidato de achado fisico era corpusculo de Negri (histopatologia), que era o alvo antigo errado, nao o da resposta atual do CSV"
+    },
+    "tratamento": [
+      {
+        "arquivo_local": "11_virus_da_raiva\\tratamento\\virus_da_raiva_tratamento.png",
+        "fonte": "categoria_commons:Rabies vaccines",
+        "correspondencia_generica": false,
+        "correspondencia_exata": null,
+        "termo_buscado": "[categoria:Rabies vaccines] pontos=3",
+        "titulo_wikimedia": "File:Rabies vaccine.png",
+        "pagina_descricao": "https://commons.wikimedia.org/wiki/File:Rabies_vaccine.png",
+        "url_original": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Rabies_vaccine.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "licenca": "CC BY-SA 4.0",
+        "licenca_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "autor": "Whispyhistory",
+        "credito": "Own work",
+        "baixado": true,
+        "revisado_visualmente": true
+      }
+    ]
+  }
+}

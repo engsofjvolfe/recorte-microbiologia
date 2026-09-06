@@ -1,0 +1,68 @@
+{
+  "ordem": 13,
+  "disciplina": "virologia",
+  "agente": "Influenza A",
+  "observacao": "",
+  "conteudo_sensivel_pulado": false,
+  "tratamento_ref": "oseltamivir",
+  "imagens": {
+    "categoria": [
+      {
+        "arquivo_local": "13_influenza_a\\categoria\\influenza_a_categoria.jpg",
+        "fonte": "categoria_commons:Influenza A virus",
+        "correspondencia_generica": false,
+        "correspondencia_exata": null,
+        "termo_buscado": "[categoria:Influenza A virus] pontos=4",
+        "titulo_wikimedia": "File:Influenza A Virus (H1N1)-1.jpg",
+        "pagina_descricao": "https://commons.wikimedia.org/wiki/File:Influenza_A_Virus_(H1N1)-1.jpg",
+        "url_original": "https://upload.wikimedia.org/wikipedia/commons/1/1c/Influenza_A_Virus_%28H1N1%29-1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "licenca": "Public domain",
+        "licenca_url": "",
+        "autor": "NIH Image Gallery",
+        "credito": "https://www.flickr.com/photos/nihgov/54270398294/",
+        "baixado": true,
+        "revisado_visualmente": true
+      }
+    ],
+    "transmissao": [
+      {
+        "arquivo_local": "13_influenza_a\\transmissao\\influenza_a_transmissao.jpg",
+        "fonte": "busca_texto",
+        "correspondencia_generica": false,
+        "correspondencia_exata": false,
+        "termo_buscado": "respiratory droplet transmission cough filetype:bitmap",
+        "titulo_wikimedia": "File:Droplet transmission ranges for speaking, intubation, and coughing or sneezing.jpg",
+        "pagina_descricao": "https://commons.wikimedia.org/wiki/File:Droplet_transmission_ranges_for_speaking,_intubation,_and_coughing_or_sneezing.jpg",
+        "url_original": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Droplet_transmission_ranges_for_speaking%2C_intubation%2C_and_coughing_or_sneezing.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "licenca": "CC BY 4.0",
+        "licenca_url": "https://creativecommons.org/licenses/by/4.0",
+        "autor": "Authors of cited source.",
+        "credito": "(6 July 2020). \"Risk of SARS-CoV-2 transmission by aerosols, the rational use of masks, and protection of healthcare workers from COVID-19.\". Antimicrobial resistance and infection control 9 (1): 100. DOI:10.1186/s13756-020-00763-0. PMID 32631450.",
+        "baixado": true,
+        "revisado_visualmente": true
+      }
+    ],
+    "achado": {
+      "confirmado": false,
+      "motivo": "febre alta + mialgia sao sintomas sem sinal fisico fotografavel; candidatos eram imagens de estrutura/genoma do virus, nao do quadro clinico"
+    },
+    "tratamento": [
+      {
+        "arquivo_local": "13_influenza_a\\tratamento\\influenza_a_tratamento.jpg",
+        "fonte": "categoria_commons:Oseltamivir",
+        "correspondencia_generica": false,
+        "correspondencia_exata": null,
+        "termo_buscado": "[categoria:Oseltamivir] pontos=3",
+        "titulo_wikimedia": "File:A Tamiflu (oseltamivir) capsule.jpg",
+        "pagina_descricao": "https://commons.wikimedia.org/wiki/File:A_Tamiflu_(oseltamivir)_capsule.jpg",
+        "url_original": "https://upload.wikimedia.org/wikipedia/commons/9/97/A_Tamiflu_%28oseltamivir%29_capsule.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "licenca": "CC BY-SA 4.0",
+        "licenca_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "autor": "Mk2010",
+        "credito": "Own work",
+        "baixado": true,
+        "revisado_visualmente": true
+      }
+    ]
+  }
+}

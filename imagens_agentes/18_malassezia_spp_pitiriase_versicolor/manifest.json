@@ -1,0 +1,68 @@
+{
+  "ordem": 18,
+  "disciplina": "micologia",
+  "agente": "Malassezia spp. (Pitiriase Versicolor)",
+  "observacao": "",
+  "conteudo_sensivel_pulado": false,
+  "tratamento_ref": "antifungico_topico_generico",
+  "imagens": {
+    "categoria": [
+      {
+        "arquivo_local": "18_malassezia_spp_pitiriase_versicolor\\categoria\\malassezia_spp_pitiriase_versicolor_categoria.jpg",
+        "fonte": "busca_texto",
+        "correspondencia_generica": false,
+        "correspondencia_exata": false,
+        "termo_buscado": "Malassezia yeast filetype:bitmap",
+        "titulo_wikimedia": "File:Malassezia in LPCB Tease Mount Microscopy.jpg",
+        "pagina_descricao": "https://commons.wikimedia.org/wiki/File:Malassezia_in_LPCB_Tease_Mount_Microscopy.jpg",
+        "url_original": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Malassezia_in_LPCB_Tease_Mount_Microscopy.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "licenca": "CC BY-SA 4.0",
+        "licenca_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "autor": "Ajay Kumar Chaurasiya",
+        "credito": "Own work",
+        "baixado": true,
+        "revisado_visualmente": true
+      }
+    ],
+    "transmissao": {
+      "confirmado": false,
+      "motivo": "fungo endogeno, sem via de transmissao real"
+    },
+    "achado": [
+      {
+        "arquivo_local": "18_malassezia_spp_pitiriase_versicolor\\achado\\malassezia_spp_pitiriase_versicolor_achado.jpg",
+        "fonte": "busca_texto",
+        "correspondencia_generica": false,
+        "correspondencia_exata": false,
+        "termo_buscado": "Malassezia furfur filetype:bitmap",
+        "titulo_wikimedia": "File:Pityriasis versicolor frontal originale.jpg",
+        "pagina_descricao": "https://commons.wikimedia.org/wiki/File:Pityriasis_versicolor_frontal_originale.jpg",
+        "url_original": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Pityriasis_versicolor_frontal_originale.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "licenca": "CC BY-SA 3.0",
+        "licenca_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "autor": "Grook Da Oger",
+        "credito": "Own work",
+        "baixado": true,
+        "revisado_visualmente": true
+      }
+    ],
+    "tratamento": [
+      {
+        "arquivo_local": "18_malassezia_spp_pitiriase_versicolor\\tratamento\\malassezia_spp_pitiriase_versicolor_tratamento.jpg",
+        "fonte": "dailymed",
+        "correspondencia_generica": false,
+        "correspondencia_exata": null,
+        "termo_buscado": "[dailymed] clotrimazole",
+        "titulo_wikimedia": "clotrimazole-10ml.jpg",
+        "pagina_descricao": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=5a5cfed9-0587-7bef-e063-6294a90a64bf",
+        "url_original": "https://dailymed.nlm.nih.gov/dailymed/image.cfm?setid=5a5cfed9-0587-7bef-e063-6294a90a64bf&name=clotrimazole-10ml.jpg",
+        "licenca": "Documento regulatorio publico (FDA/NLM) - confirmar uso antes de publicar",
+        "licenca_url": "",
+        "autor": "Fabricante (bula regulatoria)",
+        "credito": "CLOTRIMAZOLE SOLUTION [INVADERM CORPORATION]",
+        "baixado": true,
+        "revisado_visualmente": true
+      }
+    ]
+  }
+}

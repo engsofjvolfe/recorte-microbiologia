@@ -1,0 +1,54 @@
+{
+  "ordem": 5,
+  "disciplina": "virologia",
+  "agente": "CMV (Citomegalovirus)",
+  "observacao": "",
+  "conteudo_sensivel_pulado": false,
+  "tratamento_ref": "ganciclovir",
+  "imagens": {
+    "categoria": [
+      {
+        "arquivo_local": "05_cmv_citomegalovirus\\categoria\\cmv_citomegalovirus_categoria.png",
+        "fonte": "categoria_commons:Herpesviridae",
+        "correspondencia_generica": false,
+        "correspondencia_exata": null,
+        "termo_buscado": "[categoria:Herpesviridae] pontos=1",
+        "titulo_wikimedia": "File:Herpesvirus structure.png",
+        "pagina_descricao": "https://commons.wikimedia.org/wiki/File:Herpesvirus_structure.png",
+        "url_original": "https://upload.wikimedia.org/wikipedia/commons/8/85/Herpesvirus_structure.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "licenca": "CC BY-SA 3.0",
+        "licenca_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "autor": "Nao informado",
+        "credito": "",
+        "baixado": true,
+        "revisado_visualmente": true
+      }
+    ],
+    "transmissao": {
+      "confirmado": false,
+      "motivo": "candidatos eram sobre surto de Ebola (matcheou por bodily fluids), nenhum mostra contato com urina/saliva/semen ou via transplacentaria"
+    },
+    "achado": {
+      "confirmado": false,
+      "motivo": "pool so tinha histopatologia (inclusao em olho de coruja - alvo antigo errado) ou fotos nao especificas de microcefalia; nenhuma mostra especificamente microcefalia neonatal por CMV congenito"
+    },
+    "tratamento": [
+      {
+        "arquivo_local": "05_cmv_citomegalovirus\\tratamento\\cmv_citomegalovirus_tratamento.jpg",
+        "fonte": "dailymed",
+        "correspondencia_generica": false,
+        "correspondencia_exata": null,
+        "termo_buscado": "[dailymed] ganciclovir",
+        "titulo_wikimedia": "gan04-0001-06.jpg",
+        "pagina_descricao": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=35addab5-09db-4f8a-9c69-6fbce33ecc37",
+        "url_original": "https://dailymed.nlm.nih.gov/dailymed/image.cfm?setid=35addab5-09db-4f8a-9c69-6fbce33ecc37&name=gan04-0001-06.jpg",
+        "licenca": "Documento regulatorio publico (FDA/NLM) - confirmar uso antes de publicar",
+        "licenca_url": "",
+        "autor": "Fabricante (bula regulatoria)",
+        "credito": "GANCICLOVIR (GANCICLOVIR SODIUM) INJECTION, POWDER, LYOPHILIZED, FOR SOLUTION [FRESENIUS KABI USA, LLC]",
+        "baixado": true,
+        "revisado_visualmente": true
+      }
+    ]
+  }
+}

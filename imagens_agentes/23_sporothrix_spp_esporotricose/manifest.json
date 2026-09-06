@@ -1,0 +1,82 @@
+{
+  "ordem": 23,
+  "disciplina": "micologia",
+  "agente": "Sporothrix spp. (Esporotricose)",
+  "observacao": "",
+  "conteudo_sensivel_pulado": false,
+  "tratamento_ref": "itraconazol",
+  "imagens": {
+    "categoria": [
+      {
+        "arquivo_local": "23_sporothrix_spp_esporotricose\\categoria\\sporothrix_spp_esporotricose_categoria.png",
+        "fonte": "openverse_manual",
+        "correspondencia_generica": false,
+        "correspondencia_exata": true,
+        "termo_buscado": "Sporothrix schenckii yeast phase contrast micrograph (busca manual, pool automatico so trouxe foto clinica que foi realocada pro achado)",
+        "titulo_wikimedia": "Phase contrast micrograph of the yeast form of Sporothrix schenckii",
+        "pagina_descricao": "https://commons.wikimedia.org/wiki/File:Phase_contrast_micrograph_of_the_yeast_form_of_Sporothrix_schenckii.png",
+        "url_original": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Phase_contrast_micrograph_of_the_yeast_form_of_Sporothrix_schenckii.png",
+        "licenca": "CC BY",
+        "licenca_url": "",
+        "autor": "Toledo, et. al.",
+        "credito": "",
+        "baixado": true,
+        "revisado_visualmente": true
+      }
+    ],
+    "transmissao": [
+      {
+        "arquivo_local": "23_sporothrix_spp_esporotricose\\transmissao\\sporothrix_spp_esporotricose_transmissao.jpg",
+        "fonte": "busca_manual_suplementar",
+        "correspondencia_generica": false,
+        "correspondencia_exata": true,
+        "termo_buscado": "File:Cat scratches on a male teenager's hand.jpg",
+        "titulo_wikimedia": "File:Cat scratches on a male teenager's hand.jpg",
+        "pagina_descricao": "https://commons.wikimedia.org/wiki/File:Cat_scratches_on_a_male_teenager's_hand.jpg",
+        "url_original": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Cat_scratches_on_a_male_teenager%27s_hand.jpg",
+        "licenca": "Nao verificada - conferir pagina do Commons antes de publicar",
+        "licenca_url": "",
+        "autor": "Nao informado",
+        "credito": "",
+        "baixado": true,
+        "revisado_visualmente": true
+      }
+    ],
+    "achado": [
+      {
+        "arquivo_local": "23_sporothrix_spp_esporotricose\\achado\\sporothrix_spp_esporotricose_achado.jpg",
+        "fonte": "categoria_commons:Sporotrichosis",
+        "correspondencia_generica": false,
+        "correspondencia_exata": null,
+        "termo_buscado": "[categoria:Sporotrichosis] pontos=1",
+        "titulo_wikimedia": "File:Sporotrichosis by the fungus Sporothrix schenckii PHIL 3940 lores.jpg",
+        "pagina_descricao": "https://commons.wikimedia.org/wiki/File:Sporotrichosis_by_the_fungus_Sporothrix_schenckii_PHIL_3940_lores.jpg",
+        "url_original": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Sporotrichosis_by_the_fungus_Sporothrix_schenckii_PHIL_3940_lores.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "licenca": "Public domain",
+        "licenca_url": "",
+        "autor": "Content Providers(s): CDC/Dr. Lucille K. Georg",
+        "credito": "http://phil.cdc.gov/phil_images/20030610/25/PHIL_3940_lores.jpg",
+        "baixado": true,
+        "revisado_visualmente": true
+      }
+    ],
+    "tratamento": [
+      {
+        "arquivo_local": "23_sporothrix_spp_esporotricose\\tratamento\\sporothrix_spp_esporotricose_tratamento.jpg",
+        "fonte": "dailymed",
+        "correspondencia_generica": false,
+        "correspondencia_exata": null,
+        "termo_buscado": "[dailymed] itraconazole",
+        "titulo_wikimedia": "itraconazole-carton-of-7-day-treatment-pack.jpg",
+        "pagina_descricao": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=23126370-8d6a-4027-bd8f-860e2776ba3a",
+        "url_original": "https://dailymed.nlm.nih.gov/dailymed/image.cfm?setid=23126370-8d6a-4027-bd8f-860e2776ba3a&name=itraconazole-carton-of-7-day-treatment-pack.jpg",
+        "licenca": "Documento regulatorio publico (FDA/NLM) - confirmar uso antes de publicar",
+        "licenca_url": "",
+        "autor": "Fabricante (bula regulatoria)",
+        "credito": "ITRACONAZOLE CAPSULE [ALEMBIC PHARMACEUTICALS INC.]",
+        "baixado": true,
+        "revisado_visualmente": true
+      }
+    ]
+  }
+}
