@@ -38,6 +38,14 @@ para agentes novos). Detalhes completos, incluindo por que duas tentativas anter
 automatizar mais essa busca falharam, estão no
 [README do mecanismo de busca](docs/material-gerado/README.md).
 
+## Proposta de plataforma futura
+
+Este núcleo de microbiologia é a prova de conceito de uma ideia maior: generalizar
+o mecanismo para qualquer disciplina, de forma colaborativa. A visão geral dessa
+proposta (ponto de partida, no espírito do modelo V, para um futuro documento de
+Requisitos formal) está em
+[`docs/proposta-plataforma/01-visao-geral.md`](docs/proposta-plataforma/01-visao-geral.md).
+
 ## Origem do conteúdo
 
 O material de microbiologia original que serviu de base para este núcleo (INTRODUÇÃO À
