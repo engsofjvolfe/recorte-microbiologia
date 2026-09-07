@@ -16,7 +16,7 @@ Este conteúdo foi construído a partir do material de microbiologia disponibili
 seção [Origem do conteúdo](#origem-do-conteúdo) abaixo) e **organizado em torno da grade
 específica de uma disciplina de graduação**. Isso significa que:
 
-- A seleção de quais 34 agentes entraram no núcleo, qual achado clínico é "o mais
+- A seleção de quais 40 agentes entraram no núcleo, qual achado clínico é "o mais
   cobrado" e qual tratamento é "a resposta esperada" reflete a ênfase **daquele curso e
   daquele professor específico** — não é necessariamente a cobertura completa da
   literatura médica, nem substitui diretrizes oficiais (CDC, OMS, sociedades médicas)
@@ -83,13 +83,13 @@ completo e detalhado em [`NOTICE.md`](NOTICE.md):
 
 | Arquivo | O que é |
 |---|---|
-| [`docs/material-gerado/perguntas-nucleo-dicionarios.csv`](docs/material-gerado/perguntas-nucleo-dicionarios.csv) | Fonte da verdade: as 170 perguntas/respostas por agente (34 agentes × 5 tipos) |
+| [`docs/material-gerado/perguntas-nucleo-dicionarios.csv`](docs/material-gerado/perguntas-nucleo-dicionarios.csv) | Fonte da verdade: as 200 perguntas/respostas por agente (40 agentes × 5 tipos) |
 | [`docs/material-gerado/perguntas-fundamentos-virus.csv`](docs/material-gerado/perguntas-fundamentos-virus.csv) | Fonte da verdade: 95 perguntas/respostas de biologia fundamental de vírus (8 tópicos) |
 | [`docs/material-gerado/perguntas-fundamentos-fungos.csv`](docs/material-gerado/perguntas-fundamentos-fungos.csv) | Fonte da verdade: 56 perguntas/respostas de biologia fundamental de fungos (5 tópicos) |
-| [`fila-busca-imagens-agentes.json`](fila-busca-imagens-agentes.json) | Índice mestre dos 34 agentes + termos de busca de imagem por necessidade |
-| [`docs/material-gerado/dicionario-gatilhos-virologia.md`](docs/material-gerado/dicionario-gatilhos-virologia.md) | Cadeia causal didática (5 elos) dos 17 vírus |
+| [`fila-busca-imagens-agentes.json`](fila-busca-imagens-agentes.json) | Índice mestre dos 34 agentes originais + termos de busca de imagem por necessidade (os 6 agentes novos ainda não entraram nesta fila — ver aviso em [`docs/material-gerado/README.md`](docs/material-gerado/README.md)) |
+| [`docs/material-gerado/dicionario-gatilhos-virologia.md`](docs/material-gerado/dicionario-gatilhos-virologia.md) | Cadeia causal didática (5 elos) dos 23 vírus |
 | [`docs/material-gerado/dicionario-gatilhos-micologia.md`](docs/material-gerado/dicionario-gatilhos-micologia.md) | Cadeia causal didática (5 elos) dos 17 fungos |
-| [`docs/material-gerado/virologia-especial-determinismo.md`](docs/material-gerado/virologia-especial-determinismo.md) | Ficha determinística (6 eixos) dos 17 vírus |
+| [`docs/material-gerado/virologia-especial-determinismo.md`](docs/material-gerado/virologia-especial-determinismo.md) | Ficha determinística (6 eixos) dos 23 vírus |
 | [`docs/material-gerado/micologia-especial-determinismo.md`](docs/material-gerado/micologia-especial-determinismo.md) | Ficha determinística (6 eixos) dos 17 fungos |
 | [`docs/material-gerado/biologia-fundamental-virus.md`](docs/material-gerado/biologia-fundamental-virus.md) | Base teórica geral: estrutura, taxonomia e ciclo de vida viral |
 | [`docs/material-gerado/biologia-fundamental-fungos.md`](docs/material-gerado/biologia-fundamental-fungos.md) | Base teórica geral: biologia e fisiologia fúngica |
@@ -98,7 +98,7 @@ completo e detalhado em [`NOTICE.md`](NOTICE.md):
 | [`imagens_agentes/`](imagens_agentes/) | Pastas por agente com imagens confirmadas + `manifest.json` |
 | [`docs/material-gerado/buscar_imagens.py`](docs/material-gerado/buscar_imagens.py) | Busca/baixa candidatos de imagem (Wikimedia Commons) — experimental |
 | [`docs/material-gerado/curar_imagens.py`](docs/material-gerado/curar_imagens.py) | Aplica a conferência visual manual sobre os candidatos baixados |
-| [`anki-decks/Nucleo-Microbiologia.apkg`](anki-decks/Nucleo-Microbiologia.apkg) | Deck pronto para importar no Anki, por agente (170 cards, 108 imagens) |
+| [`anki-decks/Nucleo-Microbiologia.apkg`](anki-decks/Nucleo-Microbiologia.apkg) | Deck pronto para importar no Anki, por agente (200 cards, 107 imagens) |
 | [`anki-decks/Fundamentos-Microbiologia.apkg`](anki-decks/Fundamentos-Microbiologia.apkg) | Deck pronto para importar no Anki, biologia fundamental (151 cards, sem imagem por enquanto) |
 | [`scripts/montar_deck.py`](scripts/montar_deck.py) | Gera os dois `.apkg` (nucleo por agente + fundamentos), reaproveitando o mesmo modelo de nota |
 | [`INDICE.md`](INDICE.md) | **Índice com link direto para qualquer agente/seção de qualquer documento** |

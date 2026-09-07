@@ -22,6 +22,12 @@ Este guia consolidado reúne as fichas técnicas determinísticas de consulta r�
 14. [Vírus da Hepatite A (HAV)](#14-vírus-da-hepatite-a-hav)
 15. [Vírus da Hepatite C (HCV)](#15-vírus-da-hepatite-c-hcv)
 16. [Vírus da Imunodeficiência Humana (HIV)](#16-vírus-da-imunodeficiência-humana-hiv)
+17. [Vírus da Caxumba](#17-vírus-da-caxumba)
+18. [Vírus da Rubéola](#18-vírus-da-rubéola)
+19. [Vírus da Febre Amarela](#19-vírus-da-febre-amarela)
+20. [Vírus da Dengue](#20-vírus-da-dengue)
+21. [Coronavírus (SARS, MERS e COVID-19)](#21-coronavírus-sars-mers-e-covid-19)
+22. [Rinovírus](#22-rinovírus)
 
 ---
 
@@ -232,3 +238,81 @@ Este guia consolidado reúne as fichas técnicas determinísticas de consulta r�
 | **4. Fatores de Risco & Perfil Clínico** | Práticas sexuais desprotegidas com múltiplos parceiros, presença de outras DSTs ulcerativas que facilitam a entrada do vírus, compartilhamento de materiais perfurocortantes, profissionais do sexo e crianças nascidas de mães infectadas sem tratamento profilático pré-natal. |
 | **5. Manifestações Clínicas** | *Infecção Aguda (Síndrome Retroviral Aguda):* Febre, dor de garganta, rash cutâneo avermelhado, mialgia, fadiga e linfadenomegalia cervical passageira de 2 a 4 semanas pós-exposição. *Fase de Latência Clínica:* Período assintomático longo de 8 a 10 anos onde ocorre uma destruição progressiva e lenta de linfócitos T CD4+ pelo vírus no sangue. *Fase de Aids (Síndrome da Imunodeficiência Adquirida):* Ocorre quando a contagem de linfócitos T CD4+ cai abaixo de 200 células/uL no sangue. Caracteriza-se pelo aparecimento severo de **Doenças Oportunistas** definidoras: pneumonia por *Pneumocystis jirovecii*, candidíase esofágica grave, neurocriptococose, retinite por CMV, histoplasmose disseminada, tuberculose pulmonar e extrapulmonar cavitária severa, diarreia crônica e aparecimento de tumores oncológicos oportunistas como o **Sarcoma de Kaposi** (tumor vascular vermelho/roxo causado pelo KSHV/HHV-8) e linfomas agressivos. |
 | **6. Diagnóstico & Tratamento / Prevenção** | Diagnóstico: Teste rápido de triagem sorológica ELISA (pesquisa de anticorpos anti-HIV e antígeno p24) e confirmação laboratorial por Western Blot, imunoblot ou PCR quantitativo de RNA viral (Carga Viral ativa). Tratamento de escolha: Terapia Antirretroviral (TARV / Coquetel) de uso vitalício diário que combina três drogas ativas (ex: Tenofovir + Lamivudina + Dolutegravir). Mecanismo de ação dos fármacos: ITRN (Lamivudina, Tenofovir) agem como falsos nucleotídeos inibidores competitivos da transcriptase reversa; inibidores da integrase (Dolutegravir, Raltegravir) impedem a inserção do DNA viral no genoma do hospedeiro; inibidores de protease (Darunavir, Ritonavir) impedem a maturação do capsídeo proteico. Prevenção: Uso sistemático de preservativos nas relações sexuais, Profilaxia Pré-Exposição (PrEP) diária ou Profilaxia Pós-Exposição (PEP) em até 72 horas pós-acidente por 28 dias. Não há vacina aprovada. |
+
+---
+
+### 17. Vírus da Caxumba
+
+| Eixo | Descrição Determinística |
+| :--- | :--- |
+| **1. Agente & Categoria** | Família *Paramyxoviridae*, gênero *Orthorubulavirus* (geralmente referido como Vírus da Caxumba). Vírus de RNA de fita simples de sentido negativo (-ssRNA, Classe V de Baltimore), envelopado com capsídeo de simetria helicoidal. Apresenta apenas um sorotipo estável mundialmente. |
+| **2. Reservatório / Transmissão** | Reservatório: Estritamente humano. Transmissão aérea altamente eficaz por meio de gotículas respiratórias (perdigotos) ou por contato direto com saliva infectada contendo partículas virais ativas. |
+| **3. Características de Replicação** | O vírus adsorve à célula hospedeira através da glicoproteína de envelope hemaglutinina-neuraminidase (HN), que se liga a resíduos de ácido siálico. A penetração ocorre por fusão de membranas mediada pela proteína viral F, induzindo o efeito citopático de formação de **sincícios (células gigantes multinucleadas)**. Replicação e transcrição genômica ocorrem inteiramente no citoplasma celular, utilizando uma RNA polimerase dependente de RNA viral (RdRP). |
+| **4. Fatores de Risco & Perfil Clínico** | Crianças em idade escolar e adolescentes não vacinados. Surtos ocorrem comumente em ambientes fechados (creches, escolas, universidades). Indivíduos infectados após a puberdade possuem risco severamente aumentado para complicações de tropismo glandular secundário. |
+| **5. Manifestações Clínicas** | Período de incubação de 14 a 21 dias. Clinicamente caracterizado por **Parotite Aguda** unilateral ou bilateral, apresentando tumefação dolorosa das glândulas salivares parótidas, acompanhada de dor ao engolir e febre moderada. Complicações graves de tropismo extrassalivar: **Orquite** aguda (inflamação testicular severa com dor intensa, febre alta e risco de atrofia testicular e esterilidade masculina pós-puberal); **Ooforite** (inflamação ovariana em mulheres); **Pancreatite** viral aguda (dor epigástrica intensa e vômitos); e **Meningite Asséptica** ou encefalite primária. |
+| **6. Diagnóstico & Tratamento / Prevenção** | Diagnóstico: Essencialmente clínico; confirmado por sorologia (IgM anti-caxumba positivo), RT-PCR de swab de saliva ou liquor, ou aumento de amilase sérica na ausência de pancreatite franca. Tratamento: Suporte clínico, repouso físico absoluto (fundamental para evitar a orquite) e controle de dor. Prevenção: **Vacina Tríplice Viral (SCR - Sarampo, Caxumba, Rubéola)** aos 12 e 15 meses (SUS) ou vacina tetraviral. |
+
+---
+
+### 18. Vírus da Rubéola
+
+| Eixo | Descrição Determinística |
+| :--- | :--- |
+| **1. Agente & Categoria** | Família *Togaviridae*, gênero *Rubivirus*. Vírus de RNA de fita simples de sentido positivo (+ssRNA, Classe IV de Baltimore), envelopado, com capsídeo de simetria icosaédrica contendo as glicoproteínas de envelope E1 e E2. |
+| **2. Reservatório / Transmissão** | Reservatório: Estritamente humano. Transmissão pós-natal por via aérea via gotículas respiratórias e aerossóis. Transmissão vertical transplacentária da mãe grávida não imune (infecção primária ativa) para o feto. |
+| **3. Características de Replicação** | Penetra na célula por endocitose mediada por receptor utilizando as glicoproteínas de envelope. No citoplasma, o RNA genômico (+) é liberado e traduzido diretamente nos ribossomos do hospedeiro como uma fita mensageira para formar proteínas estruturais e não estruturais. A replicação ocorre em vesículas de membrana citoplasmática associadas ao retículo endoplasmático. O brotamento ocorre em membranas internas ou plasmática. Na infecção congênita, causa vasculite e paralisia mitótica em órgãos fetais em desenvolvimento rápido. |
+| **4. Fatores de Risco & Perfil Clínico** | Mulheres em idade fértil não vacinadas e gestantes susceptíveis (risco crítico de infecção fetal). A taxa de transmissão transplacentária e a gravidade dos defeitos congênitos são inversamente proporcionais à idade gestacional (risco de malformações é máximo no primeiro trimestre - até 85%). |
+| **5. Manifestações Clínicas** | *Rubéola Pós-Natal:* Quadro clínico leve e benigno caracterizado por febre baixa, **linfadenopatia retro-auricular, suboccipital e cervical pós-dolorosa**, e um **exantema maculopapular róseo descendente** (inicia na face e difunde-se para tronco e membros em 3 dias), além de artralgia transitória em mulheres adultas. *Síndrome da Rubéola Congênita (SRC):* Tríade clássica de Gregg: **Surdez neurossensorial bilateral** (mais comum); **Catarata congênita bilateral/cegueira** e microftalmia; e **Cardiopatia congênita** (persistência do canal arterial e estenose da artéria pulmonar). Apresenta também microcefalia, retardo mental grave e púrpura trombocitopênica generalizada ("bebê muffin de mirtilo"). |
+| **6. Diagnóstico & Tratamento / Prevenção** | Diagnóstico: Detecção de anticorpos específicos IgM (no soro ou sangue de cordão umbilical) ou PCR quantitativo de swab de nasofaringe, urina ou líquido amniótico. Tratamento: Sintomático e reabilitação multidisciplinar para malformações congênitas. Prevenção: **Vacina Tríplice Viral (SCR)**. Contraindicada em gestantes (vírus atenuado vivo). Planejamento familiar com vacinação pré-concepcional das susceptíveis. |
+
+---
+
+### 19. Vírus da Febre Amarela
+
+| Eixo | Descrição Determinística |
+| :--- | :--- |
+| **1. Agente & Categoria** | Família *Flaviviridae*, gênero *Flavivirus* (YFV). Vírus de RNA de fita simples de polaridade positiva (+ssRNA, Classe IV de Baltimore), envelopado com simetria icosaédrica e glicoproteínas de envelope (E) proeminentes. |
+| **2. Reservatório / Transmissão** | Reservatório: Primatas não humanos no ciclo silvestre, e humanos no ciclo urbano. Transmissão por picada de fêmeas do mosquito *Aedes aegypti* (ciclo urbano) ou mosquitos dos gêneros *Haemagogus* e *Sabethes* (ciclo silvestre). |
+| **3. Características de Replicação** | Penetra na célula por endocitose mediada pelo receptor de envelope. A tradução do genoma +ssRNA ocorre diretamente nos ribossomos no retículo endoplasmático rugoso do hospedeiro, produzindo uma única poliproteína clivada por proteases virais e celulares. No fígado, causa apoptose hepática massiva, gerando corpúsculos eosinofílicos (corpos de Councilman), achado histológico característico da doença. |
+| **4. Fatores de Risco & Perfil Clínico** | Falta de vacinação contra febre amarela associada a viagem ou residência em áreas endêmicas de mata (ciclo silvestre) ou em áreas de reintrodução urbana do vetor. |
+| **5. Manifestações Clínicas** | Quadro bifásico. Inicialmente febre, cefaleia e mialgia. Após remissão curta, pode evoluir para a fase tóxica com **icterícia acentuada (olhos/pele amarelados), dor abdominal forte, vômitos negros (vômito com sangue digerido devido a hemorragia gastrointestinal), oligúria (falência renal aguda)** e hemorragias difusas graves, com mortalidade de 20% a 50% nas formas graves. |
+| **6. Diagnóstico & Tratamento / Prevenção** | Diagnóstico: Detecção de antígeno NS1, RT-PCR para identificação do RNA viral ou sorologia IgM específica. Tratamento: Estritamente de **suporte crítico**, hidratação precoce, controle térmico. **Terminantemente contraindicado o uso de AAS (Aspirina) e anti-inflamatórios não esteroides (AINEs)** pelo risco agravante de sangramentos. Prevenção: Vacina de vírus atenuado vivo (dose única, SUS) altamente eficaz; controle intensivo do mosquito vetor. |
+
+---
+
+### 20. Vírus da Dengue
+
+| Eixo | Descrição Determinística |
+| :--- | :--- |
+| **1. Agente & Categoria** | Família *Flaviviridae*, gênero *Flavivirus* (DENV). Vírus de RNA de fita simples de polaridade positiva (+ssRNA, Classe IV de Baltimore), envelopado com simetria icosaédrica. Apresenta 4 sorotipos antigenicamente distintos: DENV 1, 2, 3 e 4. |
+| **2. Reservatório / Transmissão** | Reservatório: Estritamente humano (ciclo urbano). Transmissão por picada de fêmeas do mosquito *Aedes aegypti* infectadas. |
+| **3. Características de Replicação** | Penetra na célula por endocitose mediada pelo receptor de envelope. A tradução do genoma +ssRNA ocorre diretamente nos ribossomos no retículo endoplasmático rugoso do hospedeiro. Apresenta tropismo por macrófagos, monócitos e células endoteliais. Em infecções secundárias por sorotipo diferente da primeira infecção, ocorre a **Facilitação Imunológica Dependente de Anticorpos (ADE)**: anticorpos não neutralizantes da primeira infecção ligam-se ao novo vírus e facilitam sua entrada acelerada em monócitos/macrófagos via receptor Fc, multiplicando drasticamente a carga viral e disparando uma tempestade de citocinas inflamatórias. |
+| **4. Fatores de Risco & Perfil Clínico** | Para a dengue grave: infecção prévia por um sorotipo diferente da dengue, idade extrema (crianças e idosos) e comorbidades crônicas (hipertensão, diabetes, asma). |
+| **5. Manifestações Clínicas** | *Dengue Clássica:* Febre alta súbita, cefaleia intensa, **dor retro-orbitária característica**, mialgia severa ("dor nos ossos"), artralgia e exantema. *Dengue Grave (FHD/SCD):* Instala-se na defervescência da febre, apresentando **trombocitopenia grave (< 100.000/mm³), manifestações hemorrágicas espontâneas e extravasamento plasmático severo** (gerando ascite, derrame pleural, choque circulatório e hipotensão profunda). |
+| **6. Diagnóstico & Tratamento / Prevenção** | Diagnóstico: Detecção de antígeno NS1 (primeiros 5 dias), RT-PCR para identificação do RNA viral ou sorologia IgM específica (após 5-6 dias). Tratamento: Estritamente de **suporte crítico**, hidratação oral agressiva ou venosa precoce, controle térmico. **Terminantemente contraindicado o uso de AAS (Aspirina) e anti-inflamatórios não esteroides (AINEs)** pelo risco agravante de sangramentos e plaquetopenia. Prevenção: Vacina Qdenga; controle intensivo do mosquito vetor. |
+
+---
+
+### 21. Coronavírus (SARS, MERS e COVID-19)
+
+| Eixo | Descrição Determinística |
+| :--- | :--- |
+| **1. Agente & Categoria** | Família *Coronaviridae*, gênero *Betacoronavirus*. Vírus de RNA de fita simples de sentido positivo (+ssRNA, Classe IV de Baltimore), envelopados com simetria helicoidal e espículas glicoproteicas em formato de coroa (Spike - S) que se projetam do envelope. |
+| **2. Reservatório / Transmissão** | Reservatórios: Morcegos de forma ancestral, com hospedeiros intermediários animais (ex: civetas para SARS-CoV, dromedários para MERS-CoV). Transmissão respiratória altamente contagiosa através de gotículas de curto alcance, aerossóis finos gerados na fala, respiração e tosse que flutuam no ambiente, ou contato indireto por fômites contaminados. |
+| **3. Características de Replicação** | A glicoproteína Spike (S) liga-se a receptores específicos na membrana celular: **ACE2** (Enzima Conversora de Angiotensina 2) para o SARS-CoV e o SARS-CoV-2 (COVID-19), ou **DPP4** para o MERS-CoV. Após a fusão de membranas, o genoma de RNA (+) é liberado no citoplasma e traduzido diretamente. Replicam-se no citoplasma em complexos de membrana modificados. Infectam preferencialmente pneumócitos de tipo II e células endoteliais dos vasos pulmonares. |
+| **4. Fatores de Risco & Perfil Clínico** | Idosos, portadores de doenças cardiovasculares, hipertensos, diabéticos, obesos, imunossuprimidos e pacientes com DPOC/asma. Causa desde infecções leves do trato superior até pneumonias virais agudas graves com resposta inflamatória desregulada do hospedeiro. |
+| **5. Manifestações Clínicas** | **COVID-19 / SARS / MERS:** Podem cursar com sintomas gripais comuns (febre, tosse seca, fadiga, mialgia, anosmia e disgeusia clássicas). Nos casos graves, evolui para a **Síndrome do Desconforto Respiratório Agudo (SDRA)**: destruição alveolar bilateral, deposição pulmonar difusa de fibrina (membranas hialinas), hipoxemia severa com dispneia progressiva. A ativação macrofágica massiva e a migração de neutrófilos levam à **NETose** (liberação de redes de neutrófilos) e inflamação endotelial (endotelilite), disparando um estado de **hipercoagulabilidade sistêmica e microtrombose vascular** pulmonar e cerebral (AVC, TEP) com choque distributivo e disfunção de múltiplos órgãos. |
+| **6. Diagnóstico & Tratamento / Prevenção** | Diagnóstico: Teste de RT-PCR em amostras de swab de nasofaringe (padrão-ouro) ou teste rápido de detecção de antígeno. Tratamento das formas graves: Suporte respiratório protetor (oxigenoterapia de fluxo ou ventilação mecânica), terapia anti-inflamatória com **corticosteroides (Dexametasona)** para frear a tempestade de citocinas, e **anticoagulação profilática ou terapêutica com Heparina** contra a microtrombose, além de antivirais (Remdesivir/Paxlovid) precoces. Prevenção: Vacinação em massa (RNAm, vetor viral ou vírus inativados) focando na geração de anticorpos neutralizantes anti-Spike. |
+
+---
+
+### 22. Rinovírus
+
+| Eixo | Descrição Determinística |
+| :--- | :--- |
+| **1. Agente & Categoria** | Família *Picornaviridae*, gênero *Enterovirus* (espécies *Rhinovirus A, B e C*). Vírus de RNA de fita simples de sentido positivo (+ssRNA, Classe IV de Baltimore), sem envelope (vírus nu) com capsídeo de simetria icosaédrica. Apresenta mais de 100 sorotipos distintos estáveis. |
+| **2. Reservatório / Transmissão** | Reservatório: Estritamente humano. Transmissão por via aérea através de inalação de gotículas respiratórias de curto alcance ou contato direto/indireto com fômites ou superfícies contaminadas seguido pelo toque nas mucosas orais, nasais ou oculares. |
+| **3. Características de Replicação** | O capsídeo viral liga-se especificamente ao receptor celular **ICAM-1** (Molécula de Adesão Intercelular 1) ou receptor de LDL na membrana celular de células do epitélio ciliado nasal. O genoma é traduzido diretamente como uma grande poliproteína clivada por proteases virais. Replicam-se estritamente no citoplasma e são liberados por lise celular. O vírus é extremamente acidossensível (destruído pelo pH do estômago, o que o impede de infectar o intestino) e possui **temperatura ótima de replicação de 33°C**, restringindo sua replicação fisiológica ao trato respiratório superior quente (cavidade nasal) e impedindo sua disseminação sistêmica. |
+| **4. Fatores de Risco & Perfil Clínico** | Altamente prevalente em todas as faixas etárias, especialmente crianças pequenas em idade escolar. Incidência aumenta de forma acentuada durante o outono e a primavera devido a aglomerações em locais fechados. É o principal agente etiológico do resfriado comum. |
+| **5. Manifestações Clínicas** | **Resfriado Comum:** Instalação gradual de congestão nasal, coriza líquida abundante (rinorreia hialina), espirros frequentes, faringite leve (dor de garganta) e tosse seca de curta duração. Febre é habitualmente ausente ou muito baixa (comum em crianças pequenas). O quadro é localizado, benigno e autolimitado (resolução espontânea em 7 a 10 dias). Complicações secundárias: sinusite bacteriana aguda, otite média aguda e exacerbação de asma ou bronquite crônica devido à descamação do epitélio ciliado. |
+| **6. Diagnóstico & Tratamento / Prevenção** | Diagnóstico: Estritamente clínico baseado na sintomatologia característica. Métodos moleculares como PCR estão disponíveis em painéis respiratórios múltiplos, mas não são indicados rotineiramente. Tratamento: Sintomático, hidratação oral abundante, lavagem nasal com soro fisiológico morno e analgésicos; descongestionantes nasais tópicos limitados pelo efeito rebote. Inexistência de antiviral ou vacina eficaz contra o rinovírus devido ao imenso número de sorotipos imunologicamente distintos. |

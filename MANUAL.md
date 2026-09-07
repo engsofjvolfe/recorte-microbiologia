@@ -34,11 +34,11 @@ mais ou ajudar a corrigir alguma coisa.
 1. Abra o Anki no computador ou celular.
 2. Importe os dois arquivos de `anki-decks/` (arraste pro Anki, ou use Arquivo >
    Importar, um de cada vez):
-   - `Nucleo-Microbiologia.apkg` — os 34 agentes (vírus e fungos específicos).
+   - `Nucleo-Microbiologia.apkg` — os 40 agentes (vírus e fungos específicos).
    - `Fundamentos-Microbiologia.apkg` — a base teórica geral (estrutura, classificação,
      ciclo de multiplicação, antivirais etc.), separada do primeiro.
 3. Pronto. No `Nucleo-Microbiologia.apkg` você vai ver dois grupos de cartões —
-   **Virologia** e **Micologia** — com 17 agentes cada um. No
+   **Virologia** (23 agentes) e **Micologia** (17 agentes). No
    `Fundamentos-Microbiologia.apkg` você vai ver os mesmos dois grupos, mas organizados
    por tópico de biologia geral em vez de por agente.
 
@@ -100,7 +100,7 @@ PDF da faculdade   →   .md reescrito e organizado   →   cartão do Anki
 
 Se você já sabe o agente que quer revisar (ex.: "quero reler sobre HPV agora"), não
 precisa abrir o documento inteiro e procurar. Abra o **[INDICE.md](INDICE.md)** — tem uma
-tabela com todos os 34 agentes, e cada um tem dois links: um pra versão "historinha" e
+tabela com todos os 40 agentes, e cada um tem dois links: um pra versão "historinha" e
 outro pra versão "ficha seca". Clicar leva direto pro trecho certo.
 
 ---

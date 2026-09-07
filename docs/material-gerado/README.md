@@ -5,8 +5,17 @@
 Este documento explica como as imagens anexadas aos cards do núcleo de microbiologia (ver
 [README.md da raiz](../../README.md)) foram obtidas. Elas não vêm de um pipeline validado
 e repetível — vêm de um mecanismo de busca **ainda experimental**, formado por dois
-scripts e uma etapa manual obrigatória entre eles. Do total de 136 imagens necessárias,
-108 já foram confirmadas manualmente.
+scripts e uma etapa manual obrigatória entre eles. Do total de 136 imagens necessárias
+para os 34 agentes originais, 107 já foram confirmadas manualmente.
+
+**Os 6 agentes de virologia adicionados depois** (Vírus da Caxumba, Vírus da Rubéola,
+Vírus da Febre Amarela, Vírus da Dengue, Coronavírus e Rinovírus — ver
+[`virologia-especial-determinismo.md`](virologia-especial-determinismo.md) e
+[`dicionario-gatilhos-virologia.md`](dicionario-gatilhos-virologia.md)) **ainda não
+entraram nesta fila de busca de imagens.** Eles têm ficha, cadeia causal e perguntas no
+CSV, mas os cards desses agentes no `Nucleo-Microbiologia.apkg` saem sem imagem até que
+alguém rode o mesmo processo de busca/curadoria manual descrito abaixo para eles e
+atualize [`fila-busca-imagens-agentes.json`](../../fila-busca-imagens-agentes.json).
 
 ## Como funciona
 
@@ -45,9 +54,9 @@ reaplicar sem supervisão.
 | [`buscar_imagens.py`](buscar_imagens.py) | Busca/baixa candidatos de imagem (Wikimedia Commons) |
 | [`curar_imagens.py`](curar_imagens.py) | Aplica a conferência visual manual sobre os candidatos baixados |
 | [`CRITERIOS-BUSCA-IMAGENS.md`](CRITERIOS-BUSCA-IMAGENS.md) | Regras de curadoria de imagens por tipo de pergunta |
-| [`dicionario-gatilhos-virologia.md`](dicionario-gatilhos-virologia.md) | Cadeia causal didática (5 elos) dos 17 vírus |
+| [`dicionario-gatilhos-virologia.md`](dicionario-gatilhos-virologia.md) | Cadeia causal didática (5 elos) dos 23 vírus |
 | [`dicionario-gatilhos-micologia.md`](dicionario-gatilhos-micologia.md) | Cadeia causal didática (5 elos) dos 17 fungos |
-| [`virologia-especial-determinismo.md`](virologia-especial-determinismo.md) | Ficha determinística (6 eixos) dos 17 vírus |
+| [`virologia-especial-determinismo.md`](virologia-especial-determinismo.md) | Ficha determinística (6 eixos) dos 23 vírus |
 | [`micologia-especial-determinismo.md`](micologia-especial-determinismo.md) | Ficha determinística (6 eixos) dos 17 fungos |
 | [`biologia-fundamental-virus.md`](biologia-fundamental-virus.md) | Base teórica geral: estrutura, taxonomia e ciclo de vida viral |
 | [`biologia-fundamental-fungos.md`](biologia-fundamental-fungos.md) | Base teórica geral: biologia e fisiologia fúngica |

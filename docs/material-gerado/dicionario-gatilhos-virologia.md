@@ -260,3 +260,94 @@ Este guia prático foi desenhado sob a perspectiva de engenharia reversa para a 
    Ocorre uma destruição maciça progressiva e lenta dos linfócitos T CD4+ pelo vírus. A queda desses níveis abaixo de 200 células/uL no sangue compromete a imunidade celular do corpo, disparando a **Aids caracterizada por infecções oportunistas graves de pneumonia por Pneumocystis jirovecii, candidíase esofágica, retinite por CMV, diarreia e tumores oncológicos como Sarcoma de Kaposi**.
 5. **A Lógica da Cura (O Tratamento):**
    Como não há cura definitiva pelo DNA integrado de pró-vírus na medula, o controle de replicação de uso vitalício diário é feito com a Terapia Antirretroviral (TARV), que combina fármacos **inibidores competitivos da transcriptase reversa** (Tenofovir, Lamivudina) com **inibidores de integrase** (Dolutegravir) para bloquear as vias celulares de montagem de novas partículas.
+
+---
+
+### Vírus da Caxumba (Caxumba)
+
+1. **A Exposição (O Gatilho):**
+   Um indivíduo suscetível (não vacinado ou com imunidade declinante) inala gotículas respiratórias ou entra em contato direto com a saliva contaminada de uma pessoa infectada, recebendo partículas virais ativas na mucosa oral ou respiratória.
+2. **A Porta de Entrada (Como infecta):**
+   As partículas virais rompem a barreira mucosa das vias aéreas superiores, infectando as células epiteliais locais. O vírus realiza uma replicação primária nessas células e nos linfonodos regionais, ganhando a corrente sanguínea em uma viremia sistêmica que o direciona aos órgãos-alvo glandulares e ao sistema nervoso central.
+3. **A Replicação e Tropismo (Como age):**
+   O vírus envelopado de RNA fita simples de polaridade negativa (-ssRNA, Classe V de Baltimore, família *Paramyxoviridae*), com capsídeo de simetria helicoidal, utiliza sua hemaglutinina-neuraminidase para se ligar aos resíduos de ácido siálico das células hospedeiras. Sua proteína de fusão (F) promove a fusão de membranas, permitindo a entrada do genoma no citoplasma para replicação e induzindo a fusão de células infectadas com células vizinhas, gerando **células gigantes multinucleadas (sincícios)**. O vírus apresenta tropismo acentuado por tecidos glandulares (especialmente glândulas salivares parótidas, testículos, ovários e pâncreas) e meninges.
+4. **O Caminho do Estrago (A Clínica):**
+   A replicação viral ativa e a resposta inflamatória local causam necrose celular e edema inflamatório doloroso. Isso se manifesta classicamente como **parotite** (aumento volumétrico doloroso, uni ou bilateral, das glândulas parótidas, com dor ao mastigar e engolir). Dependendo do tropismo secundário da viremia, podem surgir complicações graves: **orquite** (inflamação testicular aguda, dolorosa, que ocorre em cerca de 20-30% dos homens pós-púberes, com risco de atrofia testicular e esterilidade secundária), **ooforite** (inflamação ovariana em mulheres), **pancreatite viral** aguda (dor abdominal severa e aumento de amilase/lipase) e **meningite asséptica** ou encefalite por invasão do sistema nervoso central.
+5. **A Lógica da Cura (O Tratamento):**
+   Não existem medicamentos antivirais específicos desenvolvidos para o vírus da caxumba. A conduta clínica é estritamente de **suporte, repouso físico absoluto (especialmente para reduzir o risco de orquite) e analgesia**. A prevenção absoluta é feita na infância através da administração da vacina tríplice viral (**SCR - Sarampo, Caxumba, Rubéola**) ou tetraviral, que induz anticorpos neutralizantes robustos contra a proteína de envelope.
+
+---
+
+### Vírus da Rubéola (Rubéola)
+
+1. **A Exposição (O Gatilho):**
+   Um indivíduo inala gotículas respiratórias ou aerossóis contendo partículas virais exaladas por uma pessoa infectada. No caso de transmissão vertical, uma gestante não imune (IgG negativa) sofre infecção primária ativa, permitindo a passagem transplacentária do vírus para o feto em desenvolvimento.
+2. **A Porta de Entrada (Como infecta):**
+   O vírus penetra pelas mucosas do trato respiratório superior, infectando as células epiteliais ciliadas. Após replicação local e linfonodal, estabelece uma viremia primária e sistêmica. Na gestante, a viremia materna infecta as células endoteliais da placenta (corioplasma), espalhando-se pelos vasos sanguíneos fetais e infectando órgãos em formação.
+3. **A Replicação e Tropismo (Como age):**
+   O vírus envelopado de RNA de fita simples e polaridade positiva (+ssRNA, Classe IV de Baltimore, família *Togaviridae*, gênero *Rubivirus*) apresenta capsídeo icosaédrico com espículas glicoproteicas. Penetra nas células por endocitose mediada por receptores e traduz seu RNA+ diretamente nos ribossomos citoplasmáticos. No feto, o vírus exibe tropismo por células endoteliais, cristalino ocular, células do ouvido interno e células precursoras cardíacas, inibindo a mitose celular, induzindo apoptose e causando vasculite que interrompe o desenvolvimento normal dos órgãos.
+4. **O Caminho do Estrago (A Clínica):**
+   - *Infecção Pós-Natal:* Geralmente benigna e autolimitada, caracterizando-se por **febre baixa, linfadenopatia suboccipital, cervical posterior e pós-auricular proeminente e dolorosa**, seguida por um **exantema maculopapular róseo descendente** (inicia na face e desce para o tronco e membros) e artralgia transitória (especialmente em mulheres adultas).
+   - *Infecção Congênita (Síndrome da Rubéola Congênita - SRC):* A destruição celular e a parada de mitoses no embrião geram uma tríade clássica devastadora: **surdez neurossensorial bilateral** (por destruição do órgão de Corti), **cegueira/catarata congênita** (com opacidade do cristalino e microftalmia) e **cardiopatia congênita** (como a persistência do canal arterial e estenose da artéria pulmonar), além de microcefalia, atraso mental e lesões purpúricas cutâneas difusas ("bebê em muffin de mirtilo" devido à hematopoese extramedular).
+5. **A Lógica da Cura (O Tratamento):**
+   Não há tratamento antiviral específico para conter a replicação ou as sequelas do vírus da rubéola. A conduta é de suporte para a forma pós-natal e manejo cirúrgico/multidisciplinar das sequelas na rubéola congênita. A prevenção é altamente eficaz e realizada por meio da vacina tríplice viral (**SCR**), sendo contraindicada para gestantes por ser uma vacina de vírus vivo atenuado; o rastreio sorológico pré-natal (pesquisa de IgG) é mandatório para avaliar a imunidade materna.
+
+---
+
+### Vírus da Febre Amarela (Febre Amarela)
+
+1. **A Exposição (O Gatilho):**
+   Um indivíduo é picado por uma fêmea de mosquito infectada — *Aedes aegypti* (ciclo urbano) ou *Haemagogus* / *Sabethes* (ciclo silvestre) —, que inocula partículas virais ativas na derme e capilares sanguíneos durante o repasto sanguíneo, tipicamente em viagem ou residência em área de mata sem cobertura vacinal.
+2. **A Porta de Entrada (Como infecta):**
+   As partículas virais penetram nas células dendríticas locais da pele (células de Langerhans) e macrófagos, multiplicam-se de forma primária e migram para os linfonodos regionais, de onde ganham a circulação sistêmica (viremia), alcançando órgãos com alta densidade de receptores, como o fígado, o baço e o endotélio capilar.
+3. **A Replicação e Tropismo (Como age):**
+   O vírus é um Flavivírus envelopado de RNA fita simples de polaridade positiva (+ssRNA, Classe IV de Baltimore, família *Flaviviridae*). Sua glicoproteína de envelope (E) liga-se a receptores celulares específicos, promovendo a endocitose; a tradução do genoma ocorre diretamente nos ribossomos associados ao retículo endoplasmático. Apresenta forte tropismo pelos hepatócitos, onde causa degeneração eosinofílica severa das células hepáticas (corpos de Councilman), o que explica o quadro hepático grave da doença.
+4. **O Caminho do Estrago (A Clínica):**
+   O quadro é classicamente bifásico: febre, cefaleia e mialgia iniciais, seguidas de remissão curta e, nos casos graves, evolução para a fase tóxica com **icterícia acentuada (lesão hepática maciça), dor abdominal severa com vômitos negros (vômito com sangue digerido por hemorragia gástrica), oligúria (falência renal aguda) e diátese hemorrágica difusa** (gengivorragia, epistaxe, hematúria), com mortalidade de 20% a 50% nas formas graves.
+5. **A Lógica da Cura (O Tratamento):**
+   Não há tratamento antiviral específico para a Febre Amarela. A conduta terapêutica é estritamente de **suporte crítico**: hidratação precoce, controle de temperatura e dor, contraindicando-se terminantemente o uso de salicilatos (aspirina) e anti-inflamatórios não esteroides pelo risco de sangramento. A prevenção é feita por meio de vacina de vírus vivo atenuado altamente eficaz (dose única no SUS) e controle vetorial.
+
+---
+
+### Vírus da Dengue (Dengue)
+
+1. **A Exposição (O Gatilho):**
+   Um indivíduo é picado por uma fêmea de mosquito *Aedes aegypti* infectada (ciclo exclusivamente urbano, sem reservatório silvestre relevante), que inocula partículas virais ativas na derme e capilares sanguíneos durante o repasto sanguíneo.
+2. **A Porta de Entrada (Como infecta):**
+   As partículas virais penetram nas células dendríticas locais da pele (células de Langerhans) e macrófagos, multiplicam-se de forma primária e migram para os linfonodos regionais, de onde ganham a circulação sistêmica (viremia).
+3. **A Replicação e Tropismo (Como age):**
+   O vírus é um Flavivírus envelopado de RNA fita simples de polaridade positiva (+ssRNA, Classe IV de Baltimore, família *Flaviviridae*), com 4 sorotipos antigenicamente distintos (DENV 1, 2, 3 e 4). Apresenta tropismo por macrófagos, monócitos e células endoteliais. Na segunda infecção por um sorotipo diferente do primeiro, ocorre a **Facilitação Imunológica Dependente de Anticorpos (ADE)**: anticorpos não neutralizantes da primeira infecção ligam-se ao novo vírus e facilitam sua entrada acelerada em macrófagos via receptor Fc, multiplicando drasticamente a carga viral e disparando uma tempestade de citocinas inflamatórias.
+4. **O Caminho do Estrago (A Clínica):**
+   A *Dengue Clássica* causa febre alta súbita, cefaleia intensa, **dor retro-orbitária característica**, mialgia severa ("dor nos ossos"), artralgia e exantema. A *Dengue Grave* (Febre Hemorrágica da Dengue / Síndrome do Choque da Dengue) instala-se classicamente na defervescência da febre, apresentando **trombocitopenia grave (< 100.000/mm³), manifestações hemorrágicas espontâneas e extravasamento plasmático severo** (gerando ascite, derrame pleural, choque circulatório e hipotensão profunda).
+5. **A Lógica da Cura (O Tratamento):**
+   Não há tratamento antiviral específico para a Dengue. A conduta terapêutica é estritamente de **suporte crítico: hidratação oral agressiva ou venosa precoce**, contraindicando-se terminantemente o uso de salicilatos (aspirina) e anti-inflamatórios não esteroides pelo risco aumentado de sangramento por disfunção plaquetária. A prevenção combina controle vetorial e a vacina específica Qdenga.
+
+---
+
+### Coronavírus (SARS, MERS e COVID-19)
+
+1. **A Exposição (O Gatilho):**
+   Um indivíduo inala aerossóis finos ou gotículas respiratórias carregadas de partículas virais suspensas no ar, emitidas por uma pessoa infectada ao falar, tossir, espirrar ou respirar de perto, ou toca em superfícies contaminadas (fômites) e leva as mãos às mucosas faciais.
+2. **A Porta de Entrada (Como infecta):**
+   O vírus penetra pelas mucosas nasal ou oral e viaja pelo trato respiratório superior e inferior, alcançando as células do epitélio brônquico e os pneumócitos alveolares no parênquima pulmonar profundo.
+3. **A Replicação e Tropismo (Como age):**
+   O vírus envelopado de RNA fita simples de polaridade positiva (+ssRNA, Classe IV de Baltimore, família *Coronaviridae*, gênero *Betacoronavirus*) apresenta espículas glicoproteicas em forma de coroa (Spike - S). A proteína Spike liga-se a receptores específicos na membrana celular: **ACE2** (Enzima Conversora de Angiotensina 2) para o SARS-CoV e o SARS-CoV-2 (COVID-19), ou **DPP4** para o MERS-CoV. Após fusão e entrada, a replicação é puramente citoplasmática. O vírus infecta preferencialmente pneumócitos do tipo II (produtores de surfactante) e células endoteliais dos capilares pulmonares.
+4. **O Caminho do Estrago (A Clínica):**
+   A replicação viral ativa causa lesão celular direta nos pneumócitos e ativa intensamente macrófagos alveolares, que liberam citocinas pró-inflamatórias (como IL-1, IL-6 e TNF-alfa). Ocorre recrutamento massivo de neutrófilos que sofrem **NETose** (liberação de redes extracelulares de DNA que promovem hipercoagulabilidade). O endotélio capilar inflamado ativa a cascata de coagulação, formando microtrombos vasculares. Clinicamente, o quadro pode evoluir de uma gripe leve (anosmia, tosse, febre) para **Síndrome do Desconforto Respiratório Agudo (SDRA)**, caracterizada por destruição do epitélio alveolar, deposição de membranas hialinas de fibrina, extravasamento de fluido (edema alveolar), hipoxemia severa, fenômenos tromboembólicos sistêmicos (como tromboembolismo pulmonar e AVC) e disfunção de múltiplos órgãos por choque séptico viral.
+5. **A Lógica da Cura (O Tratamento):**
+   Para conter as formas graves e a letalidade, a conduta clínica associa suporte respiratório (oxigenoterapia e ventilação mecânica se necessário) a terapias medicamentosas direcionadas: **corticosteroides (como a Dexametasona)** para frear a tempestade de citocinas inflamatórias, **anticoagulantes (como a Heparina)** para prevenir a microtrombose vascular pulmonar, e antivirais específicos (como o Remdesivir ou Paxlovid) iniciados precocemente para inibir a polimerase viral. A prevenção é realizada por meio de vacinas de alta tecnologia (RNA mensageiro, vetores virais ou subunidades proteicas) que treinam o sistema imune contra a proteína Spike, bloqueando a infecção celular.
+
+---
+
+### Rinovírus (Resfriado Comum)
+
+1. **A Exposição (O Gatilho):**
+   Um indivíduo inala gotículas respiratórias de curto alcance ou toca superfícies contaminadas (fômites como maçanetas, corrimãos ou brinquedos) onde o vírus sobrevive por horas devido à sua resistência ambiental, transferindo as partículas virais para os olhos, nariz ou boca através das mãos.
+2. **A Porta de Entrada (Como infecta):**
+   O vírus entra no trato respiratório superior, fixando-se nas células epiteliais ciliadas da mucosa nasal e da nasofaringe, onde inicia sua replicação local acelerada sem invadir a corrente sanguínea ou o trato respiratório inferior profundo de forma sistêmica.
+3. **A Replicação e Tropismo (Como age):**
+   O vírus de RNA de fita simples e polaridade positiva, sem envelope (vírus nu, Classe IV de Baltimore, família *Picornaviridae*, gênero *Enterovirus*), apresenta capsídeo icosaédrico extremamente resistente ao meio ambiente, mas altamente **sensível ao pH ácido do estômago** (o que o diferencia dos outros enterovírus e impede sua colonização intestinal). O capsídeo liga-se ao receptor **ICAM-1** (Molécula de Adesão Intercelular 1) nas células epiteliais ciliadas e entra por endocitose. A replicação ocorre no citoplasma celular e possui **temperatura ótima de replicação de 33°C** (a temperatura exata da cavidade nasal humana, limitando seu tropismo e impedindo sua replicação eficiente a 37°C nos pulmões). A liberação dos novos vírions ocorre por lise celular.
+4. **O Caminho do Estrago (A Clínica):**
+   A lise das células epiteliais e a liberação local de citocinas e mediadores inflamatórios (especialmente bradicinina e histamina) provocam vasodilatação capilar e edema de mucosa nasal. Isso gera os sintomas clássicos do **resfriado comum: rinorreia intensa (coriza inicialmente hialina), congestão nasal severa, espirros frequentes, dor de garganta leve (faringite localizada) e tosse seca**, habitualmente com ausência de febre sistêmica ou febre muito baixa em crianças. O quadro é autolimitado (resolução em 7-10 dias), mas a destruição celular ciliada predispõe a complicações bacterianas secundárias (como sinusite aguda e otite média) ou exacerbação de quadros asmáticos.
+5. **A Lógica da Cura (O Tratamento):**
+   Pela enorme diversidade sorológica (apresenta mais de 100 sorotipos antigenicamente distintos e estáveis no mundo), é impossível o desenvolvimento de uma vacina protetora eficaz. Também não existem antivirais específicos de uso rotineiro. A conduta clínica é exclusivamente de **suporte, hidratação oral abundante, lavagem nasal frequente com soro fisiológico e uso de sintomáticos** (como descongestionantes nasais tópicos de curto prazo, anti-histamínicos e analgésicos). A cura é mediada pela própria resposta imune do hospedeiro que limpa os focos infecciosos locais.

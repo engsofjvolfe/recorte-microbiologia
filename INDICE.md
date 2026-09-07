@@ -7,10 +7,10 @@ contexto geral e o aviso sobre a origem/limitações do material, ou o
 
 ## Navegação rápida
 
-- [CSV — fonte da verdade das 170 perguntas por agente](docs/material-gerado/perguntas-nucleo-dicionarios.csv)
+- [CSV — fonte da verdade das 200 perguntas por agente](docs/material-gerado/perguntas-nucleo-dicionarios.csv)
 - [CSV — 95 perguntas de biologia fundamental de vírus](docs/material-gerado/perguntas-fundamentos-virus.csv)
 - [CSV — 56 perguntas de biologia fundamental de fungos](docs/material-gerado/perguntas-fundamentos-fungos.csv)
-- [JSON — índice mestre dos 34 agentes + termos de busca de imagem](fila-busca-imagens-agentes.json)
+- [JSON — índice mestre dos 34 agentes originais + termos de busca de imagem (6 agentes novos ainda não incluídos)](fila-busca-imagens-agentes.json)
 - [Deck pronto para o Anki, por agente (.apkg)](anki-decks/Nucleo-Microbiologia.apkg)
 - [Deck pronto para o Anki, biologia fundamental (.apkg)](anki-decks/Fundamentos-Microbiologia.apkg)
 - [Script que monta os dois decks (`scripts/montar_deck.py`)](scripts/montar_deck.py)
@@ -20,7 +20,7 @@ contexto geral e o aviso sobre a origem/limitações do material, ou o
 
 ---
 
-## Virologia — 17 agentes
+## Virologia — 23 agentes
 
 | # | Agente | Cadeia causal (gatilhos) | Ficha determinística |
 |---|---|---|---|
@@ -41,6 +41,12 @@ contexto geral e o aviso sobre a origem/limitações do material, ou o
 | 15 | HAV (Hepatite A) | [ver](docs/material-gerado/dicionario-gatilhos-virologia.md#vírus-da-hepatite-a-hepatite-a) | [ver](docs/material-gerado/virologia-especial-determinismo.md#14-vírus-da-hepatite-a-hav) |
 | 16 | HCV (Hepatite C) | [ver](docs/material-gerado/dicionario-gatilhos-virologia.md#vírus-da-hepatite-c-hepatite-c) | [ver](docs/material-gerado/virologia-especial-determinismo.md#15-vírus-da-hepatite-c-hcv) |
 | 17 | HIV/Aids | [ver](docs/material-gerado/dicionario-gatilhos-virologia.md#vírus-da-imunodeficiência-humana-hiv--aids) | [ver](docs/material-gerado/virologia-especial-determinismo.md#16-vírus-da-imunodeficiência-humana-hiv) |
+| 18 | Vírus da Caxumba | [ver](docs/material-gerado/dicionario-gatilhos-virologia.md#vírus-da-caxumba-caxumba) | [ver](docs/material-gerado/virologia-especial-determinismo.md#17-vírus-da-caxumba) |
+| 19 | Vírus da Rubéola | [ver](docs/material-gerado/dicionario-gatilhos-virologia.md#vírus-da-rubéola-rubéola) | [ver](docs/material-gerado/virologia-especial-determinismo.md#18-vírus-da-rubéola) |
+| 20 | Vírus da Febre Amarela | [ver](docs/material-gerado/dicionario-gatilhos-virologia.md#vírus-da-febre-amarela-febre-amarela) | [ver](docs/material-gerado/virologia-especial-determinismo.md#19-vírus-da-febre-amarela) |
+| 21 | Vírus da Dengue | [ver](docs/material-gerado/dicionario-gatilhos-virologia.md#vírus-da-dengue-dengue) | [ver](docs/material-gerado/virologia-especial-determinismo.md#20-vírus-da-dengue) |
+| 22 | Coronavírus (COVID-19) | [ver](docs/material-gerado/dicionario-gatilhos-virologia.md#coronavírus-sars-mers-e-covid-19) | [ver](docs/material-gerado/virologia-especial-determinismo.md#21-coronavírus-sars-mers-e-covid-19) |
+| 23 | Rinovírus | [ver](docs/material-gerado/dicionario-gatilhos-virologia.md#rinovírus-resfriado-comum) | [ver](docs/material-gerado/virologia-especial-determinismo.md#22-rinovírus) |
 
 ---
 
