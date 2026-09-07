@@ -1,6 +1,6 @@
 # Dicionário de Gatilhos Clínicos e Cadeias Causais em Micologia - v4
 
-Este guia foi redesenhado para unir a organização em tópicos didáticos com uma narrativa causal compacta de dominó cognitivo. Para cada uma das 17 micoses do programa de aula, a escrita interna foi enxugada ao máximo, mantendo rigorosamente a estrutura lógica de 5 elos de causa e efeito: cada etapa explica o "porquê" biológico e prepara imediatamente a entrada da próxima.
+Este guia foi redesenhado para unir a organização em tópicos didáticos com uma narrativa causal compacta de dominó cognitivo. Para cada uma das 25 micoses do programa de aula, a escrita interna foi enxugada ao máximo, mantendo rigorosamente a estrutura lógica de 5 elos de causa e efeito: cada etapa explica o "porquê" biológico e prepara imediatamente a entrada da próxima.
 
 ---
 
@@ -78,6 +78,126 @@ Este guia foi redesenhado para unir a organização em tópicos didáticos com u
    A digestão ácida da queratina e a liberação de metabólitos fúngicos despertam uma resposta inflamatória na derme viva profunda, gerando lesões avermelhadas circulares que coçam intensamente em forma de anel (impingem), queda de cabelo circular (tonsura) ou unhas quebradiças e espessas (onicomicose).
 5. **A Lógica da Cura (O Tratamento):**
    Se o estrago se limitar à pele lisa glabra, a aplicação de cremes e pomadas antifúngicas tópicas (clotrimazol ou terbinafina) resolve o quadro. Porém, se a infecção atingir os cabelos ou unhas, a barreira espessa de queratina impede a penetração tópica, exigindo antifúngicos por via oral (terbinafina ou itraconazol).
+
+---
+
+### Tinea Capitis (Dermatofitose do Couro Cabeludo)
+
+1. **A Exposição (O Gatilho):**
+   O contato próximo com crianças em idade escolar em ambientes fechados (creches, escolas) ou com animais de estimação (cães e gatos parasitados por *Microsporum canis*) expõe os fios de cabelo de indivíduos suscetíveis aos esporos fúngicos ambientais ou fômites contaminados (pentes, bonés).
+2. **A Porta de Entrada (Como infecta):**
+   Os artroconídios aderem ao estrato córneo do couro cabeludo, germinam e liberam queratinases que quebram a barreira de proteção queratinizada da pele e invadem o folículo piloso, progredindo para o interior ou exterior da haste do cabelo.
+3. **A Metamorfose no Corpo (Forma no Microscópio):**
+   O parasitismo do pelo exibe dois padrões característicos no exame microscópico direto: **Endotrix** (esporos e hifas restritos ao interior da haste capilar, típico de espécies antropofílicas) ou **Ectotrix** (artroconídios circundando a parte externa da haste, típico de espécies zoofílicas).
+4. **O Caminho do Estrago (A Clínica):**
+   A digestão da queratina do pelo enfraquece a haste capilar, causando a sua quebra rente ao couro cabeludo. Isso resulta em placas de alopecia circulares e descamativas com pontos pretos correspondentes aos tocos de cabelo partidos (**Black dot**) ou placas acinzentadas (**Grey patch**). Em casos de alta hipersensibilidade ao fungo zoofílico, desenvolve-se o **Quérion (Kerion)**, uma massa inflamatória pustular, supurativa, dolorosa e tumoral que mimetiza abscesso bacteriano.
+5. **A Lógica da Cura (O Tratamento):**
+   Como os fungos estão profundamente instalados na haste e raiz do cabelo, a barreira física do folículo impede que antifúngicos tópicos alcancem concentração terapêutica eficaz, exigindo obrigatoriamente **antifúngicos sistêmicos por via oral** (terbinafina, itraconazol, fluconazol ou griseofulvina).
+
+---
+
+### Tinea Barbae (Dermatofitose da Barba)
+
+1. **A Exposição (O Gatilho):**
+   Homens adultos que trabalham em contato direto com gado, cavalos ou animais domésticos em áreas agrícolas são expostos a dermatófitos zoofílicos de alta virulência como *Trichophyton verrucosum* e *Trichophyton mentagrophytes*.
+2. **A Porta de Entrada (Como infecta):**
+   Microtraumas mecânicos causados pelo barbear associados ao contato com pelos e detritos de animais facilitam a deposição e adesão dos esporos zoofílicos à epiderme e sua invasão no folículo piloso da face.
+3. **A Metamorfose no Corpo (Forma no Microscópio):**
+   O exame microscópico direto com KOH de pelos raspados revela invasão ectotrix, com volumosas cadeias de artroconídios circundando externamente os fios e inflamação celular densa ao redor da bainha folicular.
+4. **O Caminho do Estrago (A Clínica):**
+   A forte reação inflamatória contra as queratinases fúngicas e antígenos zoofílicos gera uma foliculite pustular nodular e intensamente supurativa na barba e pescoço, formando uma massa granulomatosa exsudativa inflamada (semelhante ao quérion da cabeça), com pelos que caem facilmente ao serem tracionados.
+5. **A Lógica da Cura (O Tratamento):**
+   Devido à profundidade da infecção no folículo piloso masculino e ao alto grau de inflamação e supuração, pomadas tópicas são ineficazes, exigindo o uso de **antifúngicos por via oral** (terbinafina, itraconazol ou griseofulvina) para esterilizar a derme profunda e evitar cicatrizes e alopecia definitivas.
+
+---
+
+### Tinea Corporis (Dermatofitose do Corpo)
+
+1. **A Exposição (O Gatilho):**
+   O contato direto com lesões ativas de pessoas infectadas, animais domésticos portadores (especialmente gatinhos com *Microsporum canis*) ou fômites contaminados (como toalhas em vestiários de atletas) deposita conídios na derme de qualquer parte do corpo.
+2. **A Porta de Entrada (Como infecta):**
+   O fungo fixa-se na queratina da pele lisa (glabra), degrada a barreira córnea superficial por meio de queratinases e espalha-se de forma radial e centrífuga, consumindo o tecido morto periférico.
+3. **A Metamorfose no Corpo (Forma no Microscópio):**
+   Raspados das bordas ativas da lesão clarificados com KOH revelam **hifas hialinas septadas ramificadas** que se fragmentam em artroconídios, livres de elementos leveduriformes.
+4. **O Caminho do Estrago (A Clínica):**
+   A liberação de metabolitos fúngicos e enzimas na periferia da colônia ativa a imunidade local, gerando uma lesão cutânea típica conhecida como **impingem**: placas circulares eritematosas com bordas elevadas, vesiculosas e ativas (onde o fungo prolifera) e centro mais claro, descamativo e em processo de cicatrização, com coceira intensa.
+5. **A Lógica da Cura (O Tratamento):**
+   Por estar localizada exclusivamente na pele glabra superficial, responde perfeitamente ao uso de **antifúngicos tópicos** (cremes de clotrimazol, miconazol, terbinafina ou ciclopirox), reservando o tratamento oral apenas para lesões múltiplas ou extremamente extensas.
+
+---
+
+### Tinea Faciei (Dermatofitose da Face)
+
+1. **A Exposição (O Gatilho):**
+   O ato de abraçar animais de estimação contaminados ou tocar o rosto com mãos contaminadas por esporos de *Trichophyton rubrum* ou *Trichophyton mentagrophytes* expõe a pele fina da face à colonização.
+2. **A Porta de Entrada (Como infecta):**
+   O dermatófito aproveita a barreira lipídica fina do rosto e microfissuras para se fixar à queratina da derme glabra facial, iniciando uma invasão superficial centrífuga.
+3. **A Metamorfose no Corpo (Forma no Microscópio):**
+   O exame microscópico direto do raspado de derme fina da face com KOH 20% evidencia filamentos fúngicos longos, delgados e septados (hifas hialinas) atravessando os queratinócitos descamados.
+4. **O Caminho do Estrago (A Clínica):**
+   A infecção causa eritema e descamação na face, porém, a vermelhidão costuma ser menos pronunciada do que na tinea corporis do tronco, o que frequentemente mascara o padrão anelar e faz com que seja confundida com dermatite seborreica, dermatite de contato ou pitiríase rósea.
+5. **A Lógica da Cura (O Tratamento):**
+   O tratamento é preferencialmente **tópico** com cremes imidazólicos ou terbinafina. No entanto, se houver dúvida diagnóstica e uso prévio inadvertido de corticoides tópicos (que deprime a inflamação e permite a proliferação descontrolada do fungo - *Tinea incognito*), pode ser necessário transicionar para antifúngicos orais (terbinafina ou itraconazol).
+
+---
+
+### Tinea Manus / Manuum (Dermatofitose da Mão)
+
+1. **A Exposição (O Gatilho):**
+   Atividades manuais de jardinagem, contato com solo ou o hábito de coçar lesões ativas de tinea pedis nos próprios pés expõe a palma da mão ao patógeno antropofílico *Trichophyton rubrum*.
+2. **A Porta de Entrada (Como infecta):**
+   O fungo invade a derme espessa e queratinizada da palma da mão, onde se espalha lentamente através da digestão da queratina compacta palmar.
+3. **A Metamorfose no Corpo (Forma no Microscópio):**
+   O raspado das linhas de descamação da palma revela hifas septadas hialinas delgadas, tortuosas e altamente resistentes à clarificação mecânica devido à espessura da queratina palmar.
+4. **O Caminho do Estrago (A Clínica):**
+   Caracteriza-se como uma condição unilateral crônica e descamativa (geralmente afeta apenas uma das mãos; se ambas forem afetadas, denomina-se **tinea manuum**). Causa descamação palmar difusa e eritema leve, conferindo à mão um aspecto de "giz de lousa" ou ressecamento crônico, frequentemente integrando a síndrome clássica de "duas pés e uma mão" (tinea pedis bilateral associada a tinea manus unilateral).
+5. **A Lógica da Cura (O Tratamento):**
+   Devido à espessura extrema do estrato córneo da palma, os cremes tópicos sozinhos muitas vezes têm dificuldade de penetração, necessitando de associação com queratolíticos ou do uso de **antifúngicos orais** (terbinafina ou itraconazol) se houver hiperqueratose acentuada ou acometimento de unhas adjacentes.
+
+---
+
+### Tinea Pedis (Pé de Atleta / Frieira)
+
+1. **A Exposição (O Gatilho):**
+   Caminhar descalço em áreas públicas úmidas de alta rotatividade (piscinas, saunas, vestiários de academias) ou manter os pés confinados em calçados fechados e úmidos por longos períodos expõe a derme a esporos de *T. rubrum*, *T. interdigitale* ou *E. floccosum*.
+2. **A Porta de Entrada (Como infecta):**
+   A maceração da pele fina interdigital causada pela umidade constante quebra a barreira física cutânea, permitindo que os artroconídios se fixem e colonizem a queratina dos pés com facilidade.
+3. **A Metamorfose no Corpo (Forma no Microscópio):**
+   O exame microscópico direto obtido da descamação interdigital ou plantar revela hifas hialinas septadas dicotômicas e artroconídios característicos de dermatófitos.
+4. **O Caminho do Estrago (A Clínica):**
+   A colonização fúngica gera três apresentações principais: **Intertriginosa/Frieira** (maceração, fissuras e coceira intensa entre os dedos), **Vesiculosa** (pequenas bolhas pruriginosas inflamatórias na planta) ou **Mocassim** (descamação espessa, seca, eritematosa e crônica que recobre toda a sola e as laterais do pé).
+5. **A Lógica da Cura (O Tratamento):**
+   Casos interdigitais e localizados respondem muito bem a **cremes ou sprays tópicos** (terbinafina, miconazol, clotrimazol). No entanto, o padrão mocassim (pela hiperqueratose crônica da sola) ou infecções recorrentes exigem obrigatoriamente **terbinafina ou itraconazol por via oral**.
+
+---
+
+### Tinea Cruris (Dermatofitose da Virilha)
+
+1. **A Exposição (O Gatilho):**
+   O suor excessivo na virilha e no períneo, o uso de roupas íntimas apertadas e sintéticas que impedem a transpiração, ou a autotransmissão a partir de uma tinea pedis ativa criam um ambiente ideal para o desenvolvimento de *Trichophyton rubrum* ou *Epidermophyton floccosum*.
+2. **A Porta de Entrada (Como infecta):**
+   O atrito constante e a umidade maceram a derme da região inguinal, permitindo que as queratinases fúngicas degradem a epiderme e facilitem a colonização superficial radial pelas hifas.
+3. **A Metamorfose no Corpo (Forma no Microscópio):**
+   O exame micológico direto com KOH 20% das bordas descamativas revela abundantes filamentos hialinos septados e, no caso de *E. floccosum*, macroconídios em formato de clava e sem microconídios.
+4. **O Caminho do Estrago (A Clínica):**
+   A inflamação local gera placas bilaterais eritematosas e descamativas na região inguinal e coxas, com bordas ativas eritemato-vesiculosas bem delimitadas que coçam intensamente. Uma característica crucial é que a lesão **poupa o escroto**, diferenciando-se nitidamente da candidíase inguinal.
+5. **A Lógica da Cura (O Tratamento):**
+   Responde muito bem ao controle da umidade local associado ao uso de **antifúngicos tópicos** em creme ou spray (imidazólicos ou alilaminas) por 2 a 4 semanas. Casos com lesões muito extensas, liquenificadas por coçadura crônica ou refratárias necessitam de terapia sistêmica oral.
+
+---
+
+### Tinea Unguium (Onicomicose Dermatofítica)
+
+1. **A Exposição (O Gatilho):**
+   Pacientes idosos, diabéticos, atletas ou indivíduos com microtraumas repetidos nas unhas causados por calçados apertados expõem a placa ungueal ao contato constante com esporos de *Trichophyton rubrum* (responsável por 70% dos casos).
+2. **A Porta de Entrada (Como infecta):**
+   O fungo penetra pelo leito ungueal distal, lateral ou pela superfície da unha, digerindo a queratina dura da placa por meio de potentes queratinases de propagação muito lenta.
+3. **A Metamorfose no Corpo (Forma no Microscópio):**
+   Raspados subungueais profundos clarificados com KOH 40% revelam hifas septadas e cadeias densas de artroconídios compactadas entre as lamelas de queratina dura da unha.
+4. **O Caminho do Estrago (A Clínica):**
+   A destruição progressiva da queratina causa espessamento da unha, alteração da sua cor (esbranquiçada ou amarelada), fragilidade (esfarelamento), descolamento do leito ungueal (onicólise) e, em casos graves, destruição distrófica total da estrutura ungueal.
+5. **A Lógica da Cura (O Tratamento):**
+   A queratina dura e avascular da unha impede que agentes tópicos (esmaltes, cremes) penetrem em níveis terapêuticos eficazes no leito e na matriz. Portanto, exige **tratamento sistêmico prolongado por via oral** (terbinafina por 3 meses para pés e 6 semanas para mãos, ou itraconazol/fluconazol) para que o remédio seja incorporado à nova unha em formação a partir da matriz.
 
 ---
 

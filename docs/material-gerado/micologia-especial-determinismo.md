@@ -12,24 +12,32 @@ Este guia foi elaborado a partir de uma consolidação rigorosa e determinístic
 3. [Piedraia hortae (Piedra Negra)](#3-piedraia-hortae-piedra-negra)
 4. [Trichosporon spp. (Piedra Branca)](#4-trichosporon-spp-piedra-branca)
 5. [Dermatófitos (Trichophyton, Microsporum e Epidermophyton)](#5-dermatófitos-trichophyton-microsporum-e-epidermophyton)
+6. [Tinea Capitis](#6-tinea-capitis)
+7. [Tinea Barbae](#7-tinea-barbae)
+8. [Tinea Corporis](#8-tinea-corporis)
+9. [Tinea Faciei](#9-tinea-faciei)
+10. [Tinea Manus / Manuum](#10-tinea-manus--manuum)
+11. [Tinea Pedis](#11-tinea-pedis)
+12. [Tinea Cruris](#12-tinea-cruris)
+13. [Tinea Unguium](#13-tinea-unguium)
 
 ### Micoses Subcutâneas (de Implantação)
-6. [Sporothrix spp. (Esporotricose)](#6-sporothrix-spp-esporotricose)
-7. [Fonsecaea pedrosoi / Cladophialophora spp. / Phialophora spp. (Cromoblastomicose)](#7-fonsecaea-pedrosoi--cladophialophora-spp--phialophora-spp-cromoblastomicose)
-8. [Eumicetomas (Madurella mycetomatis, Pseudallescheria boydii, Acremonium spp.)](#8-eumicetomas-madurella-mycetomatis-pseudallescheria-boydii-acremonium-spp)
-9. [Lacazia loboi (Lobomicose / Doença de Jorge Lobo)](#9-lacazia-loboi-lobomicose--doença-de-jorge-lobo)
+14. [Sporothrix spp. (Esporotricose)](#14-sporothrix-spp-esporotricose)
+15. [Fonsecaea pedrosoi / Cladophialophora spp. / Phialophora spp. (Cromoblastomicose)](#15-fonsecaea-pedrosoi--cladophialophora-spp--phialophora-spp-cromoblastomicose)
+16. [Eumicetomas (Madurella mycetomatis, Pseudallescheria boydii, Acremonium spp.)](#16-eumicetomas-madurella-mycetomatis-pseudallescheria-boydii-acremonium-spp)
+17. [Lacazia loboi (Lobomicose / Doença de Jorge Lobo)](#17-lacazia-loboi-lobomicose--doença-de-jorge-lobo)
 
 ### Micoses Sistêmicas Endêmicas
-10. [Paracoccidioides brasiliensis / Paracoccidioides lutzii (Paracoccidioidomicose)](#10-paracoccidioides-brasiliensis--paracoccidioides-lutzii-paracoccidioidomicose)
-11. [Histoplasma capsulatum (Histoplasmose)](#11-histoplasma-capsulatum-histoplasmose)
-12. [Coccidioides immitis / Coccidioides posadasii (Coccidioidomicose)](#12-coccidioides-immitis--coccidioides-posadasii-coccidioidomicose)
-13. [Blastomyces dermatitidis (Blastomicose)](#13-blastomyces-dermatitidis-blastomicose)
+18. [Paracoccidioides brasiliensis / Paracoccidioides lutzii (Paracoccidioidomicose)](#18-paracoccidioides-brasiliensis--paracoccidioides-lutzii-paracoccidioidomicose)
+19. [Histoplasma capsulatum (Histoplasmose)](#19-histoplasma-capsulatum-histoplasmose)
+20. [Coccidioides immitis / Coccidioides posadasii (Coccidioidomicose)](#20-coccidioides-immitis--coccidioides-posadasii-coccidioidomicose)
+21. [Blastomyces dermatitidis (Blastomicose)](#21-blastomyces-dermatitidis-blastomicose)
 
 ### Micoses Sistêmicas Oportunistas
-14. [Candida spp. / Candida albicans (Candidíase)](#14-candida-spp--candida-albicans-candidíase)
-15. [Cryptococcus neoformans / Cryptococcus gattii (Criptococose)](#15-cryptococcus-neoformans--cryptococcus-gattii-criptococose)
-16. [Aspergillus spp. (Aspergilose)](#16-aspergillus-spp-aspergilose)
-17. [Pneumocystis jirovecii (Pneumonia por Pneumocystis)](#17-pneumocystis-jirovecii-pneumonia-por-pneumocystis)
+22. [Candida spp. / Candida albicans (Candidíase)](#22-candida-spp--candida-albicans-candidíase)
+23. [Cryptococcus neoformans / Cryptococcus gattii (Criptococose)](#23-cryptococcus-neoformans--cryptococcus-gattii-criptococose)
+24. [Aspergillus spp. (Aspergilose)](#24-aspergillus-spp-aspergilose)
+25. [Pneumocystis jirovecii (Pneumonia por Pneumocystis)](#25-pneumocystis-jirovecii-pneumonia-por-pneumocystis)
 
 ---
 
@@ -100,7 +108,111 @@ Este guia foi elaborado a partir de uma consolidação rigorosa e determinístic
 
 ---
 
-### 6. Sporothrix spp. (Esporotricose)
+### 6. Tinea Capitis
+
+| Eixo | Descrição Determinística |
+| :--- | :--- |
+| **1. Agente & Categoria** | Dermatófitos dos gêneros *Trichophyton* e *Microsporum*. Categoria: Micose cutânea (dermatofitose de pelos e couro cabeludo). |
+| **2. Reservatório / Transmissão** | Antropofílicos (humanos) ou zoofílicos (animais como cães e gatos). Transmissão por contato direto com pessoas ou animais infectados, ou fômites contaminados (pentes, escovas, bonés, toalhas, encostos de cadeiras). |
+| **3. Apresentação Microscópica (Tecido / Exame Direto)** | No exame direto do fio de cabelo cortado e clarificado, exibe dois padrões rígidos de invasão: **Endotrix** (esporos localizados restritamente no interior da haste - típico de espécies antropofílicas) e **Ectotrix** (artroconídios distribuídos ao redor da haste externa do cabelo - típico de zoofílicos). |
+| **4. Fatores de Risco & Perfil Clínico** | Altamente prevalente em crianças em idade escolar devido ao contato próximo. Em adultos, é menos comum, ocorrendo em imunodeprimidos ou expostos a animais. O **Quérion (Kerion)** representa uma reação de hipersensibilidade intensa aos fungos zoofílicos. |
+| **5. Manifestações Clínicas** | Queda de cabelo em placas circulares com tocos de fios rentes à raiz (**tonsura**). Formas clínicas: **Favosa (Favus)** (lesão com escútulas amareladas e odor de rato causada por *T. schoenleinii*), **Black dot** (cabelos quebrados na superfície induzindo pontos pretos), **Grey patch** (placas cinzas descamativas) e **Quérion** (massa inflamatória tumoral dolorosa e pustular que pode mimetizar abscesso bacteriano e causa alopecia cicatricial se não tratada rápido). |
+| **6. Diagnóstico & Tratamento** | Diagnóstico micológico direto com KOH 20% revelando esporos endo/ectotrix. Lâmpada de Wood revela fluorescência azul-esverdeada brilhante nos pelos infectados por *Microsporum canis* ou *M. ferrugineum*. Cultura confirma o gênero. **Tratamento obrigatoriamente sistêmico (oral)**: terbinafina, itraconazol, fluconazol ou griseofulvina por semanas. Tópicos isolados não curam por não penetrarem no folículo piloso vivo. |
+
+---
+
+### 7. Tinea Barbae
+
+| Eixo | Descrição Determinística |
+| :--- | :--- |
+| **1. Agente & Categoria** | Dermatófitos zoofílicos ectotrix *Trichophyton verrucosum* e *Trichophyton mentagrophytes*. Categoria: Micose cutânea (dermatofitose profunda de pelos da barba). |
+| **2. Reservatório / Transmissão** | Animais domésticos e de pecuária (bovinos, equinos, roedores). Transmissão por contato direto com animais infectados ou detritos contaminados em áreas rurais. |
+| **3. Apresentação Microscópica (Tecido / Exame Direto)** | Exame microscópico direto com KOH de pelos da barba revela padrão ectotrix clássico (cadeias de esporos na superfície externa do pelo) acompanhado de densa resposta inflamatória de polimorfonucleares. |
+| **4. Fatores de Risco & Perfil Clínico** | Acomete quase exclusivamente homens adultos ativos. Fatores de risco incluem atividade agrícola, contato com animais de fazenda e microtraumas repetidos pelo barbear mecânico que quebram as defesas epiteliais da face. |
+| **5. Manifestações Clínicas** | Foliculite pustular intensamente supurativa, dolorosa e nodular. Forma lesões tumorais inflamatórias confluentes em aspecto de **Quérion** na região da barba e pescoço, com eliminação de exsudato purulento. Os pelos afetados ficam enfraquecidos e desprendem-se com extrema facilidade ao toque. |
+| **6. Diagnóstico & Tratamento** | Exame direto com KOH demonstrando o parasitismo folicular e cultura em ágar Sabouraud para identificação do dermatófito zoofílico. Diagnóstico diferencial com foliculite bacteriana e sicose da barba. **Tratamento sistêmico obrigatório**: terbinafina oral (250 mg/dia) ou itraconazol por 4 a 6 semanas para esterilizar o folículo piloso profundo. |
+
+---
+
+### 8. Tinea Corporis
+
+| Eixo | Descrição Determinística |
+| :--- | :--- |
+| **1. Agente & Categoria** | Dermatófitos dos gêneros *Trichophyton*, *Microsporum* e *Epidermophyton* (exemplos: *Trichophyton rubrum*, *Microsporum canis*). Categoria: Micose cutânea (dermatofitose de pele glabra). |
+| **2. Reservatório / Transmissão** | Humanos, animais domésticos e solo. Transmissão por contato direto inter-humano, contato com animais de estimação infectados ou fômites contaminados (roupas de cama, toalhas, tatames). |
+| **3. Apresentação Microscópica (Tecido / Exame Direto)** | Raspados da borda ativa da lesão clarificados com KOH 20% revelam **hifas hialinas septadas ramificadas** (filamentos claros) que se fragmentam em artroconídios, sem a presença de leveduras. |
+| **4. Fatores de Risco & Perfil Clínico** | Climas quentes e úmidos, sudorese excessiva, compartilhamento de objetos pessoais, contato estreito com animais domésticos portadores e esportes de contato físico (lutas, judô). As lesões coçam intensamente. |
+| **5. Manifestações Clínicas** | Lesão típica conhecida popularmente como **impingem**: placas circulares bem delimitadas, com bordas eritematosas, elevadas, vesiculosas e ativas (onde há maior replicação do fungo) e centro mais claro ou descamativo, que se expande centrifugamente. Pode apresentar formas muito inflamatórias em trabalhadores rurais expostos a *T. verrucosum*. |
+| **6. Diagnóstico & Tratamento** | Diagnóstico clínico pelo padrão anelar e confirmado por exame microscópico direto com KOH. Tratamento de escolha para lesões localizadas: **Antifúngicos tópicos** em creme ou pomada (clotrimazol, miconazol, cetoconazol, terbinafina ou ciclopirox) por 2 a 3 semanas. Casos extensos exigem terbinafina ou itraconazol oral. |
+
+---
+
+### 9. Tinea Faciei
+
+| Eixo | Descrição Determinística |
+| :--- | :--- |
+| **1. Agente & Categoria** | Dermatófitos como *Trichophyton rubrum*, *Trichophyton mentagrophytes* e *Microsporum canis*. Categoria: Micose cutânea (dermatofitose de pele glabra facial). |
+| **2. Reservatório / Transmissão** | Humanos (antropofílicos) ou animais de estimação (zoofílicos). Transmissão por contato direto com lesões ativas ou por fômites contaminados. |
+| **3. Apresentação Microscópica (Tecido / Exame Direto)** | Raspado periférico das placas faciais clarificado com KOH 10% ou 20% evidencia a presença de hifas hialinas septadas tortuosas e ramificadas na derme superficial. |
+| **4. Fatores de Risco & Perfil Clínico** | Mais comum em crianças, mulheres e jovens que têm o hábito de abraçar cães e gatos. O uso inadvertido de corticoides tópicos altera a resposta imunológica local e mascara os sintomas inflamatórios típicos, gerando o quadro conhecido como *Tinea incognito*. |
+| **5. Manifestações Clínicas** | Placas eritematosas e descamativas na face (bochechas, nariz, testa). O eritema (vermelhidão) costuma ser menos pronunciado e as bordas menos elevadas do que na tinea do tronco, mimetizando perfeitamente dermatite seborreica, dermatite de contato, eczema ou pitiríase rósea. |
+| **6. Diagnóstico & Tratamento** | Diagnóstico por exame direto com KOH e cultura fúngica (essencial para diferenciar de dermatites eczematosas). Tratamento inicial: **Antifúngicos tópicos** por 2 a 4 semanas. Se houver uso prévio de corticoide tópico (*tinea incognito*) ou lesões extensas, indica-se terbinafina ou itraconazol por via oral. |
+
+---
+
+### 10. Tinea Manus / Manuum
+
+| Eixo | Descrição Determinística |
+| :--- | :--- |
+| **1. Agente & Categoria** | *Trichophyton rubrum* (principal agente). Categoria: Micose cutânea (dermatofitose palmar). |
+| **2. Reservatório / Transmissão** | Humanos (antropofílico). Adquirido por contato direto com fômites contaminados, solo, ou por autoinoculação a partir de focos de infecção ativa nos pés (*Tinea pedis*). |
+| **3. Apresentação Microscópica (Tecido / Exame Direto)** | Raspados da palma da mão com KOH revelam hifas septadas hialinas delgadas e alongadas, dispersas entre queratinócitos espessos da região palmar. |
+| **4. Fatores de Risco & Perfil Clínico** | Atividade manual intensa, trabalhos agrícolas, esportes, e a presença concomitante de *Tinea pedis*. Apresenta-se tipicamente como uma condição unilateral (afetando apenas uma das mãos); o acometimento bilateral é raro e denominado *tinea manuum*. |
+| **5. Manifestações Clínicas** | Descamação difusa, seca e crônica na palma da mão, acompanhada de eritema leve e acentuação das pregas palmares (aspecto "polvilhado" ou de giz). Frequentemente compõe a síndrome de **"duas pés e uma mão"** (tinea pedis bilateral associada a tinea manus unilateral). |
+| **6. Diagnóstico & Tratamento** | Exame micológico direto com KOH palmar. Diagnóstico diferencial importante com psoríase palmar, eczema de contato e disidrose. Tratamento: **Antifúngicos tópicos** imidazólicos ou alilaminas. Se houver hiperqueratose muito espessa na palma ou acometimento de unhas, o tratamento exige terbinafina oral ou itraconazol. |
+
+---
+
+### 11. Tinea Pedis
+
+| Eixo | Descrição Determinística |
+| :--- | :--- |
+| **1. Agente & Categoria** | *Trichophyton rubrum*, *Trichophyton interdigitale* e *Epidermophyton floccosum*. Categoria: Micose cutânea (dermatofitose plantar e interdigital). |
+| **2. Reservatório / Transmissão** | Humanos e ambientes úmidos de uso comum. Transmissão por via indireta através do caminhar descalço em superfícies molhadas de vestiários, piscinas públicas, banheiros e saunas, ou compartilhamento de calçados. |
+| **3. Apresentação Microscópica (Tecido / Exame Direto)** | Raspados interdigitais ou plantares com KOH 20% revelam hifas hialinas septadas típicas de dermatófitos. |
+| **4. Fatores de Risco & Perfil Clínico** | Uso prolongado de calçados fechados e apertados que causam sudorese e maceração da pele, diabetes mellitus, má higiene e natação. Conhecida popularmente como **"pé de atleta"** ou **"frieira"**. |
+| **5. Manifestações Clínicas** | Três formas principais: **Intertriginosa/Frieira** (maceração esbranquiçada, fissuras dolorosas e prurido intenso nos espaços interdigitais, principalmente no 4º espaço), **Vesiculosa** (vesículas pruriginosas inflamatórias na derme plantar) e **Mocassim** (descamação crônica, seca e eritematosa espessa que recobre toda a sola e as bordas laterais do pé). |
+| **6. Diagnóstico & Tratamento** | Diagnóstico micológico direto com KOH. Tratamento para formas interdigitais e vesiculosas localizadas: **Antifúngicos tópicos** imidazólicos ou alilaminas (cremes/sprays) por 2 a 4 semanas. A forma mocassim e casos refratários exigem obrigatoriamente **terbinafina ou itraconazol** por via oral. |
+
+---
+
+### 12. Tinea Cruris
+
+| Eixo | Descrição Determinística |
+| :--- | :--- |
+| **1. Agente & Categoria** | *Trichophyton rubrum* e *Epidermophyton floccosum*. Categoria: Micose cutânea (dermatofitose da região inguinal). |
+| **2. Reservatório / Transmissão** | Humanos (antropofílico). Adquirido por contato direto com fômites (toalhas, roupas íntimas) ou por autoinoculação a partir de uma infecção ativa de tinea pedis concomitante. |
+| **3. Apresentação Microscópica (Tecido / Exame Direto)** | Raspado de derme inguinal clarificado com KOH exibe filamentos hialinos septados. No caso de *E. floccosum*, observam-se macroconídios em formato de clava ("charuto curto") com paredes lisas. |
+| **4. Fatores de Risco & Perfil Clínico** | Altamente prevalente em homens adultos, atletas e obesos. O atrito constante em dobras cutâneas associado à alta umidade e calor local (gerando maceração cutânea) são os principais fatores de risco. |
+| **5. Manifestações Clínicas** | Placas eritematosas e descamativas bilaterais na região inguinal e coxa, com bordas elevadas e ativas bem definidas, poupando caracteristicamente a região do escroto (critério clínico absoluto para diferenciação da candidíase inguinal). Causa prurido intenso (coceira). |
+| **6. Diagnóstico & Tratamento** | Diagnóstico clínico auxiliado por exame microscópico direto com KOH das bordas ativas. Tratamento: **Antifúngicos tópicos** em creme ou pomada (clotrimazol, miconazol, terbinafina) por 2 a 3 semanas. Manter a região seca é essencial. Casos refratários ou muito extensos exigem terbinafina ou itraconazol oral. |
+
+---
+
+### 13. Tinea Unguium
+
+| Eixo | Descrição Determinística |
+| :--- | :--- |
+| **1. Agente & Categoria** | *Trichophyton rubrum* (responsável por mais de 70% dos casos). Categoria: Micose cutânea (dermatofitose de unhas / onicomicose dermatofítica). |
+| **2. Reservatório / Transmissão** | Humanos. Transmissão por compartilhamento de alicates, tesouras de unha não esterilizados, calçados contaminados ou por propagação direta a partir de uma tinea pedis de longa data. |
+| **3. Apresentação Microscópica (Tecido / Exame Direto)** | Raspado subungueal profundo (coletado na junção entre o tecido sadio e o doente) clarificado com KOH 40% (ou KOH com DMSO) revela hifas septadas hialinas e artroconídios compactados entre as lâminas de queratina dura ungueal. |
+| **4. Fatores de Risco & Perfil Clínico** | Idade avançada, diabetes mellitus, microtraumas ungueais repetidos, insuficiência vascular periférica, imunossupressão e natação profissional. Clinicamente indistinguível de onicomicoses causadas por leveduras (*Candida*) ou fungos filamentosos não-dermatófitos. |
+| **5. Manifestações Clínicas** | Espessamento da unha (hiperqueratose subungual), alteração de coloração (unhas esbranquiçadas ou amareladas), fragilidade física extrema com esfarelamento, onicólise (descolamento do leito ungueal) e destruição ungueal distrófica total. |
+| **6. Diagnóstico & Tratamento** | Exame direto com KOH 40% e cultura em Sabouraud são essenciais para diferenciar o patógeno (dermatófito vs. leveduras/FFND) antes de iniciar terapia sistêmica. **O tratamento deve ser preferencialmente por via oral** (terbinafina 250 mg/dia por 6 semanas para mãos e 12 semanas para pés, ou itraconazol/fluconazol) devido à incapacidade física de penetração de agentes tópicos na queratina espessa da unha. |
+
+---
+
+### 14. Sporothrix spp. (Esporotricose)
 
 | Eixo | Descrição Determinística |
 | :--- | :--- |
@@ -113,7 +225,7 @@ Este guia foi elaborado a partir de uma consolidação rigorosa e determinístic
 
 ---
 
-### 7. Fonsecaea pedrosoi / Cladophialophora spp. / Phialophora spp. (Cromoblastomicose)
+### 15. Fonsecaea pedrosoi / Cladophialophora spp. / Phialophora spp. (Cromoblastomicose)
 
 | Eixo | Descrição Determinística |
 | :--- | :--- |
@@ -126,7 +238,7 @@ Este guia foi elaborado a partir de uma consolidação rigorosa e determinístic
 
 ---
 
-### 8. Eumicetomas (Madurella mycetomatis, Pseudallescheria boydii, Acremonium spp.)
+### 16. Eumicetomas (Madurella mycetomatis, Pseudallescheria boydii, Acremonium spp.)
 
 | Eixo | Descrição Determinística |
 | :--- | :--- |
@@ -139,7 +251,7 @@ Este guia foi elaborado a partir de uma consolidação rigorosa e determinístic
 
 ---
 
-### 9. Lacazia loboi (Lobomicose / Doença de Jorge Lobo)
+### 17. Lacazia loboi (Lobomicose / Doença de Jorge Lobo)
 
 | Eixo | Descrição Determinística |
 | :--- | :--- |
@@ -152,7 +264,7 @@ Este guia foi elaborado a partir de uma consolidação rigorosa e determinístic
 
 ---
 
-### 10. Paracoccidioides brasiliensis / Paracoccidioides lutzii (Paracoccidioidomicose)
+### 18. Paracoccidioides brasiliensis / Paracoccidioides lutzii (Paracoccidioidomicose)
 
 | Eixo | Descrição Determinística |
 | :--- | :--- |
@@ -165,7 +277,7 @@ Este guia foi elaborado a partir de uma consolidação rigorosa e determinístic
 
 ---
 
-### 11. Histoplasma capsulatum (Histoplasmose)
+### 19. Histoplasma capsulatum (Histoplasmose)
 
 | Eixo | Descrição Determinística |
 | :--- | :--- |
@@ -178,7 +290,7 @@ Este guia foi elaborado a partir de uma consolidação rigorosa e determinístic
 
 ---
 
-### 12. Coccidioides immitis / Coccidioides posadasii (Coccidioidomicose)
+### 20. Coccidioides immitis / Coccidioides posadasii (Coccidioidomicose)
 
 | Eixo | Descrição Determinística |
 | :--- | :--- |
@@ -191,7 +303,7 @@ Este guia foi elaborado a partir de uma consolidação rigorosa e determinístic
 
 ---
 
-### 13. Blastomyces dermatitidis (Blastomicose)
+### 21. Blastomyces dermatitidis (Blastomicose)
 
 | Eixo | Descrição Determinística |
 | :--- | :--- |
@@ -204,7 +316,7 @@ Este guia foi elaborado a partir de uma consolidação rigorosa e determinístic
 
 ---
 
-### 14. Candida spp. / Candida albicans (Candidíase)
+### 22. Candida spp. / Candida albicans (Candidíase)
 
 | Eixo | Descrição Determinística |
 | :--- | :--- |
@@ -217,7 +329,7 @@ Este guia foi elaborado a partir de uma consolidação rigorosa e determinístic
 
 ---
 
-### 15. Cryptococcus neoformans / Cryptococcus gattii (Criptococose)
+### 23. Cryptococcus neoformans / Cryptococcus gattii (Criptococose)
 
 | Eixo | Descrição Determinística |
 | :--- | :--- |
@@ -230,7 +342,7 @@ Este guia foi elaborado a partir de uma consolidação rigorosa e determinístic
 
 ---
 
-### 16. Aspergillus spp. (Aspergilose)
+### 24. Aspergillus spp. (Aspergilose)
 
 | Eixo | Descrição Determinística |
 | :--- | :--- |
@@ -243,7 +355,7 @@ Este guia foi elaborado a partir de uma consolidação rigorosa e determinístic
 
 ---
 
-### 17. Pneumocystis jirovecii (Pneumonia por Pneumocystis)
+### 25. Pneumocystis jirovecii (Pneumonia por Pneumocystis)
 
 | Eixo | Descrição Determinística |
 | :--- | :--- |

@@ -56,7 +56,7 @@ CSV_PATH = _localizar_arquivo("perguntas-nucleo-dicionarios.csv", BASE)
 CSV_FUNDAMENTOS_MICO = _localizar_arquivo("perguntas-fundamentos-fungos.csv", BASE)
 CSV_FUNDAMENTOS_VIRO = _localizar_arquivo("perguntas-fundamentos-virus.csv", BASE)
 IMAGENS_DIR = BASE / "imagens_agentes"
-SAIDA_APKG = BASE / "anki-decks" / "Nucleo-Microbiologia.apkg"
+SAIDA_APKG = BASE / "anki-decks" / "Microbiologia Nucleo.apkg"
 SAIDA_APKG_FUNDAMENTOS = BASE / "anki-decks" / "Fundamentos-Microbiologia.apkg"
 MEDIA_TMP = BASE / "_media_apkg_tmp"
 

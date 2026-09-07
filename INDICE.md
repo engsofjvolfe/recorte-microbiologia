@@ -7,11 +7,11 @@ contexto geral e o aviso sobre a origem/limitações do material, ou o
 
 ## Navegação rápida
 
-- [CSV — fonte da verdade das 200 perguntas por agente](docs/material-gerado/perguntas-nucleo-dicionarios.csv)
+- [CSV — fonte da verdade das 240 perguntas por agente](docs/material-gerado/perguntas-nucleo-dicionarios.csv)
 - [CSV — 95 perguntas de biologia fundamental de vírus](docs/material-gerado/perguntas-fundamentos-virus.csv)
 - [CSV — 56 perguntas de biologia fundamental de fungos](docs/material-gerado/perguntas-fundamentos-fungos.csv)
-- [JSON — índice mestre dos 34 agentes originais + termos de busca de imagem (6 agentes novos ainda não incluídos)](fila-busca-imagens-agentes.json)
-- [Deck pronto para o Anki, por agente (.apkg)](anki-decks/Nucleo-Microbiologia.apkg)
+- [JSON — índice mestre dos 34 agentes originais + termos de busca de imagem](fila-busca-imagens-agentes.json)
+- [Deck pronto para o Anki, por agente (.apkg)](anki-decks/Microbiologia%20Nucleo.apkg)
 - [Deck pronto para o Anki, biologia fundamental (.apkg)](anki-decks/Fundamentos-Microbiologia.apkg)
 - [Script que monta os dois decks (`scripts/montar_deck.py`)](scripts/montar_deck.py)
 - [Mecanismo de busca de imagens (experimental, explicação completa)](docs/material-gerado/README.md)
@@ -50,7 +50,7 @@ contexto geral e o aviso sobre a origem/limitações do material, ou o
 
 ---
 
-## Micologia — 17 agentes
+## Micologia — 25 agentes
 
 | # | Agente | Cadeia causal (gatilhos) | Ficha determinística |
 |---|---|---|---|
@@ -59,18 +59,26 @@ contexto geral e o aviso sobre a origem/limitações do material, ou o
 | 3 | Piedraia hortae (Piedra Negra) | [ver](docs/material-gerado/dicionario-gatilhos-micologia.md#piedraia-hortae-piedra-negra) | [ver](docs/material-gerado/micologia-especial-determinismo.md#3-piedraia-hortae-piedra-negra) |
 | 4 | Trichosporon spp. (Piedra Branca) | [ver](docs/material-gerado/dicionario-gatilhos-micologia.md#trichosporon-spp-piedra-branca) | [ver](docs/material-gerado/micologia-especial-determinismo.md#4-trichosporon-spp-piedra-branca) |
 | 5 | Dermatófitos (Trichophyton, Microsporum, Epidermophyton) | [ver](docs/material-gerado/dicionario-gatilhos-micologia.md#dermatófitos-trichophyton-microsporum-e-epidermophyton) | [ver](docs/material-gerado/micologia-especial-determinismo.md#5-dermatófitos-trichophyton-microsporum-e-epidermophyton) |
-| 6 | Sporothrix spp. (Esporotricose) | [ver](docs/material-gerado/dicionario-gatilhos-micologia.md#sporothrix-spp-esporotricose) | [ver](docs/material-gerado/micologia-especial-determinismo.md#6-sporothrix-spp-esporotricose) |
-| 7 | Cromoblastomicose (Fonsecaea/Cladophialophora/Phialophora) | [ver](docs/material-gerado/dicionario-gatilhos-micologia.md#fonsecaea-pedrosoi--cladophialophora-spp--phialophora-spp-cromoblastomicose) | [ver](docs/material-gerado/micologia-especial-determinismo.md#7-fonsecaea-pedrosoi--cladophialophora-spp--phialophora-spp-cromoblastomicose) |
-| 8 | Eumicetomas (Madurella, Pseudallescheria, Acremonium) | [ver](docs/material-gerado/dicionario-gatilhos-micologia.md#eumicetomas-madurella-mycetomatis-pseudallescheria-boydii-acremonium-spp) | [ver](docs/material-gerado/micologia-especial-determinismo.md#8-eumicetomas-madurella-mycetomatis-pseudallescheria-boydii-acremonium-spp) |
-| 9 | Lacazia loboi (Lobomicose) | [ver](docs/material-gerado/dicionario-gatilhos-micologia.md#lacazia-loboi-lobomicose--doença-de-jorge-lobo) | [ver](docs/material-gerado/micologia-especial-determinismo.md#9-lacazia-loboi-lobomicose--doença-de-jorge-lobo) |
-| 10 | Paracoccidioides brasiliensis/lutzii (Paracoccidioidomicose) | [ver](docs/material-gerado/dicionario-gatilhos-micologia.md#paracoccidioides-brasiliensis--paracoccidioides-lutzii-paracoccidioidomicose--pcm) | [ver](docs/material-gerado/micologia-especial-determinismo.md#10-paracoccidioides-brasiliensis--paracoccidioides-lutzii-paracoccidioidomicose) |
-| 11 | Histoplasma capsulatum (Histoplasmose) | [ver](docs/material-gerado/dicionario-gatilhos-micologia.md#histoplasma-capsulatum-histoplasmose) | [ver](docs/material-gerado/micologia-especial-determinismo.md#11-histoplasma-capsulatum-histoplasmose) |
-| 12 | Coccidioides immitis/posadasii (Coccidioidomicose) | [ver](docs/material-gerado/dicionario-gatilhos-micologia.md#coccidioides-immitis--coccidioides-posadasii-coccidioidomicose) | [ver](docs/material-gerado/micologia-especial-determinismo.md#12-coccidioides-immitis--coccidioides-posadasii-coccidioidomicose) |
-| 13 | Blastomyces dermatitidis (Blastomicose) | [ver](docs/material-gerado/dicionario-gatilhos-micologia.md#blastomyces-dermatitidis-blastomicose) | [ver](docs/material-gerado/micologia-especial-determinismo.md#13-blastomyces-dermatitidis-blastomicose) |
-| 14 | Candida spp./albicans (Candidíase) | [ver](docs/material-gerado/dicionario-gatilhos-micologia.md#candida-spp--candida-albicans-candidíase) | [ver](docs/material-gerado/micologia-especial-determinismo.md#14-candida-spp--candida-albicans-candidíase) |
-| 15 | Cryptococcus neoformans/gattii (Criptococose) | [ver](docs/material-gerado/dicionario-gatilhos-micologia.md#cryptococcus-neoformans--cryptococcus-gattii-criptococose) | [ver](docs/material-gerado/micologia-especial-determinismo.md#15-cryptococcus-neoformans--cryptococcus-gattii-criptococose) |
-| 16 | Aspergillus spp. (Aspergilose) | [ver](docs/material-gerado/dicionario-gatilhos-micologia.md#aspergillus-spp-aspergilose) | [ver](docs/material-gerado/micologia-especial-determinismo.md#16-aspergillus-spp-aspergilose) |
-| 17 | Pneumocystis jirovecii (PCP) | [ver](docs/material-gerado/dicionario-gatilhos-micologia.md#pneumocystis-jirovecii-pneumonia-por-pneumocystis--pcp) | [ver](docs/material-gerado/micologia-especial-determinismo.md#17-pneumocystis-jirovecii-pneumonia-por-pneumocystis) |
+| 6 | Tinea Capitis | [ver](docs/material-gerado/dicionario-gatilhos-micologia.md#tinea-capitis-dermatofitose-do-couro-cabeludo) | [ver](docs/material-gerado/micologia-especial-determinismo.md#6-tinea-capitis) |
+| 7 | Tinea Barbae | [ver](docs/material-gerado/dicionario-gatilhos-micologia.md#tinea-barbae-dermatofitose-da-barba) | [ver](docs/material-gerado/micologia-especial-determinismo.md#7-tinea-barbae) |
+| 8 | Tinea Corporis | [ver](docs/material-gerado/dicionario-gatilhos-micologia.md#tinea-corporis-dermatofitose-do-corpo) | [ver](docs/material-gerado/micologia-especial-determinismo.md#8-tinea-corporis) |
+| 9 | Tinea Faciei | [ver](docs/material-gerado/dicionario-gatilhos-micologia.md#tinea-faciei-dermatofitose-da-face) | [ver](docs/material-gerado/micologia-especial-determinismo.md#9-tinea-faciei) |
+| 10 | Tinea Manus / Manuum | [ver](docs/material-gerado/dicionario-gatilhos-micologia.md#tinea-manus--manuum-dermatofitose-da-mão) | [ver](docs/material-gerado/micologia-especial-determinismo.md#10-tinea-manus--manuum) |
+| 11 | Tinea Pedis | [ver](docs/material-gerado/dicionario-gatilhos-micologia.md#tinea-pedis-pé-de-atleta--frieira) | [ver](docs/material-gerado/micologia-especial-determinismo.md#11-tinea-pedis) |
+| 12 | Tinea Cruris | [ver](docs/material-gerado/dicionario-gatilhos-micologia.md#tinea-cruris-dermatofitose-da-virilha) | [ver](docs/material-gerado/micologia-especial-determinismo.md#12-tinea-cruris) |
+| 13 | Tinea Unguium | [ver](docs/material-gerado/dicionario-gatilhos-micologia.md#tinea-unguium-onicomicose-dermatofítica) | [ver](docs/material-gerado/micologia-especial-determinismo.md#13-tinea-unguium) |
+| 14 | Sporothrix spp. (Esporotricose) | [ver](docs/material-gerado/dicionario-gatilhos-micologia.md#sporothrix-spp-esporotricose) | [ver](docs/material-gerado/micologia-especial-determinismo.md#14-sporothrix-spp-esporotricose) |
+| 15 | Cromoblastomicose (Fonsecaea/Cladophialophora/Phialophora) | [ver](docs/material-gerado/dicionario-gatilhos-micologia.md#fonsecaea-pedrosoi--cladophialophora-spp--phialophora-spp-cromoblastomicose) | [ver](docs/material-gerado/micologia-especial-determinismo.md#15-fonsecaea-pedrosoi--cladophialophora-spp--phialophora-spp-cromoblastomicose) |
+| 16 | Eumicetomas (Madurella, Pseudallescheria, Acremonium) | [ver](docs/material-gerado/dicionario-gatilhos-micologia.md#eumicetomas-madurella-mycetomatis-pseudallescheria-boydii-acremonium-spp) | [ver](docs/material-gerado/micologia-especial-determinismo.md#16-eumicetomas-madurella-mycetomatis-pseudallescheria-boydii-acremonium-spp) |
+| 17 | Lacazia loboi (Lobomicose) | [ver](docs/material-gerado/dicionario-gatilhos-micologia.md#lacazia-loboi-lobomicose--doença-de-jorge-lobo) | [ver](docs/material-gerado/micologia-especial-determinismo.md#17-lacazia-loboi-lobomicose--doença-de-jorge-lobo) |
+| 18 | Paracoccidioides brasiliensis/lutzii (Paracoccidioidomicose) | [ver](docs/material-gerado/dicionario-gatilhos-micologia.md#paracoccidioides-brasiliensis--paracoccidioides-lutzii-paracoccidioidomicose--pcm) | [ver](docs/material-gerado/micologia-especial-determinismo.md#18-paracoccidioides-brasiliensis--paracoccidioides-lutzii-paracoccidioidomicose) |
+| 19 | Histoplasma capsulatum (Histoplasmose) | [ver](docs/material-gerado/dicionario-gatilhos-micologia.md#histoplasma-capsulatum-histoplasmose) | [ver](docs/material-gerado/micologia-especial-determinismo.md#19-histoplasma-capsulatum-histoplasmose) |
+| 20 | Coccidioides immitis/posadasii (Coccidioidomicose) | [ver](docs/material-gerado/dicionario-gatilhos-micologia.md#coccidioides-immitis--coccidioides-posadasii-coccidioidomicose) | [ver](docs/material-gerado/micologia-especial-determinismo.md#20-coccidioides-immitis--coccidioides-posadasii-coccidioidomicose) |
+| 21 | Blastomyces dermatitidis (Blastomicose) | [ver](docs/material-gerado/dicionario-gatilhos-micologia.md#blastomyces-dermatitidis-blastomicose) | [ver](docs/material-gerado/micologia-especial-determinismo.md#21-blastomyces-dermatitidis-blastomicose) |
+| 22 | Candida spp./albicans (Candidíase) | [ver](docs/material-gerado/dicionario-gatilhos-micologia.md#candida-spp--candida-albicans-candidíase) | [ver](docs/material-gerado/micologia-especial-determinismo.md#22-candida-spp--candida-albicans-candidíase) |
+| 23 | Cryptococcus neoformans/gattii (Criptococose) | [ver](docs/material-gerado/dicionario-gatilhos-micologia.md#cryptococcus-neoformans--cryptococcus-gattii-criptococose) | [ver](docs/material-gerado/micologia-especial-determinismo.md#23-cryptococcus-neoformans--cryptococcus-gattii-criptococose) |
+| 24 | Aspergillus spp. (Aspergilose) | [ver](docs/material-gerado/dicionario-gatilhos-micologia.md#aspergillus-spp-aspergilose) | [ver](docs/material-gerado/micologia-especial-determinismo.md#24-aspergillus-spp-aspergilose) |
+| 25 | Pneumocystis jirovecii (PCP) | [ver](docs/material-gerado/dicionario-gatilhos-micologia.md#pneumocystis-jirovecii-pneumonia-por-pneumocystis--pcp) | [ver](docs/material-gerado/micologia-especial-determinismo.md#25-pneumocystis-jirovecii-pneumonia-por-pneumocystis) |
 
 ---
 
